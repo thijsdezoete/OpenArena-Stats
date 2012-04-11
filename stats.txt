@@ -1,0 +1,2812 @@
+Array
+(
+    [Enrique] => Array
+        (
+            [items] => Array
+                (
+                    [ammo] => Array
+                        (
+                            [ammo_rockets] => 63
+                            [ammo_cells] => 50
+                            [ammo_bullets] => 30
+                            [ammo_shells] => 30
+                            [ammo_lightning] => 20
+                            [ammo_slugs] => 12
+                            [ammo_grenades] => 11
+                        )
+
+                    [weapon] => Array
+                        (
+                            [weapon_rocketlauncher] => 161
+                            [weapon_shotgun] => 121
+                            [weapon_plasmagun] => 72
+                            [weapon_lightning] => 63
+                            [weapon_grenadelauncher] => 44
+                            [weapon_railgun] => 34
+                        )
+
+                    [item] => Array
+                        (
+                            [item_armor_shard] => 123
+                            [item_health] => 82
+                            [item_health_small] => 37
+                            [item_armor_combat] => 35
+                            [item_health_mega] => 17
+                            [item_quad] => 12
+                            [item_health_large] => 12
+                            [item_armor_body] => 9
+                            [item_haste] => 2
+                            [item_invis] => 1
+                        )
+
+                    [holdable] => Array
+                        (
+                            [holdable_medkit] => 1
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Revell] => Array
+                        (
+                            [MOD_ROCKET] => 18
+                            [MOD_MACHINEGUN] => 15
+                            [MOD_ROCKET_SPLASH] => 10
+                            [MOD_SHOTGUN] => 6
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 3
+                            [MOD_RAILGUN] => 1
+                            [MOD_LAVA] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_MACHINEGUN] => 9
+                            [MOD_ROCKET] => 7
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_LIGHTNING] => 3
+                            [MOD_PLASMA] => 2
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_MACHINEGUN] => 13
+                            [MOD_ROCKET] => 10
+                            [MOD_ROCKET_SPLASH] => 10
+                            [MOD_SHOTGUN] => 9
+                            [MOD_PLASMA] => 5
+                            [MOD_RAILGUN] => 2
+                            [MOD_LIGHTNING] => 1
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [Bor] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_RAILGUN] => 1
+                            [MOD_ROCKET] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 22
+                            [MOD_ROCKET] => 15
+                            [MOD_SHOTGUN] => 13
+                            [MOD_ROCKET_SPLASH] => 13
+                            [MOD_PLASMA] => 5
+                            [MOD_LIGHTNING] => 5
+                            [MOD_RAILGUN] => 3
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_LIGHTNING] => 5
+                            [MOD_ROCKET] => 4
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_SHOTGUN] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_ROCKET] => 6
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET] => 1
+                            [MOD_MACHINEGUN] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_RAILGUN] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_ROCKET] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_SHOTGUN] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Rolph] => Array
+                        (
+                            [MOD_MACHINEGUN] => 12
+                            [MOD_GRENADE] => 7
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_ROCKET] => 5
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_GAUNTLET] => 2
+                            [MOD_TELEFRAG] => 1
+                            [MOD_LAVA] => 1
+                        )
+
+                    [Bor] => Array
+                        (
+                            [MOD_PLASMA] => 3
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 14
+                            [MOD_ROCKET_SPLASH] => 11
+                            [MOD_ROCKET] => 10
+                            [MOD_LIGHTNING] => 7
+                            [MOD_SHOTGUN] => 7
+                            [MOD_PLASMA] => 3
+                            [MOD_GRENADE] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_LIGHTNING] => 19
+                            [MOD_MACHINEGUN] => 8
+                            [MOD_SHOTGUN] => 8
+                            [MOD_ROCKET_SPLASH] => 6
+                            [MOD_PLASMA] => 3
+                            [MOD_GRENADE] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_RAILGUN] => 2
+                            [MOD_PLASMA_SPLASH] => 1
+                            [MOD_LAVA] => 1
+                            [MOD_CRUSH] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_SHOTGUN] => 7
+                            [MOD_MACHINEGUN] => 6
+                            [MOD_ROCKET_SPLASH] => 4
+                            [MOD_ROCKET] => 4
+                            [MOD_GRENADE] => 4
+                            [MOD_RAILGUN] => 2
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_TELEFRAG] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 9
+                            [MOD_ROCKET] => 7
+                            [MOD_SHOTGUN] => 3
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_LIGHTNING] => 2
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_ROCKET] => 3
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_SHOTGUN] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_ROCKET] => 2
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_ROCKET] => 2
+                            [MOD_LIGHTNING] => 2
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_SHOTGUN] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [TT] => 77
+                    [Revell] => 57
+                    [Aecrim] => 51
+                    [Rolph] => 32
+                    [ThijT] => 20
+                    [Thz] => 15
+                    [Gerb] => 15
+                    [dennis] => 10
+                    [Schoende] => 10
+                    [Bor] => 5
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 78
+                    [MOD_ROCKET] => 66
+                    [MOD_ROCKET_SPLASH] => 50
+                    [MOD_SHOTGUN] => 47
+                    [MOD_LIGHTNING] => 21
+                    [MOD_PLASMA] => 16
+                    [MOD_RAILGUN] => 10
+                    [MOD_GRENADE] => 3
+                    [MOD_LAVA] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [TT] => 54
+                    [Revell] => 53
+                    [Rolph] => 40
+                    [Aecrim] => 32
+                    [ThijT] => 23
+                    [Thz] => 13
+                    [Gerb] => 11
+                    [Schoende] => 6
+                    [Bor] => 3
+                    [dennis] => 2
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 60
+                    [MOD_ROCKET_SPLASH] => 36
+                    [MOD_ROCKET] => 35
+                    [MOD_LIGHTNING] => 33
+                    [MOD_SHOTGUN] => 29
+                    [MOD_GRENADE] => 14
+                    [MOD_PLASMA] => 13
+                    [MOD_GRENADE_SPLASH] => 5
+                    [MOD_RAILGUN] => 4
+                    [MOD_GAUNTLET] => 2
+                    [MOD_TELEFRAG] => 2
+                    [MOD_LAVA] => 2
+                    [MOD_PLASMA_SPLASH] => 1
+                    [MOD_CRUSH] => 1
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_ROCKET_SPLASH] => 12
+                    [MOD_LAVA] => 9
+                    [MOD_GRENADE_SPLASH] => 1
+                    [MOD_FALLING] => 1
+                    [MOD_SUICIDE] => 1
+                    [MOD_GRENADE] => 1
+                )
+
+            [rounds] => 38
+            [awards] => Array
+                (
+                    [EXCELLENT] => 28
+                    [IMPRESSIVE] => 2
+                )
+
+        )
+
+    [Revell] => Array
+        (
+            [items] => Array
+                (
+                    [weapon] => Array
+                        (
+                            [weapon_rocketlauncher] => 127
+                            [weapon_shotgun] => 86
+                            [weapon_lightning] => 85
+                            [weapon_plasmagun] => 36
+                            [weapon_grenadelauncher] => 36
+                            [weapon_railgun] => 31
+                        )
+
+                    [ammo] => Array
+                        (
+                            [ammo_cells] => 47
+                            [ammo_bullets] => 40
+                            [ammo_rockets] => 36
+                            [ammo_shells] => 28
+                            [ammo_lightning] => 25
+                            [ammo_slugs] => 16
+                            [ammo_grenades] => 14
+                        )
+
+                    [item] => Array
+                        (
+                            [item_armor_shard] => 103
+                            [item_health] => 70
+                            [item_armor_combat] => 30
+                            [item_health_mega] => 24
+                            [item_health_small] => 20
+                            [item_armor_body] => 11
+                            [item_invis] => 9
+                            [item_quad] => 9
+                            [item_health_large] => 5
+                            [item_enviro] => 2
+                            [item_haste] => 1
+                        )
+
+                    [holdable] => Array
+                        (
+                            [holdable_medkit] => 2
+                            [holdable_teleporter] => 2
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Rolph] => Array
+                        (
+                            [MOD_LIGHTNING] => 11
+                            [MOD_ROCKET_SPLASH] => 6
+                            [MOD_ROCKET] => 5
+                            [MOD_SHOTGUN] => 4
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_PLASMA] => 3
+                            [MOD_GRENADE_SPLASH] => 2
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_ROCKET] => 11
+                            [MOD_MACHINEGUN] => 6
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_LIGHTNING] => 5
+                            [MOD_SHOTGUN] => 4
+                            [MOD_PLASMA] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_GRENADE] => 1
+                            [MOD_PLASMA_SPLASH] => 1
+                            [MOD_TELEFRAG] => 1
+                            [MOD_LAVA] => 1
+                        )
+
+                    [Bor] => Array
+                        (
+                            [MOD_LIGHTNING] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_LIGHTNING] => 19
+                            [MOD_MACHINEGUN] => 8
+                            [MOD_SHOTGUN] => 8
+                            [MOD_ROCKET_SPLASH] => 6
+                            [MOD_PLASMA] => 3
+                            [MOD_GRENADE] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_RAILGUN] => 2
+                            [MOD_PLASMA_SPLASH] => 1
+                            [MOD_LAVA] => 1
+                            [MOD_CRUSH] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 8
+                            [MOD_LIGHTNING] => 4
+                            [MOD_SHOTGUN] => 3
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_PLASMA] => 3
+                            [MOD_ROCKET] => 2
+                            [MOD_LAVA] => 1
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 2
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_SHOTGUN] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_SHOTGUN] => 3
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_ROCKET] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_LIGHTNING] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_ROCKET] => 1
+                            [MOD_RAILGUN] => 1
+                            [MOD_GAUNTLET] => 1
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_ROCKET] => 1
+                            [MOD_GRENADE] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Enrique] => Array
+                        (
+                            [MOD_ROCKET] => 18
+                            [MOD_MACHINEGUN] => 15
+                            [MOD_ROCKET_SPLASH] => 10
+                            [MOD_SHOTGUN] => 6
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 3
+                            [MOD_RAILGUN] => 1
+                            [MOD_LAVA] => 1
+                        )
+
+                    [Bor] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 11
+                            [MOD_LIGHTNING] => 9
+                            [MOD_ROCKET] => 8
+                            [MOD_SHOTGUN] => 6
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_RAILGUN] => 3
+                            [MOD_PLASMA_SPLASH] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_CRUSH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_ROCKET] => 7
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 3
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_GRENADE] => 3
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_RAILGUN] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_SHOTGUN] => 6
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_RAILGUN] => 4
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_CRUSH] => 1
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_SHOTGUN] => 2
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_PLASMA] => 1
+                            [MOD_GRENADE] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_GRENADE] => 4
+                            [MOD_ROCKET] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_GRENADE] => 1
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_LIGHTNING] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_LAVA] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_ROCKET] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [Enrique] => 53
+                    [TT] => 38
+                    [Rolph] => 34
+                    [Aecrim] => 25
+                    [Thz] => 14
+                    [ThijT] => 13
+                    [Gerb] => 10
+                    [Schoende] => 5
+                    [dennis] => 4
+                    [Bor] => 2
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_LIGHTNING] => 48
+                    [MOD_ROCKET_SPLASH] => 36
+                    [MOD_MACHINEGUN] => 29
+                    [MOD_SHOTGUN] => 27
+                    [MOD_ROCKET] => 23
+                    [MOD_PLASMA] => 15
+                    [MOD_GRENADE] => 5
+                    [MOD_GRENADE_SPLASH] => 4
+                    [MOD_RAILGUN] => 3
+                    [MOD_LAVA] => 3
+                    [MOD_PLASMA_SPLASH] => 2
+                    [MOD_GAUNTLET] => 1
+                    [MOD_TELEFRAG] => 1
+                    [MOD_CRUSH] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Enrique] => 57
+                    [TT] => 48
+                    [Rolph] => 27
+                    [Aecrim] => 24
+                    [Thz] => 12
+                    [Gerb] => 11
+                    [ThijT] => 7
+                    [Bor] => 3
+                    [dennis] => 2
+                    [Schoende] => 2
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 44
+                    [MOD_ROCKET] => 39
+                    [MOD_SHOTGUN] => 24
+                    [MOD_ROCKET_SPLASH] => 22
+                    [MOD_LIGHTNING] => 19
+                    [MOD_GRENADE] => 14
+                    [MOD_PLASMA] => 12
+                    [MOD_RAILGUN] => 11
+                    [MOD_GRENADE_SPLASH] => 2
+                    [MOD_CRUSH] => 2
+                    [MOD_PLASMA_SPLASH] => 2
+                    [MOD_LAVA] => 2
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_SUICIDE] => 1
+                    [MOD_ROCKET_SPLASH] => 7
+                    [MOD_GRENADE_SPLASH] => 2
+                    [MOD_LAVA] => 7
+                    [MOD_GRENADE] => 3
+                )
+
+            [rounds] => 42
+            [awards] => Array
+                (
+                    [EXCELLENT] => 13
+                    [GAUNTLET] => 1
+                    [IMPRESSIVE] => 1
+                )
+
+        )
+
+    [Rolph] => Array
+        (
+            [items] => Array
+                (
+                    [weapon] => Array
+                        (
+                            [weapon_rocketlauncher] => 104
+                            [weapon_shotgun] => 66
+                            [weapon_lightning] => 49
+                            [weapon_plasmagun] => 48
+                            [weapon_grenadelauncher] => 46
+                            [weapon_railgun] => 28
+                        )
+
+                    [ammo] => Array
+                        (
+                            [ammo_rockets] => 41
+                            [ammo_cells] => 35
+                            [ammo_shells] => 34
+                            [ammo_lightning] => 31
+                            [ammo_bullets] => 22
+                            [ammo_grenades] => 11
+                            [ammo_slugs] => 8
+                        )
+
+                    [item] => Array
+                        (
+                            [item_armor_shard] => 97
+                            [item_health] => 43
+                            [item_health_small] => 30
+                            [item_armor_combat] => 24
+                            [item_health_mega] => 22
+                            [item_armor_body] => 9
+                            [item_quad] => 8
+                            [item_health_large] => 3
+                            [item_invis] => 2
+                            [item_enviro] => 1
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 12
+                            [MOD_GRENADE] => 7
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_ROCKET] => 5
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_GAUNTLET] => 2
+                            [MOD_TELEFRAG] => 1
+                            [MOD_LAVA] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 6
+                            [MOD_PLASMA] => 5
+                            [MOD_ROCKET] => 4
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_LIGHTNING] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_ROCKET] => 7
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 3
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_GRENADE] => 3
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_RAILGUN] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_GRENADE] => 7
+                            [MOD_MACHINEGUN] => 7
+                            [MOD_SHOTGUN] => 6
+                            [MOD_LIGHTNING] => 3
+                            [MOD_ROCKET] => 3
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_SHOTGUN] => 3
+                            [MOD_LIGHTNING] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_RAILGUN] => 1
+                            [MOD_MACHINEGUN] => 1
+                            [MOD_GAUNTLET] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_ROCKET] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_PLASMA_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_GRENADE] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 9
+                            [MOD_ROCKET] => 7
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_LIGHTNING] => 3
+                            [MOD_PLASMA] => 2
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_LIGHTNING] => 11
+                            [MOD_ROCKET_SPLASH] => 6
+                            [MOD_ROCKET] => 5
+                            [MOD_SHOTGUN] => 4
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_PLASMA] => 3
+                            [MOD_GRENADE_SPLASH] => 2
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_SHOTGUN] => 10
+                            [MOD_MACHINEGUN] => 7
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_GRENADE] => 3
+                            [MOD_PLASMA] => 2
+                            [MOD_RAILGUN] => 2
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 8
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET] => 5
+                            [MOD_LIGHTNING] => 5
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_RAILGUN] => 2
+                            [MOD_GRENADE] => 1
+                            [MOD_TELEFRAG] => 1
+                        )
+
+                    [Bor] => Array
+                        (
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_ROCKET_SPLASH] => 2
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_SHOTGUN] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_MACHINEGUN] => 7
+                            [MOD_LIGHTNING] => 2
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_ROCKET] => 5
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_PLASMA] => 2
+                            [MOD_MACHINEGUN] => 2
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_SHOTGUN] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [Enrique] => 40
+                    [TT] => 29
+                    [Revell] => 27
+                    [Aecrim] => 24
+                    [ThijT] => 11
+                    [Gerb] => 10
+                    [Thz] => 8
+                    [Schoende] => 7
+                    [dennis] => 2
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 34
+                    [MOD_ROCKET] => 23
+                    [MOD_GRENADE] => 22
+                    [MOD_SHOTGUN] => 21
+                    [MOD_ROCKET_SPLASH] => 16
+                    [MOD_LIGHTNING] => 15
+                    [MOD_PLASMA] => 13
+                    [MOD_RAILGUN] => 5
+                    [MOD_GRENADE_SPLASH] => 3
+                    [MOD_GAUNTLET] => 3
+                    [MOD_PLASMA_SPLASH] => 1
+                    [MOD_LAVA] => 1
+                    [MOD_TELEFRAG] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Revell] => 34
+                    [TT] => 32
+                    [Enrique] => 32
+                    [Aecrim] => 28
+                    [ThijT] => 13
+                    [Thz] => 11
+                    [Schoende] => 9
+                    [Gerb] => 9
+                    [dennis] => 2
+                    [Bor] => 1
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 39
+                    [MOD_SHOTGUN] => 28
+                    [MOD_ROCKET_SPLASH] => 28
+                    [MOD_ROCKET] => 26
+                    [MOD_LIGHTNING] => 24
+                    [MOD_PLASMA] => 9
+                    [MOD_GRENADE] => 7
+                    [MOD_GRENADE_SPLASH] => 5
+                    [MOD_RAILGUN] => 4
+                    [MOD_TELEFRAG] => 1
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_GRENADE_SPLASH] => 5
+                    [MOD_PLASMA_SPLASH] => 1
+                    [MOD_ROCKET_SPLASH] => 7
+                    [MOD_LAVA] => 7
+                    [MOD_FALLING] => 1
+                    [MOD_SUICIDE] => 2
+                )
+
+            [rounds] => 22
+            [awards] => Array
+                (
+                    [EXCELLENT] => 13
+                    [GAUNTLET] => 3
+                )
+
+        )
+
+    [Bor] => Array
+        (
+            [items] => Array
+                (
+                    [ammo] => Array
+                        (
+                            [ammo_cells] => 10
+                            [ammo_rockets] => 4
+                            [ammo_shells] => 4
+                            [ammo_lightning] => 3
+                            [ammo_bullets] => 1
+                        )
+
+                    [item] => Array
+                        (
+                            [item_health] => 6
+                            [item_armor_shard] => 4
+                            [item_health_small] => 4
+                            [item_armor_combat] => 4
+                            [item_armor_body] => 2
+                            [item_invis] => 1
+                        )
+
+                    [weapon] => Array
+                        (
+                            [weapon_plasmagun] => 9
+                            [weapon_rocketlauncher] => 6
+                            [weapon_shotgun] => 4
+                            [weapon_grenadelauncher] => 3
+                            [weapon_railgun] => 3
+                            [weapon_lightning] => 2
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Aecrim] => Array
+                        (
+                            [MOD_ROCKET] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_PLASMA] => 3
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_PLASMA_SPLASH] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Aecrim] => Array
+                        (
+                            [MOD_ROCKET] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_RAILGUN] => 1
+                            [MOD_ROCKET] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_LIGHTNING] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [TT] => 3
+                    [Revell] => 3
+                    [Enrique] => 3
+                    [Aecrim] => 2
+                    [Rolph] => 1
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 6
+                    [MOD_PLASMA] => 4
+                    [MOD_PLASMA_SPLASH] => 1
+                    [MOD_ROCKET] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Aecrim] => 5
+                    [Enrique] => 5
+                    [TT] => 3
+                    [Revell] => 2
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_ROCKET_SPLASH] => 5
+                    [MOD_ROCKET] => 4
+                    [MOD_LIGHTNING] => 2
+                    [MOD_RAILGUN] => 1
+                    [MOD_MACHINEGUN] => 1
+                    [MOD_GRENADE_SPLASH] => 1
+                    [MOD_PLASMA] => 1
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_SUICIDE] => 1
+                )
+
+            [rounds] => 3
+            [awards] => Array
+                (
+                    [EXCELLENT] => 2
+                )
+
+        )
+
+    [Aecrim] => Array
+        (
+            [items] => Array
+                (
+                    [weapon] => Array
+                        (
+                            [weapon_shotgun] => 78
+                            [weapon_rocketlauncher] => 78
+                            [weapon_plasmagun] => 45
+                            [weapon_lightning] => 33
+                            [weapon_railgun] => 32
+                            [weapon_grenadelauncher] => 22
+                        )
+
+                    [item] => Array
+                        (
+                            [item_armor_shard] => 60
+                            [item_health] => 26
+                            [item_health_small] => 18
+                            [item_health_mega] => 12
+                            [item_armor_combat] => 11
+                            [item_invis] => 3
+                            [item_armor_body] => 3
+                            [item_enviro] => 1
+                            [item_quad] => 1
+                        )
+
+                    [ammo] => Array
+                        (
+                            [ammo_rockets] => 32
+                            [ammo_cells] => 27
+                            [ammo_bullets] => 24
+                            [ammo_shells] => 23
+                            [ammo_slugs] => 12
+                            [ammo_lightning] => 6
+                            [ammo_grenades] => 4
+                        )
+
+                    [holdable] => Array
+                        (
+                            [holdable_teleporter] => 1
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Bor] => Array
+                        (
+                            [MOD_ROCKET] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_SHOTGUN] => 10
+                            [MOD_MACHINEGUN] => 7
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_GRENADE] => 3
+                            [MOD_PLASMA] => 2
+                            [MOD_RAILGUN] => 2
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_SHOTGUN] => 7
+                            [MOD_MACHINEGUN] => 6
+                            [MOD_ROCKET_SPLASH] => 4
+                            [MOD_ROCKET] => 4
+                            [MOD_GRENADE] => 4
+                            [MOD_RAILGUN] => 2
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_TELEFRAG] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_SHOTGUN] => 6
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_RAILGUN] => 4
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_CRUSH] => 1
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_SHOTGUN] => 7
+                            [MOD_GRENADE] => 4
+                            [MOD_PLASMA] => 4
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_ROCKET] => 2
+                            [MOD_RAILGUN] => 1
+                            [MOD_LAVA] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_SHOTGUN] => 3
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_ROCKET] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_RAILGUN] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_SHOTGUN] => 3
+                            [MOD_LIGHTNING] => 3
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_PLASMA] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_RAILGUN] => 1
+                            [MOD_MACHINEGUN] => 1
+                            [MOD_SHOTGUN] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_MACHINEGUN] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 13
+                            [MOD_ROCKET] => 10
+                            [MOD_ROCKET_SPLASH] => 10
+                            [MOD_SHOTGUN] => 9
+                            [MOD_PLASMA] => 5
+                            [MOD_RAILGUN] => 2
+                            [MOD_LIGHTNING] => 1
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [Bor] => Array
+                        (
+                            [MOD_ROCKET] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 6
+                            [MOD_PLASMA] => 5
+                            [MOD_ROCKET] => 4
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_LIGHTNING] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 10
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_ROCKET] => 3
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_GRENADE] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_PLASMA] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 8
+                            [MOD_LIGHTNING] => 4
+                            [MOD_SHOTGUN] => 3
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_PLASMA] => 3
+                            [MOD_ROCKET] => 2
+                            [MOD_LAVA] => 1
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_SHOTGUN] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_LIGHTNING] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_SHOTGUN] => 2
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_PLASMA] => 2
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [Enrique] => 32
+                    [Rolph] => 28
+                    [TT] => 27
+                    [Revell] => 24
+                    [Gerb] => 18
+                    [ThijT] => 12
+                    [Bor] => 5
+                    [Schoende] => 3
+                    [Thz] => 2
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_SHOTGUN] => 37
+                    [MOD_MACHINEGUN] => 33
+                    [MOD_ROCKET_SPLASH] => 18
+                    [MOD_RAILGUN] => 14
+                    [MOD_GRENADE] => 12
+                    [MOD_ROCKET] => 11
+                    [MOD_PLASMA] => 11
+                    [MOD_LIGHTNING] => 8
+                    [MOD_GRENADE_SPLASH] => 4
+                    [MOD_LAVA] => 1
+                    [MOD_TELEFRAG] => 1
+                    [MOD_CRUSH] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Enrique] => 51
+                    [TT] => 29
+                    [Revell] => 25
+                    [Rolph] => 24
+                    [Gerb] => 14
+                    [ThijT] => 6
+                    [Thz] => 3
+                    [Schoende] => 3
+                    [Bor] => 2
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 40
+                    [MOD_ROCKET_SPLASH] => 32
+                    [MOD_SHOTGUN] => 24
+                    [MOD_ROCKET] => 22
+                    [MOD_PLASMA] => 17
+                    [MOD_LIGHTNING] => 9
+                    [MOD_GRENADE] => 5
+                    [MOD_RAILGUN] => 4
+                    [MOD_GRENADE_SPLASH] => 3
+                    [MOD_LAVA] => 1
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_GRENADE_SPLASH] => 5
+                    [MOD_LAVA] => 9
+                    [MOD_FALLING] => 1
+                    [MOD_ROCKET_SPLASH] => 1
+                    [MOD_SUICIDE] => 2
+                    [MOD_ROCKET] => 1
+                    [MOD_GRENADE] => 1
+                    [MOD_PLASMA_SPLASH] => 1
+                )
+
+            [rounds] => 19
+            [awards] => Array
+                (
+                    [EXCELLENT] => 15
+                    [IMPRESSIVE] => 7
+                )
+
+        )
+
+    [TT] => Array
+        (
+            [items] => Array
+                (
+                    [weapon] => Array
+                        (
+                            [weapon_rocketlauncher] => 101
+                            [weapon_shotgun] => 92
+                            [weapon_lightning] => 56
+                            [weapon_grenadelauncher] => 50
+                            [weapon_plasmagun] => 45
+                            [weapon_railgun] => 26
+                        )
+
+                    [ammo] => Array
+                        (
+                            [ammo_rockets] => 39
+                            [ammo_bullets] => 39
+                            [ammo_shells] => 34
+                            [ammo_cells] => 30
+                            [ammo_grenades] => 12
+                            [ammo_slugs] => 11
+                            [ammo_lightning] => 8
+                        )
+
+                    [item] => Array
+                        (
+                            [item_armor_shard] => 107
+                            [item_health] => 71
+                            [item_health_small] => 49
+                            [item_armor_combat] => 26
+                            [item_health_mega] => 15
+                            [item_armor_body] => 8
+                            [item_health_large] => 7
+                            [item_quad] => 5
+                            [item_invis] => 4
+                            [item_haste] => 2
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 14
+                            [MOD_ROCKET_SPLASH] => 11
+                            [MOD_ROCKET] => 10
+                            [MOD_LIGHTNING] => 7
+                            [MOD_SHOTGUN] => 7
+                            [MOD_PLASMA] => 3
+                            [MOD_GRENADE] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_MACHINEGUN] => 10
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_ROCKET] => 3
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_GRENADE] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_PLASMA] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 8
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET] => 5
+                            [MOD_LIGHTNING] => 5
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_RAILGUN] => 2
+                            [MOD_GRENADE] => 1
+                            [MOD_TELEFRAG] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_MACHINEGUN] => 11
+                            [MOD_LIGHTNING] => 9
+                            [MOD_ROCKET] => 8
+                            [MOD_SHOTGUN] => 6
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_RAILGUN] => 3
+                            [MOD_PLASMA_SPLASH] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_CRUSH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Bor] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_SHOTGUN] => 4
+                            [MOD_LIGHTNING] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_ROCKET] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_SHOTGUN] => 4
+                            [MOD_ROCKET] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_GRENADE] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_SHOTGUN] => 3
+                            [MOD_ROCKET] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_LAVA] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Revell] => Array
+                        (
+                            [MOD_ROCKET] => 11
+                            [MOD_MACHINEGUN] => 6
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_LIGHTNING] => 5
+                            [MOD_SHOTGUN] => 4
+                            [MOD_PLASMA] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_GRENADE] => 1
+                            [MOD_PLASMA_SPLASH] => 1
+                            [MOD_TELEFRAG] => 1
+                            [MOD_LAVA] => 1
+                        )
+
+                    [Bor] => Array
+                        (
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_PLASMA_SPLASH] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 22
+                            [MOD_ROCKET] => 15
+                            [MOD_SHOTGUN] => 13
+                            [MOD_ROCKET_SPLASH] => 13
+                            [MOD_PLASMA] => 5
+                            [MOD_LIGHTNING] => 5
+                            [MOD_RAILGUN] => 3
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_SHOTGUN] => 7
+                            [MOD_GRENADE] => 4
+                            [MOD_PLASMA] => 4
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_ROCKET] => 2
+                            [MOD_RAILGUN] => 1
+                            [MOD_LAVA] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_GRENADE] => 7
+                            [MOD_MACHINEGUN] => 7
+                            [MOD_SHOTGUN] => 6
+                            [MOD_LIGHTNING] => 3
+                            [MOD_ROCKET] => 3
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_RAILGUN] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_ROCKET] => 1
+                            [MOD_TELEFRAG] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_ROCKET] => 4
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_SHOTGUN] => 2
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_ROCKET] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_SHOTGUN] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [Enrique] => 54
+                    [Revell] => 48
+                    [Rolph] => 32
+                    [Aecrim] => 29
+                    [ThijT] => 15
+                    [Schoende] => 13
+                    [Thz] => 8
+                    [Gerb] => 7
+                    [Bor] => 3
+                    [dennis] => 1
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 46
+                    [MOD_SHOTGUN] => 36
+                    [MOD_ROCKET_SPLASH] => 35
+                    [MOD_ROCKET] => 32
+                    [MOD_LIGHTNING] => 28
+                    [MOD_GRENADE_SPLASH] => 9
+                    [MOD_PLASMA] => 7
+                    [MOD_RAILGUN] => 6
+                    [MOD_GRENADE] => 6
+                    [MOD_PLASMA_SPLASH] => 2
+                    [MOD_LAVA] => 1
+                    [MOD_CRUSH] => 1
+                    [MOD_TELEFRAG] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Enrique] => 77
+                    [Revell] => 38
+                    [Rolph] => 29
+                    [Aecrim] => 27
+                    [Thz] => 11
+                    [Gerb] => 10
+                    [ThijT] => 9
+                    [Bor] => 3
+                    [dennis] => 3
+                    [Schoende] => 1
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 53
+                    [MOD_ROCKET] => 37
+                    [MOD_SHOTGUN] => 33
+                    [MOD_ROCKET_SPLASH] => 29
+                    [MOD_LIGHTNING] => 17
+                    [MOD_GRENADE] => 13
+                    [MOD_PLASMA] => 12
+                    [MOD_RAILGUN] => 6
+                    [MOD_GRENADE_SPLASH] => 2
+                    [MOD_PLASMA_SPLASH] => 2
+                    [MOD_TELEFRAG] => 2
+                    [MOD_LAVA] => 2
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_ROCKET_SPLASH] => 3
+                    [MOD_FALLING] => 1
+                    [MOD_LAVA] => 11
+                    [MOD_GRENADE] => 1
+                    [MOD_GRENADE_SPLASH] => 2
+                )
+
+            [rounds] => 38
+            [awards] => Array
+                (
+                    [EXCELLENT] => 19
+                    [IMPRESSIVE] => 2
+                )
+
+        )
+
+    [ThijT] => Array
+        (
+            [items] => Array
+                (
+                    [ammo] => Array
+                        (
+                            [ammo_rockets] => 20
+                            [ammo_grenades] => 7
+                            [ammo_shells] => 6
+                            [ammo_bullets] => 5
+                            [ammo_cells] => 5
+                            [ammo_lightning] => 2
+                            [ammo_slugs] => 1
+                        )
+
+                    [weapon] => Array
+                        (
+                            [weapon_rocketlauncher] => 44
+                            [weapon_shotgun] => 32
+                            [weapon_lightning] => 12
+                            [weapon_grenadelauncher] => 11
+                            [weapon_plasmagun] => 9
+                            [weapon_railgun] => 4
+                        )
+
+                    [item] => Array
+                        (
+                            [item_armor_shard] => 68
+                            [item_health] => 20
+                            [item_health_small] => 12
+                            [item_armor_combat] => 4
+                            [item_quad] => 1
+                            [item_enviro] => 1
+                        )
+
+                    [holdable] => Array
+                        (
+                            [holdable_teleporter] => 2
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Rolph] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_ROCKET_SPLASH] => 2
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_SHOTGUN] => 2
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_PLASMA] => 1
+                            [MOD_GRENADE] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 9
+                            [MOD_ROCKET] => 7
+                            [MOD_SHOTGUN] => 3
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_LIGHTNING] => 2
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_RAILGUN] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_ROCKET] => 1
+                            [MOD_TELEFRAG] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_SHOTGUN] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_ROCKET] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_SHOTGUN] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_MACHINEGUN] => 7
+                            [MOD_SHOTGUN] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_GRENADE] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [TT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_SHOTGUN] => 4
+                            [MOD_LIGHTNING] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_ROCKET] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_LIGHTNING] => 5
+                            [MOD_ROCKET] => 4
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_SHOTGUN] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_PLASMA] => 3
+                            [MOD_LIGHTNING] => 2
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_SHOTGUN] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_SHOTGUN] => 3
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_ROCKET] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_SHOTGUN] => 3
+                            [MOD_LIGHTNING] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET] => 3
+                            [MOD_GRENADE] => 3
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_SHOTGUN] => 3
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [Enrique] => 23
+                    [Schoende] => 13
+                    [Rolph] => 13
+                    [TT] => 9
+                    [Gerb] => 8
+                    [Revell] => 7
+                    [Aecrim] => 6
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 32
+                    [MOD_ROCKET] => 13
+                    [MOD_SHOTGUN] => 11
+                    [MOD_ROCKET_SPLASH] => 10
+                    [MOD_LIGHTNING] => 6
+                    [MOD_GRENADE] => 2
+                    [MOD_GRENADE_SPLASH] => 2
+                    [MOD_RAILGUN] => 1
+                    [MOD_TELEFRAG] => 1
+                    [MOD_PLASMA] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Enrique] => 20
+                    [TT] => 15
+                    [Revell] => 13
+                    [Gerb] => 12
+                    [Aecrim] => 12
+                    [Rolph] => 11
+                    [Schoende] => 7
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_SHOTGUN] => 23
+                    [MOD_MACHINEGUN] => 22
+                    [MOD_ROCKET_SPLASH] => 11
+                    [MOD_LIGHTNING] => 11
+                    [MOD_ROCKET] => 9
+                    [MOD_PLASMA] => 5
+                    [MOD_GRENADE] => 5
+                    [MOD_GRENADE_SPLASH] => 3
+                    [MOD_RAILGUN] => 1
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_LAVA] => 6
+                    [MOD_ROCKET_SPLASH] => 4
+                    [MOD_GRENADE_SPLASH] => 1
+                    [MOD_FALLING] => 1
+                )
+
+            [rounds] => 20
+            [awards] => Array
+                (
+                    [EXCELLENT] => 12
+                )
+
+        )
+
+    [Gerb] => Array
+        (
+            [items] => Array
+                (
+                    [item] => Array
+                        (
+                            [item_health_small] => 27
+                            [item_armor_shard] => 25
+                            [item_armor_combat] => 13
+                            [item_health] => 12
+                            [item_armor_body] => 5
+                            [item_haste] => 3
+                            [item_health_mega] => 1
+                            [item_quad] => 1
+                        )
+
+                    [ammo] => Array
+                        (
+                            [ammo_cells] => 12
+                            [ammo_rockets] => 9
+                            [ammo_bullets] => 9
+                            [ammo_grenades] => 5
+                            [ammo_slugs] => 4
+                            [ammo_lightning] => 3
+                            [ammo_shells] => 3
+                        )
+
+                    [weapon] => Array
+                        (
+                            [weapon_rocketlauncher] => 40
+                            [weapon_shotgun] => 38
+                            [weapon_grenadelauncher] => 22
+                            [weapon_railgun] => 15
+                            [weapon_lightning] => 13
+                            [weapon_plasmagun] => 8
+                        )
+
+                    [holdable] => Array
+                        (
+                            [holdable_teleporter] => 2
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Aecrim] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_LIGHTNING] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_GRENADE] => 4
+                            [MOD_ROCKET] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_ROCKET] => 4
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_SHOTGUN] => 2
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_ROCKET] => 3
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_SHOTGUN] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET] => 3
+                            [MOD_GRENADE] => 3
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_SHOTGUN] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_SHOTGUN] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_FALLING] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Revell] => Array
+                        (
+                            [MOD_SHOTGUN] => 3
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_ROCKET] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_ROCKET] => 6
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_RAILGUN] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_SHOTGUN] => 3
+                            [MOD_LIGHTNING] => 3
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_PLASMA] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_ROCKET] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_SHOTGUN] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_SHOTGUN] => 4
+                            [MOD_ROCKET] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                        )
+
+                    [Schoende] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [Aecrim] => 14
+                    [ThijT] => 12
+                    [Enrique] => 11
+                    [Revell] => 11
+                    [TT] => 10
+                    [Rolph] => 9
+                    [Schoende] => 5
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_ROCKET] => 17
+                    [MOD_SHOTGUN] => 15
+                    [MOD_MACHINEGUN] => 15
+                    [MOD_GRENADE] => 9
+                    [MOD_ROCKET_SPLASH] => 8
+                    [MOD_GRENADE_SPLASH] => 4
+                    [MOD_LIGHTNING] => 2
+                    [MOD_FALLING] => 1
+                    [MOD_RAILGUN] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Aecrim] => 18
+                    [Enrique] => 15
+                    [Revell] => 10
+                    [Rolph] => 10
+                    [ThijT] => 8
+                    [TT] => 7
+                    [Schoende] => 4
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 19
+                    [MOD_SHOTGUN] => 15
+                    [MOD_ROCKET] => 14
+                    [MOD_LIGHTNING] => 8
+                    [MOD_ROCKET_SPLASH] => 6
+                    [MOD_GRENADE_SPLASH] => 4
+                    [MOD_RAILGUN] => 4
+                    [MOD_PLASMA] => 2
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_LAVA] => 1
+                    [MOD_GRENADE_SPLASH] => 5
+                    [MOD_SUICIDE] => 1
+                )
+
+            [rounds] => 8
+            [awards] => Array
+                (
+                    [EXCELLENT] => 10
+                    [IMPRESSIVE] => 1
+                )
+
+        )
+
+    [Schoende] => Array
+        (
+            [items] => Array
+                (
+                    [weapon] => Array
+                        (
+                            [weapon_shotgun] => 18
+                            [weapon_rocketlauncher] => 16
+                            [weapon_grenadelauncher] => 13
+                            [weapon_plasmagun] => 7
+                            [weapon_railgun] => 5
+                            [weapon_lightning] => 4
+                        )
+
+                    [ammo] => Array
+                        (
+                            [ammo_lightning] => 6
+                            [ammo_shells] => 3
+                            [ammo_rockets] => 3
+                            [ammo_bullets] => 2
+                            [ammo_cells] => 1
+                            [ammo_grenades] => 1
+                            [ammo_slugs] => 1
+                        )
+
+                    [item] => Array
+                        (
+                            [item_armor_shard] => 13
+                            [item_health] => 8
+                            [item_health_small] => 7
+                            [item_armor_combat] => 6
+                            [item_quad] => 2
+                            [item_health_large] => 1
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [ThijT] => Array
+                        (
+                            [MOD_SHOTGUN] => 3
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_MACHINEGUN] => 7
+                            [MOD_LIGHTNING] => 2
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_ROCKET] => 2
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_GRENADE] => 1
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_SHOTGUN] => 2
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_ROCKET] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Aecrim] => Array
+                        (
+                            [MOD_RAILGUN] => 1
+                            [MOD_MACHINEGUN] => 1
+                            [MOD_SHOTGUN] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_RAILGUN] => 1
+                            [MOD_MACHINEGUN] => 1
+                            [MOD_GAUNTLET] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_GRENADE_SPLASH] => 2
+                            [MOD_GRENADE] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_SHOTGUN] => 5
+                            [MOD_ROCKET] => 1
+                            [MOD_MACHINEGUN] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_RAILGUN] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                    [ThijT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 7
+                            [MOD_SHOTGUN] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_GRENADE] => 1
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                    [Gerb] => Array
+                        (
+                            [MOD_SHOTGUN] => 2
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_FALLING] => 1
+                            [MOD_LIGHTNING] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [Rolph] => 9
+                    [ThijT] => 7
+                    [Enrique] => 6
+                    [Gerb] => 4
+                    [Aecrim] => 3
+                    [Revell] => 2
+                    [TT] => 1
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 18
+                    [MOD_SHOTGUN] => 5
+                    [MOD_ROCKET] => 3
+                    [MOD_LIGHTNING] => 2
+                    [MOD_GRENADE] => 1
+                    [MOD_GRENADE_SPLASH] => 1
+                    [MOD_RAILGUN] => 1
+                    [MOD_ROCKET_SPLASH] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [ThijT] => 13
+                    [TT] => 13
+                    [Enrique] => 10
+                    [Rolph] => 7
+                    [Gerb] => 5
+                    [Revell] => 5
+                    [Aecrim] => 3
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_SHOTGUN] => 16
+                    [MOD_MACHINEGUN] => 15
+                    [MOD_LIGHTNING] => 7
+                    [MOD_ROCKET_SPLASH] => 5
+                    [MOD_ROCKET] => 3
+                    [MOD_RAILGUN] => 3
+                    [MOD_GRENADE_SPLASH] => 3
+                    [MOD_GRENADE] => 2
+                    [MOD_FALLING] => 1
+                    [MOD_GAUNTLET] => 1
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_ROCKET_SPLASH] => 1
+                    [MOD_LAVA] => 1
+                    [MOD_SUICIDE] => 1
+                )
+
+            [rounds] => 12
+            [awards] => Array
+                (
+                    [EXCELLENT] => 2
+                )
+
+        )
+
+    [Thz] => Array
+        (
+            [items] => Array
+                (
+                    [weapon] => Array
+                        (
+                            [weapon_rocketlauncher] => 36
+                            [weapon_shotgun] => 26
+                            [weapon_plasmagun] => 12
+                            [weapon_lightning] => 9
+                            [weapon_grenadelauncher] => 5
+                            [weapon_railgun] => 4
+                        )
+
+                    [ammo] => Array
+                        (
+                            [ammo_rockets] => 26
+                            [ammo_bullets] => 13
+                            [ammo_cells] => 10
+                            [ammo_shells] => 9
+                            [ammo_grenades] => 5
+                            [ammo_lightning] => 4
+                            [ammo_slugs] => 2
+                        )
+
+                    [item] => Array
+                        (
+                            [item_armor_shard] => 30
+                            [item_health] => 17
+                            [item_armor_combat] => 10
+                            [item_health_small] => 5
+                            [item_quad] => 4
+                            [item_armor_body] => 2
+                            [item_health_mega] => 2
+                            [item_haste] => 1
+                            [item_invis] => 1
+                            [item_enviro] => 1
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Rolph] => Array
+                        (
+                            [MOD_ROCKET] => 5
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_PLASMA] => 2
+                            [MOD_MACHINEGUN] => 2
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_LIGHTNING] => 2
+                            [MOD_GRENADE_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Aecrim] => Array
+                        (
+                            [MOD_PLASMA] => 2
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_LIGHTNING] => 2
+                            [MOD_GRENADE] => 2
+                            [MOD_ROCKET] => 2
+                            [MOD_LAVA] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 5
+                            [MOD_MACHINEGUN] => 4
+                            [MOD_ROCKET] => 2
+                            [MOD_LIGHTNING] => 2
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_MACHINEGUN] => 2
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Aecrim] => Array
+                        (
+                            [MOD_MACHINEGUN] => 1
+                            [MOD_ROCKET] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_ROCKET] => 2
+                            [MOD_SHOTGUN] => 2
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_PLASMA_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_ROCKET] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_SHOTGUN] => 3
+                            [MOD_ROCKET] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_LAVA] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_PLASMA] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_LIGHTNING] => 4
+                            [MOD_ROCKET_SPLASH] => 3
+                            [MOD_SHOTGUN] => 2
+                            [MOD_MACHINEGUN] => 2
+                            [MOD_ROCKET] => 1
+                            [MOD_RAILGUN] => 1
+                            [MOD_GAUNTLET] => 1
+                        )
+
+                    [dennis] => Array
+                        (
+                            [MOD_RAILGUN] => 1
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [Enrique] => 13
+                    [Revell] => 12
+                    [TT] => 11
+                    [Rolph] => 11
+                    [Aecrim] => 3
+                    [dennis] => 2
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 18
+                    [MOD_ROCKET_SPLASH] => 9
+                    [MOD_ROCKET] => 9
+                    [MOD_PLASMA] => 6
+                    [MOD_LIGHTNING] => 6
+                    [MOD_GRENADE] => 2
+                    [MOD_GRENADE_SPLASH] => 1
+                    [MOD_LAVA] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Enrique] => 15
+                    [Revell] => 14
+                    [Rolph] => 8
+                    [TT] => 8
+                    [dennis] => 2
+                    [Aecrim] => 2
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 11
+                    [MOD_ROCKET] => 9
+                    [MOD_SHOTGUN] => 9
+                    [MOD_ROCKET_SPLASH] => 7
+                    [MOD_LIGHTNING] => 5
+                    [MOD_RAILGUN] => 3
+                    [MOD_PLASMA] => 2
+                    [MOD_GAUNTLET] => 1
+                    [MOD_PLASMA_SPLASH] => 1
+                    [MOD_LAVA] => 1
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_LAVA] => 6
+                    [MOD_ROCKET_SPLASH] => 8
+                    [MOD_PLASMA_SPLASH] => 1
+                )
+
+            [rounds] => 10
+            [awards] => Array
+                (
+                    [EXCELLENT] => 5
+                )
+
+        )
+
+    [dennis] => Array
+        (
+            [items] => Array
+                (
+                    [item] => Array
+                        (
+                            [item_health] => 10
+                            [item_armor_shard] => 7
+                            [item_health_small] => 6
+                            [item_armor_combat] => 2
+                            [item_health_mega] => 1
+                            [item_quad] => 1
+                        )
+
+                    [weapon] => Array
+                        (
+                            [weapon_shotgun] => 13
+                            [weapon_rocketlauncher] => 8
+                            [weapon_railgun] => 3
+                            [weapon_grenadelauncher] => 2
+                            [weapon_lightning] => 2
+                        )
+
+                    [ammo] => Array
+                        (
+                            [ammo_lightning] => 4
+                            [ammo_rockets] => 4
+                            [ammo_grenades] => 3
+                            [ammo_shells] => 1
+                            [ammo_bullets] => 1
+                        )
+
+                )
+
+            [kills] => Array
+                (
+                    [Thz] => Array
+                        (
+                            [MOD_RAILGUN] => 1
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Revell] => Array
+                        (
+                            [MOD_ROCKET] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_SHOTGUN] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_SHOTGUN] => 1
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_MACHINEGUN] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 1
+                            [MOD_SHOTGUN] => 1
+                        )
+
+                )
+
+            [killed_by] => Array
+                (
+                    [Revell] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_ROCKET] => 1
+                            [MOD_GRENADE] => 1
+                        )
+
+                    [Enrique] => Array
+                        (
+                            [MOD_MACHINEGUN] => 5
+                            [MOD_ROCKET_SPLASH] => 2
+                            [MOD_SHOTGUN] => 1
+                            [MOD_LIGHTNING] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [Rolph] => Array
+                        (
+                            [MOD_GRENADE] => 1
+                            [MOD_RAILGUN] => 1
+                        )
+
+                    [TT] => Array
+                        (
+                            [MOD_ROCKET_SPLASH] => 1
+                        )
+
+                    [Thz] => Array
+                        (
+                            [MOD_MACHINEGUN] => 2
+                        )
+
+                )
+
+            [kills_who] => Array
+                (
+                    [TT] => 3
+                    [Enrique] => 2
+                    [Rolph] => 2
+                    [Revell] => 2
+                    [Thz] => 2
+                )
+
+            [kills_method] => Array
+                (
+                    [MOD_SHOTGUN] => 3
+                    [MOD_ROCKET_SPLASH] => 3
+                    [MOD_RAILGUN] => 2
+                    [MOD_MACHINEGUN] => 2
+                    [MOD_ROCKET] => 1
+                )
+
+            [killed_by_who] => Array
+                (
+                    [Enrique] => 10
+                    [Revell] => 4
+                    [Thz] => 2
+                    [Rolph] => 2
+                    [TT] => 1
+                )
+
+            [killed_by_method] => Array
+                (
+                    [MOD_MACHINEGUN] => 7
+                    [MOD_ROCKET_SPLASH] => 5
+                    [MOD_RAILGUN] => 2
+                    [MOD_GRENADE] => 2
+                    [MOD_SHOTGUN] => 1
+                    [MOD_LIGHTNING] => 1
+                    [MOD_ROCKET] => 1
+                )
+
+            [suicides] => Array
+                (
+                    [MOD_SUICIDE] => 1
+                )
+
+            [rounds] => 6
+            [awards] => Array
+                (
+                    [EXCELLENT] => 2
+                    [IMPRESSIVE] => 1
+                )
+
+        )
+
+)
