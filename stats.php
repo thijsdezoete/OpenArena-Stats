@@ -1,6 +1,6 @@
 <?php
 
-$h = fopen('/home/jeroen/projects/openarena-stats/openarena.log', 'r');
+$h = fopen('./openarena.log', 'r');
 $stats = array();
 while(($line = fgets($h, 4096)) !== false) {
     // Game statistics
@@ -35,6 +35,12 @@ while(($line = fgets($h, 4096)) !== false) {
 
         if($match[1] !== $match[2]) {
             $stats[$match[1]]['kills']++;
+
+            if (!isset($stats[$match[1]]['killed'][$match[2]])) {
+                $stats[$match[1]]['killed'][$match[2]] = 1;
+            } else {
+                $stats[$match[1]]['killed'][$match[2]]++;
+            }
         } else {
             $stats[$match[1]]['suicides']++;
             $suicide = true;
@@ -96,6 +102,9 @@ foreach($stats as $name => $playerstat) {
 
     // Favorite weapon
     $stats[$name]['fav_weapon'] = $fav_weapon;
+
+    // Sort kills
+    arsort($stats[$name]['killed']);
 }
 
 exit(print_r($stats, true));
