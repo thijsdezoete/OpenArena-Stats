@@ -27,6 +27,7 @@ while(($line = fgets($h, 4096)) !== false) {
 
         // Player joins round
         case 'ClientBegin':
+
         break;
 
         // Capture the flag
@@ -65,6 +66,12 @@ while(($line = fgets($h, 4096)) !== false) {
                     $stats[$player]['WEAPONS'][$weapon] = 0;
                 }
 
+                if(!isset($stats[$player]['VICTIMS'][$victim])) {
+                    $stats[$player]['VICTIMS'][$victim] = 0;
+                }
+
+                $stats[$player]['VICTIMS'][$victim]++;
+
                 if(!isset($stats[$victim]['KILLS'])) {
                     $stats[$victim]['KILLS']['frags'] = 0;
                     $stats[$victim]['KILLS']['deaths'] = 0;
@@ -78,6 +85,14 @@ while(($line = fgets($h, 4096)) !== false) {
                     $stats[$victim]['KILLS']['deaths']++;
                     $stats[$player]['WEAPONS'][$weapon]++;
                 }
+            } else if (preg_match('/\<world\>\ killed\ ([a-zA-Z0-9-_\ ]+)\ by\ ([A-Z_]+)/', $parts[2], $match)) {
+                $player = $known_players[$match[1]];
+                if(!isset($stats[$player]['KILLS'])) {
+                    $stats[$player]['KILLS']['frags'] = 0;
+                    $stats[$player]['KILLS']['deaths'] = 0;
+                    $stats[$player]['KILLS']['suicides'] = 0;
+                }
+                $stats[$player]['KILLS']['suicides']++;
             }
         break;
 
@@ -102,6 +117,7 @@ while(($line = fgets($h, 4096)) !== false) {
     }
 
 }
+fclose($h);
 
 function getPlayerName($info, $minLength, $known_players) {
     $player = '';
@@ -134,6 +150,9 @@ foreach($stats as $player => $info) {
 
     // Sort weapons
     arsort($stats[$player]['WEAPONS']);
+
+    // Sort victims
+    arsort($stats[$player]['VICTIMS']);
 
     // Calculate K/D ratio
     $stats[$player]['KILLS']['ratio'] = number_format($stats[$player]['KILLS']['frags'] / $stats[$player]['KILLS']['deaths'], 2);
