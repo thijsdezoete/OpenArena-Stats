@@ -1,101 +1,161 @@
 <?php
 
-$h = fopen('/home/jeroen/projects/openarena-stats/openarena.log', 'r');
+$known_players = array(
+    'Aecrim'    => 'Mircea',
+    'Revell'    => 'Jeroen',
+    'Enrique'   => 'Enrique',
+    'dennis'    => 'Dennis',
+    'Schoende'  => 'Sven',
+    'Archangel' => 'Sven',
+    'TT'        => 'Thijs T',
+    'Thz'       => 'Thijs Z',
+    'Sitting Duck'  => 'Martin',
+    'Tamas'     => 'Tamas',
+);
+
+$h = fopen('./openarena.log', 'r');
 $stats = array();
 while(($line = fgets($h, 4096)) !== false) {
-    // Game statistics
-    if (preg_match('/([a-zA-Z0-9]+)\^7\ connected/', $line, $match)) {
-        if (!isset($stats[$match[1]])) {
-            $stats[$match[1]]['kills'] = 0;
-            $stats[$match[1]]['deaths'] = 0;
-            $stats[$match[1]]['suicides'] = 0;
-            $stats[$match[1]]['games'] = 1;
-        } else {
-            $stats[$match[1]]['games']++;
-        }
+
+    $line = substr($line, 0, -1);
+    $parts = explode(': ', $line);
+
+    switch($parts[0]) {
+        // Player info
+        case 'ClientUserinfoChanged':
+        break;
+
+        // Player joins round
+        case 'ClientBegin':
+
+        break;
+
+        // Capture the flag
+        case 'CTF':
+            $length = 5;
+            $info   = array_reverse(explode(' ', $parts[2]));
+            $total  = count($info);
+            $player = getPlayerName($info, $length, $known_players);
+
+            if (!isset($stats[$player]['CTF'])) {
+                //$stats[$player]['CTF']['fragged'] = 0;
+                //$stats[$player]['CTF']['got'] = 0;
+                $stats[$player]['CTF']['captured'] = 0;
+                //$stats[$player]['CTF']['returned'] = 0;
+            }
+
+            if($info[3] == 'captured') {
+                $stats[$player]['CTF'][$info[3]] += 1;
+            }
+        break;
+
+        // Frags
+        case 'Kill':
+            if (preg_match('/([a-zA-Z0-9-_\ ]+)\ killed\ ([a-zA-Z0-9-_\ ]+)\ by\ ([A-Z_]+)/', $parts[2], $match)) {
+                $player = $known_players[$match[1]];
+                $victim = $known_players[$match[2]];
+                $weapon = $match[3];
+
+                if(!isset($stats[$player]['KILLS'])) {
+                    $stats[$player]['KILLS']['frags'] = 0;
+                    $stats[$player]['KILLS']['deaths'] = 0;
+                    $stats[$player]['KILLS']['suicides'] = 0;
+                }
+
+                if(!isset($stats[$player]['WEAPONS'][$weapon])) {
+                    $stats[$player]['WEAPONS'][$weapon] = 0;
+                }
+
+                if(!isset($stats[$player]['VICTIMS'][$victim])) {
+                    $stats[$player]['VICTIMS'][$victim] = 0;
+                }
+
+                $stats[$player]['VICTIMS'][$victim]++;
+
+                if(!isset($stats[$victim]['KILLS'])) {
+                    $stats[$victim]['KILLS']['frags'] = 0;
+                    $stats[$victim]['KILLS']['deaths'] = 0;
+                    $stats[$victim]['KILLS']['suicides'] = 0;
+                }
+
+                if ($player == $victim || $player == '<world>') {
+                    $stats[$victim]['KILLS']['suicides']++;
+                } else {
+                    $stats[$player]['KILLS']['frags']++;
+                    $stats[$victim]['KILLS']['deaths']++;
+                    $stats[$player]['WEAPONS'][$weapon]++;
+                }
+            } else if (preg_match('/\<world\>\ killed\ ([a-zA-Z0-9-_\ ]+)\ by\ ([A-Z_]+)/', $parts[2], $match)) {
+                $player = $known_players[$match[1]];
+                if(!isset($stats[$player]['KILLS'])) {
+                    $stats[$player]['KILLS']['frags'] = 0;
+                    $stats[$player]['KILLS']['deaths'] = 0;
+                    $stats[$player]['KILLS']['suicides'] = 0;
+                }
+                $stats[$player]['KILLS']['suicides']++;
+            }
+        break;
+
+        // Awards
+        case 'Award':
+            $length = 5;
+            $info   = array_reverse(explode(' ', $parts[2]));
+            $total  = count($info);
+            $player = getPlayerName($info, $length, $known_players);
+
+            if (!isset($stats[$player]['AWARDS'])) {
+                $stats[$player]['AWARDS']['GAUNTLET'] = 0;
+                $stats[$player]['AWARDS']['IMPRESSIVE'] = 0;
+                $stats[$player]['AWARDS']['EXCELLENT'] = 0;
+                $stats[$player]['AWARDS']['CAPTURE'] = 0;
+                $stats[$player]['AWARDS']['ASSIST'] = 0;
+                $stats[$player]['AWARDS']['DEFENCE'] = 0;
+            }
+
+            $stats[$player]['AWARDS'][$info[1]] += 1;
+        break;
     }
 
-    // Frag statistics
-    if (preg_match('/([a-zA-Z0-9]+)\ killed\ ([a-zA-Z0-9]+)\ by\ ([A-Z_]+)/', $line, $match)) {
-        $suicide = false;
-
-        if (!isset($stats[$match[1]])) {
-            $stats[$match[1]]['kills'] = 0;
-            $stats[$match[1]]['deaths'] = 0;
-            $stats[$match[1]]['suicides'] = 0;
-            $stats[$match[1]]['games'] = 1;
-        }
-
-        if (!isset($stats[$match[2]])) {
-            $stats[$match[2]]['kills'] = 0;
-            $stats[$match[2]]['deaths'] = 0;
-            $stats[$match[2]]['suicides'] = 0;
-            $stats[$match[1]]['games'] = 1;
-        }
-
-        if($match[1] !== $match[2]) {
-            $stats[$match[1]]['kills']++;
-        } else {
-            $stats[$match[1]]['suicides']++;
-            $suicide = true;
-        }
-
-        if (!$suicide) {
-            $stats[$match[2]]['deaths']++;
-        }
-
-        if (!isset($stats[$match[1]]['weapons'][$match[3]])) {
-            $stats[$match[1]]['weapons'][$match[3]] = 1;
-        } else {
-            $stats[$match[1]]['weapons'][$match[3]]++;
-        }
-    }
-
-    // Suicides
-    if(preg_match('/\<world\>\ killed\ ([a-zA-Z0-9]+)/', $line, $match)) {
-        if (!isset($stats[$match[1]])) {
-            $stats[$match[1]]['kills'] = 0;
-            $stats[$match[1]]['deaths'] = 0;
-            $stats[$match[1]]['suicides'] = 1;
-            $stats[$match[1]]['games'] = 1;
-        } else {
-            $stats[$match[1]]['suicides']++;
-        }
-    }
 }
 fclose($h);
 
-// Calculate fun stuff!
-foreach($stats as $name => $playerstat) {
-    // K:D ratio
-    if ($stats[$name]['kills'] == 0 && $stats[$name]['deaths'] == 0) {
-        $stats[$name]['ratio'] = '0.00';
-    }
-    else if ($stats[$name]['deaths'] == 0 && $stats[$name]['kills'] > 0) {
-        $stats[$name]['ratio'] = $stats[$name]['kills'].'.00';
-    } else if ($stats[$name]['deaths'] > 0 && $stats[$name]['kills'] == 0) {
-        $stats[$name]['ratio'] = -$stats[$name]['deaths'].'.00';
+function getPlayerName($info, $minLength, $known_players) {
+    $player = '';
+
+    if (count($info) == $minLength) {
+        $player = $info[count($info)-1];
+    } else if (count($info) > $minLength) {
+        for($i = count($info)-1; $i >= $minLength-1; $i--) {
+            $player .= $info[$i].' ';
+        }
+        $player = substr($player, 0, -1);
     } else {
-        $stats[$name]['ratio'] = @number_format($stats[$name]['kills'] / $stats[$name]['deaths'], 2);
+        $player = 'Unkown';
     }
 
-    // Avg kills per game
-    $stats[$name]['avg_kills_per_game'] = @number_format($stats[$name]['kills'] / $stats[$name]['games'], 2);
-
-    // Avg deaths per game
-    $stats[$name]['avg_deaths_per_game'] = @number_format($stats[$name]['deaths'] / $stats[$name]['games'], 2);
-
-    if (isset($stats[$name]['weapons'])) {
-        arsort($stats[$name]['weapons']);
-        $fav_weapon = key($stats[$name]['weapons']);
-
-        unset($stats[$name]['weapons']);
-    } else {
-        $fav_weapon = '?';
+    if (empty($player)) {
+        $player = 'Unknown';
     }
 
-    // Favorite weapon
-    $stats[$name]['fav_weapon'] = $fav_weapon;
+    if(isset($known_players[$player])) {
+        $player = $known_players[$player];
+    }
+
+    return trim($player);
+}
+
+foreach($stats as $player => $info) {
+    // Sort awards
+    arsort($stats[$player]['AWARDS']);
+
+    // Sort weapons
+    arsort($stats[$player]['WEAPONS']);
+
+    // Sort victims
+    arsort($stats[$player]['VICTIMS']);
+
+    // Calculate K/D ratio
+    $stats[$player]['KILLS']['ratio'] = number_format($stats[$player]['KILLS']['frags'] / $stats[$player]['KILLS']['deaths'], 2);
 }
 
 exit(print_r($stats, true));
