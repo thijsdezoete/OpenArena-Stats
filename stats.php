@@ -1,16 +1,18 @@
 <?php
 
 $known_players = array(
-    'Aecrim'    => 'Mircea',
-    'Revell'    => 'Jeroen',
-    'Enrique'   => 'Enrique',
-    'dennis'    => 'Dennis',
-    'Schoende'  => 'Sven',
-    'Archangel' => 'Sven',
-    'TT'        => 'Thijs T',
-    'Thz'       => 'Thijs Z',
+    'Aecrim'        => 'Mircea',
+    'Revell'        => 'Jeroen',
+    'Enrique'       => 'Enrique',
+    'dennis'        => 'Dennis',
+    'Schoende'      => 'Sven',
+    'Archangel'     => 'Sven',
+    'TT'            => 'Thijs T',
+    'Thz'           => 'Thijs Z',
     'Sitting Duck'  => 'Martin',
-    'Tamas'     => 'Tamas',
+    'Tamas'         => 'Tamas',
+    'Rolph'         => 'Rolph',
+    'Gerb'          => 'Gerben',
 );
 
 $h = fopen('./openarena.log', 'r');
@@ -70,7 +72,12 @@ while(($line = fgets($h, 4096)) !== false) {
                     $stats[$player]['VICTIMS'][$victim] = 0;
                 }
 
+                if(!isset($stats[$victim]['ENEMIES'][$player])) {
+                    $stats[$victim]['ENEMIES'][$player] = 0;
+                }
+
                 $stats[$player]['VICTIMS'][$victim]++;
+                $stats[$victim]['ENEMIES'][$player]++;
 
                 if(!isset($stats[$victim]['KILLS'])) {
                     $stats[$victim]['KILLS']['frags'] = 0;
@@ -153,6 +160,9 @@ foreach($stats as $player => $info) {
 
     // Sort victims
     arsort($stats[$player]['VICTIMS']);
+
+    // Sort enemies
+    arsort($stats[$player]['ENEMIES']);
 
     // Calculate K/D ratio
     $stats[$player]['KILLS']['ratio'] = number_format($stats[$player]['KILLS']['frags'] / $stats[$player]['KILLS']['deaths'], 2);
