@@ -17,7 +17,7 @@ $known_players = array(
     'Gerb'          => 'Gerben',
 );
 
-$dir    = '/var/www/statistics';
+$dir    = '/var/logs/openarena'
 
 $files  = scandir($dir);
 $logs   = array();
