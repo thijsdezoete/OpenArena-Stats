@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     background-color: #EEE;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #333;
+    height: 100%;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -16,7 +22,11 @@ h1 {
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
 }
 
 header {
@@ -46,8 +56,97 @@ nav > a.active {
 #wrapper {
     width: 800px;
     margin: 0 auto;
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+#content {
+    margin: 15px 0;
 }
 
 #select {
     text-align: center;
+}
+
+section {
+    width: 750px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+section#kill {
+    text-align: center;
+}
+
+section#kill > div {
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+section#kill > div > h3 {
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+section#kill > #victims {
+    padding: 0 20px;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+}
+
+section#kill > #enemies {
+    padding: 0 20px 0 0;
+    border-right: 1px solid #DDD;
+}
+
+section#kill td {
+    border-bottom: 1px solid #DDD;
+    line-height: 15px;
+    padding: 5px;
+}
+
+section#kill tr:last-child td {
+    border-bottom: none;
+}
+
+section#kill td.stat {
+    width: 75px;
+    font-weight: bold;
+}
+
+section#awards {
+    text-align: center;
+}
+
+section#awards > div {
+    display: inline-block;
+}
+
+section#awards > div > img {
+    display: block;
+    margin: 5px;
+}
+
+section#awards > div > span {
+    display: block;
+}
+
+footer {
+    position: relative;
+    margin-top: -20px;
+    height: 20px;
+    clear: both;
+}
+
+footer > p {
+    line-height: 19px;
+    border-top: 1px solid #DDD;
+    text-align: center;
+    color: #AAA;
 }

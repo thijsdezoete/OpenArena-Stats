@@ -1,0 +1,4115 @@
+ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011
+----- FS_Startup -----
+Current search path:
+/home/jeroen/.openarena/baseoa
+/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+/usr/lib/games/openarena/baseoa
+
+----------------------
+4722 files in pk3 files
+execing default.cfg
+execing q3config_server.cfg
+execing autoexec.cfg
+Hunk_Clear: reset the hunk ok
+--- Common Initialization Complete ---
+IP: 127.0.0.1
+IP: 192.168.96.9
+IP6: ::1
+IP6: fe80::224:e8ff:fe23:4f72%eth0
+Opening IP6 socket: [::]:27960
+Opening IP socket: 192.168.96.9:27960
+tty console mode disabled
+execing default.cfg
+------ Server Initialization ------
+Server: aggressor
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/jeroen/.openarena/baseoa
+/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+/usr/lib/games/openarena/baseoa
+
+----------------------
+4722 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "/usr/lib/games/openarena/baseoa/pak6-patch085.pk3"
+...which has vmMagic VM_MAGIC_USE_NATIVE.
+... trying pak6-patch085/qagame
+Sys_LoadDll(pak6-patch085/qagamex86_64.so) could not find it
+... trying qagame
+Loading DLL file: /usr/lib/games/openarena/baseoa/qagamex86_64.so
+Sys_LoadDll(qagame) found vmMain function at 0x7ff62f74d480
+Loaded DLL file instead.
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Aug  9 2011
+------------------------------------------------------------
+InitGame: \protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\version\ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011\mapname\aggressor\gamename\baseoa\elimflags\0\voteflags\0\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0
+Info: ServerInfo length: 699 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+dom_controlpoint doesn't have a spawn function
+runematch_spawn_point doesn't have a spawn function
+dom_controlpoint doesn't have a spawn function
+dom_controlpoint doesn't have a spawn function
+dom_controlpoint doesn't have a spawn function
+runematch_spawn_point doesn't have a spawn function
+runematch_spawn_point doesn't have a spawn function
+runematch_spawn_point doesn't have a spawn function
+runematch_spawn_point doesn't have a spawn function
+0 teams with 0 entities
+17 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/aggressor.aas
+loaded maps/aggressor.aas
+found 29 level items
+-------------------------------------
+24 bots parsed
+51 arenas parsed
+AAS initialized.
+-----------------------------------
+Client 0 connecting with 0 challenge ping
+ClientUserinfoChanged: 2 n\Aecrim\t\0\model\penguin/red\hmodel\penguin/red\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\32A851D406DF2479F05FF32BD765C8E5
+ClientConnect: 2
+broadcast: print "Aecrim^7 connected\n"
+ClientUserinfoChanged: 2 n\Aecrim\t\0\model\penguin/red\hmodel\penguin/red\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\32A851D406DF2479F05FF32BD765C8E5
+Playerstore: Nothing to restore. Guid: 32A851D406DF2479F05FF32BD765C8E5
+broadcast: print "Aecrim^7 entered the game\n"
+ClientBegin: 2
+Item: 2 weapon_grenadelauncher
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Client 1 connecting with 0 challenge ping
+ClientUserinfoChanged: 3 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientConnect: 3
+broadcast: print "TT^7 connected\n"
+ClientUserinfoChanged: 3 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+broadcast: print "TT^7 entered the game\n"
+ClientBegin: 3
+Item: 2 ammo_shells
+Item: 3 weapon_railgun
+Item: 3 ammo_cells
+Item: 2 weapon_lightning
+Item: 2 item_armor_combat
+Item: 3 weapon_shotgun
+Item: 3 weapon_lightning
+Item: 2 ammo_rockets
+Kill: 2 3 11: Aecrim killed TT by MOD_LIGHTNING
+Item: 2 weapon_rocketlauncher
+Item: 3 weapon_railgun
+Client 2 connecting with 0 challenge ping
+ClientUserinfoChanged: 4 n\Enrique\t\0\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientConnect: 4
+broadcast: print "Enrique^7 connected\n"
+Item: 3 weapon_shotgun
+Item: 2 ammo_rockets
+ClientUserinfoChanged: 4 n\Enrique\t\0\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+broadcast: print "Enrique^7 entered the game\n"
+ClientBegin: 4
+Item: 3 weapon_grenadelauncher
+Item: 2 weapon_shotgun
+Item: 3 weapon_grenadelauncher
+Item: 2 item_armor_combat
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Kill: 3 4 1: TT killed Enrique by MOD_SHOTGUN
+Item: 2 weapon_lightning
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 4 item_armor_combat
+Item: 2 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_cells
+Item: 2 item_armor_combat
+Item: 4 weapon_rocketlauncher
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 4 weapon_plasmagun
+Item: 4 ammo_bullets
+Item: 3 weapon_railgun
+Item: 3 ammo_cells
+Item: 4 weapon_rocketlauncher
+Item: 3 item_armor_combat
+Kill: 4 3 7: Enrique killed TT by MOD_ROCKET_SPLASH
+Item: 2 weapon_railgun
+Kill: 4 2 6: Enrique killed Aecrim by MOD_ROCKET
+Item: 3 weapon_grenadelauncher
+Item: 4 weapon_shotgun
+Item: 4 weapon_plasmagun
+Item: 2 weapon_railgun
+Item: 4 item_health
+Item: 3 ammo_shells
+Item: 2 weapon_shotgun
+Item: 3 weapon_lightning
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Kill: 3 2 11: TT killed Aecrim by MOD_LIGHTNING
+Item: 3 weapon_grenadelauncher
+Item: 3 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 4 ammo_rockets
+Item: 4 weapon_rocketlauncher
+Item: 3 weapon_plasmagun
+Item: 3 item_health
+Kill: 3 2 1: TT killed Aecrim by MOD_SHOTGUN
+Item: 3 weapon_lightning
+Item: 3 item_armor_combat
+Kill: 4 3 6: Enrique killed TT by MOD_ROCKET
+Item: 4 weapon_shotgun
+Item: 2 weapon_shotgun
+Client 3 connecting with 0 challenge ping
+ClientUserinfoChanged: 5 n\Thz\t\0\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientConnect: 5
+broadcast: print "Thz^7 connected\n"
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 2 item_armor_combat
+Item: 3 weapon_grenadelauncher
+ClientUserinfoChanged: 5 n\Thz\t\0\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+broadcast: print "Thz^7 entered the game\n"
+ClientBegin: 5
+Item: 2 weapon_railgun
+Item: 5 weapon_rocketlauncher
+Item: 3 ammo_rockets
+Item: 3 item_armor_shard
+Kill: 2 4 10: Aecrim killed Enrique by MOD_RAILGUN
+Item: 3 item_armor_shard
+Item: 3 ammo_bullets
+Item: 3 ammo_cells
+Item: 4 weapon_lightning
+Item: 2 item_health
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 3 item_health_small
+Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+Item: 3 ammo_cells
+Item: 3 weapon_railgun
+Item: 5 weapon_shotgun
+Item: 3 weapon_lightning
+Item: 4 weapon_grenadelauncher
+Item: 3 weapon_lightning
+Item: 3 ammo_bullets
+Item: 3 weapon_plasmagun
+Kill: 3 5 5: TT killed Thz by MOD_GRENADE_SPLASH
+Item: 3 item_armor_combat
+Item: 2 weapon_lightning
+Item: 2 item_armor_combat
+Item: 5 weapon_shotgun
+Item: 4 weapon_rocketlauncher
+Item: 2 ammo_shells
+Kill: 2 3 10: Aecrim killed TT by MOD_RAILGUN
+Item: 5 weapon_railgun
+Item: 2 weapon_lightning
+Kill: 4 2 6: Enrique killed Aecrim by MOD_ROCKET
+Item: 4 weapon_shotgun
+Item: 5 weapon_lightning
+Item: 3 weapon_grenadelauncher
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 5 weapon_plasmagun
+Item: 5 item_health
+Kill: 2 4 3: Aecrim killed Enrique by MOD_MACHINEGUN
+Item: 5 ammo_rockets
+Item: 5 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+Item: 4 weapon_grenadelauncher
+Item: 3 weapon_railgun
+Item: 2 item_health
+Item: 2 weapon_lightning
+Item: 4 item_armor_combat
+Item: 5 weapon_railgun
+Item: 3 weapon_plasmagun
+Item: 4 item_health
+Item: 3 item_armor_combat
+Item: 2 weapon_shotgun
+Item: 4 item_health
+Item: 4 ammo_rockets
+Kill: 2 5 1: Aecrim killed Thz by MOD_SHOTGUN
+Item: 3 item_armor_combat
+Item: 3 weapon_lightning
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Award: 2 1: Aecrim gained the EXCELLENT award!
+Item: 5 weapon_railgun
+Item: 5 ammo_cells
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 3 weapon_rocketlauncher
+Item: 5 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_cells
+Item: 2 item_health_small
+Item: 5 weapon_lightning
+Item: 2 item_health_small
+Item: 2 item_health_small
+Item: 2 item_health_small
+Item: 3 weapon_grenadelauncher
+Item: 5 weapon_plasmagun
+Item: 5 ammo_bullets
+Kill: 3 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+Item: 2 weapon_railgun
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 5 weapon_rocketlauncher
+Kill: 2 2 7: Aecrim killed Aecrim by MOD_ROCKET_SPLASH
+Item: 4 weapon_rocketlauncher
+Kill: 4 2 7: Enrique killed Aecrim by MOD_ROCKET_SPLASH
+Item: 5 weapon_rocketlauncher
+Item: 4 item_armor_combat
+Item: 2 weapon_shotgun
+Item: 3 weapon_railgun
+Item: 5 item_armor_combat
+Item: 4 weapon_plasmagun
+Item: 4 item_health
+Kill: 5 3 7: Thz killed TT by MOD_ROCKET_SPLASH
+Item: 2 item_armor_combat
+Item: 4 ammo_rockets
+Item: 4 weapon_rocketlauncher
+Item: 5 item_health
+Item: 3 weapon_lightning
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Item: 5 item_health
+Item: 5 ammo_shells
+Kill: 2 3 6: Aecrim killed TT by MOD_ROCKET
+Kill: 2 2 7: Aecrim killed Aecrim by MOD_ROCKET_SPLASH
+Item: 4 weapon_lightning
+Item: 4 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+Item: 3 weapon_plasmagun
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Kill: 3 4 8: TT killed Enrique by MOD_PLASMA
+Item: 3 weapon_rocketlauncher
+Item: 5 weapon_rocketlauncher
+Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+Kill: 5 5 7: Thz killed Thz by MOD_ROCKET_SPLASH
+Item: 3 ammo_bullets
+Item: 2 weapon_railgun
+Item: 3 ammo_cells
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 4 weapon_lightning
+Item: 2 item_armor_combat
+Item: 4 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Item: 3 ammo_cells
+Item: 5 weapon_plasmagun
+Item: 5 ammo_bullets
+Item: 3 item_health
+Item: 3 ammo_rockets
+Item: 4 item_armor_combat
+Item: 5 item_armor_combat
+Item: 5 weapon_lightning
+Item: 4 weapon_plasmagun
+Kill: 3 3 9: TT killed TT by MOD_PLASMA_SPLASH
+Item: 5 weapon_plasmagun
+Kill: 4 5 6: Enrique killed Thz by MOD_ROCKET
+Item: 4 weapon_plasmagun
+Item: 4 weapon_lightning
+Item: 5 weapon_rocketlauncher
+Item: 4 item_health
+Item: 3 weapon_shotgun
+Item: 3 weapon_lightning
+Item: 4 item_armor_combat
+Award: 2 2: Aecrim gained the IMPRESSIVE award!
+Kill: 4 5 6: Enrique killed Thz by MOD_ROCKET
+Item: 4 weapon_rocketlauncher
+Item: 3 item_health
+Kill: 2 3 10: Aecrim killed TT by MOD_RAILGUN
+Item: 5 weapon_railgun
+Item: 4 weapon_grenadelauncher
+Item: 2 weapon_shotgun
+Item: 3 weapon_lightning
+Item: 5 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 3 ammo_rockets
+Item: 5 ammo_shells
+Kill: 4 3 7: Enrique killed TT by MOD_ROCKET_SPLASH
+Item: 2 item_armor_combat
+Item: 4 weapon_plasmagun
+Item: 4 weapon_rocketlauncher
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 5 weapon_rocketlauncher
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Item: 3 item_armor_combat
+Item: 3 weapon_lightning
+Kill: 5 2 7: Thz killed Aecrim by MOD_ROCKET_SPLASH
+Item: 5 weapon_rocketlauncher
+Item: 5 weapon_plasmagun
+Item: 5 ammo_bullets
+Item: 4 weapon_rocketlauncher
+Kill: 3 4 11: TT killed Enrique by MOD_LIGHTNING
+Item: 5 item_health
+Item: 5 weapon_lightning
+Item: 4 weapon_shotgun
+Kill: 3 2 11: TT killed Aecrim by MOD_LIGHTNING
+Award: 3 1: TT gained the EXCELLENT award!
+Kill: 4 5 1: Enrique killed Thz by MOD_SHOTGUN
+Item: 4 weapon_rocketlauncher
+Item: 2 ammo_cells
+Item: 5 weapon_railgun
+Item: 5 ammo_cells
+Item: 3 item_health
+Item: 3 ammo_rockets
+Kill: 4 3 6: Enrique killed TT by MOD_ROCKET
+Kill: 4 2 7: Enrique killed Aecrim by MOD_ROCKET_SPLASH
+Award: 4 1: Enrique gained the EXCELLENT award!
+Item: 3 weapon_lightning
+Item: 5 weapon_plasmagun
+Item: 2 weapon_railgun
+Item: 3 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 item_health_small
+Item: 4 item_health_small
+Item: 4 item_health_small
+Item: 4 item_health_small
+Item: 2 item_armor_combat
+Item: 2 weapon_railgun
+Item: 5 weapon_grenadelauncher
+Kill: 3 5 6: TT killed Thz by MOD_ROCKET
+Kill: 5 2 4: Thz killed Aecrim by MOD_GRENADE
+Item: 4 weapon_shotgun
+Item: 3 weapon_grenadelauncher
+Item: 4 weapon_railgun
+Item: 3 item_health
+Kill: 3 4 6: TT killed Enrique by MOD_ROCKET
+Item: 2 weapon_lightning
+Item: 2 item_armor_combat
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 5 weapon_grenadelauncher
+Item: 4 weapon_rocketlauncher
+Item: 3 item_health
+Kill: 3 4 6: TT killed Enrique by MOD_ROCKET
+Item: 3 ammo_rockets
+Kill: 5 3 4: Thz killed TT by MOD_GRENADE
+Item: 5 weapon_rocketlauncher
+Item: 5 weapon_lightning
+Item: 4 weapon_grenadelauncher
+Item: 3 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_shells
+Item: 3 weapon_lightning
+Item: 5 item_health
+Kill: 4 2 4: Enrique killed Aecrim by MOD_GRENADE
+Item: 4 item_armor_combat
+Kill: 3 5 11: TT killed Thz by MOD_LIGHTNING
+Item: 2 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Item: 5 weapon_grenadelauncher
+Kill: 2 4 7: Aecrim killed Enrique by MOD_ROCKET_SPLASH
+Item: 5 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 5 item_armor_combat
+Item: 4 weapon_shotgun
+Kill: 2 3 6: Aecrim killed TT by MOD_ROCKET
+Award: 2 1: Aecrim gained the EXCELLENT award!
+Item: 5 ammo_cells
+Item: 2 weapon_plasmagun
+Item: 4 weapon_grenadelauncher
+Kill: 4 3 1: Enrique killed TT by MOD_SHOTGUN
+Item: 3 weapon_lightning
+Item: 4 ammo_rockets
+Item: 2 weapon_shotgun
+Item: 3 item_armor_combat
+Item: 3 weapon_rocketlauncher
+Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+Item: 5 item_health
+Item: 4 weapon_shotgun
+Item: 2 weapon_plasmagun
+Kill: 3 2 6: TT killed Aecrim by MOD_ROCKET
+Item: 3 weapon_shotgun
+Kill: 4 5 1: Enrique killed Thz by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Item: 3 item_armor_combat
+Item: 4 weapon_railgun
+Item: 5 weapon_shotgun
+Item: 5 weapon_grenadelauncher
+Item: 4 item_armor_combat
+Kill: 4 5 1: Enrique killed Thz by MOD_SHOTGUN
+Exit: Fraglimit hit.
+score: 15  ping: 1  client: 4 Enrique
+score: 12  ping: 0  client: 3 TT
+score: 11  ping: 0  client: 2 Aecrim
+score: 6  ping: 31  client: 5 Thz
+broadcast: print "Enrique^7 hit the fraglimit.\n"
+Item: 4 weapon_shotgun
+g_gametype will be changed upon restarting.
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+AAS shutdown.
+------ Server Initialization ------
+Server: ps37ctf
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/jeroen/.openarena/baseoa
+/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+/usr/lib/games/openarena/baseoa
+
+----------------------
+4722 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "/usr/lib/games/openarena/baseoa/pak6-patch085.pk3"
+...which has vmMagic VM_MAGIC_USE_NATIVE.
+... trying pak6-patch085/qagame
+Sys_LoadDll(pak6-patch085/qagamex86_64.so) could not find it
+... trying qagame
+Loading DLL file: /usr/lib/games/openarena/baseoa/qagamex86_64.so
+Sys_LoadDll(qagame) found vmMain function at 0x7ff62f74d480
+Loaded DLL file instead.
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Aug  9 2011
+------------------------------------------------------------
+InitGame: \protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\4\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\version\ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011\mapname\ps37ctf\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0
+Info: ServerInfo length: 714 of 1024
+Gametype changed, clearing session data.
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+20 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/ps37ctf.aas
+loaded maps/ps37ctf.aas
+found 58 level items
+-------------------------------------
+24 bots parsed
+51 arenas parsed
+AAS initialized.
+ClientUserinfoChanged: 2 n\Aecrim\t\3\model\penguin/red\hmodel\penguin/red\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\32A851D406DF2479F05FF32BD765C8E5
+ClientConnect: 2
+ClientUserinfoChanged: 3 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientConnect: 3
+ClientUserinfoChanged: 4 n\Enrique\t\3\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientConnect: 4
+ClientUserinfoChanged: 5 n\Thz\t\3\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientConnect: 5
+-----------------------------------
+ClientUserinfoChanged: 3 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientBegin: 3
+ClientUserinfoChanged: 4 n\Enrique\t\3\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientBegin: 4
+ClientUserinfoChanged: 5 n\Thz\t\3\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientBegin: 5
+ClientBegin: 2
+ClientUserinfoChanged: 4 n\Enrique\t\2\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientUserinfoChanged: 4 n\Enrique\t\2\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+broadcast: print "Enrique^7 entered the game\n"
+ClientBegin: 4
+ClientUserinfoChanged: 3 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\0FF9D843C712925CF1023CDDE010CD83
+ClientUserinfoChanged: 3 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\0FF9D843C712925CF1023CDDE010CD83
+Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+broadcast: print "TT^7 entered the game\n"
+ClientBegin: 3
+ClientUserinfoChanged: 5 n\Thz\t\2\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+broadcast: print "Thz^7 entered the game\n"
+ClientBegin: 5
+ClientUserinfoChanged: 2 n\Aecrim\t\2\model\penguin/red\hmodel\penguin/red\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\32A851D406DF2479F05FF32BD765C8E5
+Playerstore: Nothing to restore. Guid: 32A851D406DF2479F05FF32BD765C8E5
+broadcast: print "Aecrim^7 entered the game\n"
+ClientBegin: 2
+Item: 4 weapon_railgun
+Item: 3 weapon_railgun
+Item: 2 item_armor_combat
+Item: 5 weapon_plasmagun
+Item: 2 weapon_nailgun
+Item: 4 weapon_rocketlauncher
+broadcast: print "TT^7 disconnected\n"
+Kill: 1022 3 20: <world> killed TT by MOD_SUICIDE
+Playerstore: Stored player with guid: 0FF9D843C712925CF1023CDDE010CD83 in 0
+ClientDisconnect: 3
+Item: 5 weapon_rocketlauncher
+Item: 4 item_health_small
+Item: 2 item_health_mega
+Item: 4 item_armor_shard
+Kill: 5 5 20: Thz killed Thz by MOD_SUICIDE
+Playerstore: Stored player with guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44 in 1
+ClientUserinfoChanged: 5 n\Thz\t\1\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientUserinfoChanged: 5 n\Thz\t\1\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Restored player with guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+broadcast: print "Thz^7 entered the game\n"
+ClientBegin: 5
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 5 item_armor_combat
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 5 ammo_bullets
+Item: 5 ammo_shells
+Kill: 4 4 7: Enrique killed Enrique by MOD_ROCKET_SPLASH
+Item: 2 team_CTF_redflag
+broadcast: print "Aecrim^7 got the RED flag!\n"
+CTF: 2 1 0: Aecrim got the RED flag!
+Item: 2 weapon_rocketlauncher
+Kill: 2 5 6: Aecrim killed Thz by MOD_ROCKET
+Award: 2 3: Aecrim gained the DEFENCE award!
+Item: 4 weapon_shotgun
+Client 1 connecting with 0 challenge ping
+ClientUserinfoChanged: 3 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientConnect: 3
+broadcast: print "TT^7 connected\n"
+ClientUserinfoChanged: 3 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientBegin: 3
+Item: 2 item_health
+Item: 2 item_health
+Item: 4 weapon_rocketlauncher
+Kill: 2 5 6: Aecrim killed Thz by MOD_ROCKET
+Award: 2 3: Aecrim gained the DEFENCE award!
+ClientUserinfoChanged: 3 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+Restored player with guid: 0FF9D843C712925CF1023CDDE010CD83
+broadcast: print "TT^7 entered the game\n"
+ClientBegin: 3
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 3 weapon_rocketlauncher
+Item: 2 item_armor_shard
+Item: 5 item_armor_combat
+Item: 2 item_health
+Item: 2 item_health
+Item: 3 item_armor_shard
+Item: 2 team_CTF_blueflag
+broadcast: print "Aecrim^7 captured the RED flag!\n"
+CTF: 2 1 1: Aecrim captured the RED flag!
+Award: 2 4: Aecrim gained the CAPTURE award!
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 4 weapon_railgun
+Item: 2 ammo_bullets
+Item: 2 ammo_shells
+Item: 5 weapon_rocketlauncher
+Item: 2 item_armor_combat
+Item: 2 weapon_nailgun
+Item: 5 ammo_nails
+Kill: 4 3 6: Enrique killed TT by MOD_ROCKET
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 got the BLUE flag!\n"
+CTF: 5 2 0: Thz got the BLUE flag!
+Item: 3 weapon_rocketlauncher
+Item: 4 item_health
+Item: 4 item_health
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Kill: 3 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+CTF: 3 2 3: TT fragged BLUE's flag carrier!
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 returned the RED flag!\n"
+CTF: 3 1 2: TT returned the RED flag!
+Item: 3 weapon_plasmagun
+Item: 4 weapon_railgun
+Kill: 5 2 7: Thz killed Aecrim by MOD_ROCKET_SPLASH
+Item: 4 weapon_rocketlauncher
+Kill: 3 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+Item: 3 weapon_railgun
+Item: 2 weapon_railgun
+Item: 4 weapon_nailgun
+Item: 3 item_health_small
+Kill: 4 5 23: Enrique killed Thz by MOD_NAIL
+broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+CTF: 4 1 3: Enrique fragged RED's flag carrier!
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 4 team_CTF_blueflag
+broadcast: print "Enrique^7 returned the BLUE flag!\n"
+CTF: 4 2 2: Enrique returned the BLUE flag!
+Item: 3 item_health_small
+Item: 4 weapon_nailgun
+Item: 4 item_health_large
+Item: 4 item_armor_combat
+Item: 3 weapon_rocketlauncher
+Client 4 connecting with 0 challenge ping
+ClientUserinfoChanged: 6 n\dennis\t\3\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientConnect: 6
+broadcast: print "dennis^7 connected\n"
+Item: 2 weapon_railgun
+Item: 5 weapon_railgun
+ClientUserinfoChanged: 6 n\dennis\t\3\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientBegin: 6
+Item: 5 weapon_rocketlauncher
+Item: 4 item_health
+Item: 4 item_health
+Item: 5 item_armor_shard
+Item: 3 weapon_rocketlauncher
+ClientUserinfoChanged: 6 n\dennis\t\1\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+Playerstore: Nothing to restore. Guid: 09B7CCF049BACED173FDB92196EBE8B3
+broadcast: print "dennis^7 entered the game\n"
+ClientBegin: 6
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Kill: 3 2 7: TT killed Aecrim by MOD_ROCKET_SPLASH
+Item: 3 item_health_small
+Item: 3 weapon_railgun
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 2 weapon_rocketlauncher
+Kill: 4 5 23: Enrique killed Thz by MOD_NAIL
+Award: 4 3: Enrique gained the DEFENCE award!
+Item: 3 item_armor_shard
+Item: 4 weapon_rocketlauncher
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 4 weapon_shotgun
+Item: 3 item_armor_shard
+Item: 6 weapon_rocketlauncher
+Item: 6 weapon_railgun
+Item: 2 ammo_bullets
+Item: 3 item_health_mega
+Item: 2 ammo_shells
+Item: 4 weapon_rocketlauncher
+Item: 4 item_health
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 3 2 0: TT got the BLUE flag!
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 6 weapon_shotgun
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 5 weapon_railgun
+Item: 5 weapon_rocketlauncher
+Kill: 2 6 3: Aecrim killed dennis by MOD_MACHINEGUN
+Award: 2 3: Aecrim gained the DEFENCE award!
+Kill: 4 4 7: Enrique killed Enrique by MOD_ROCKET_SPLASH
+Item: 5 ammo_nails
+Item: 6 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 returned the RED flag!\n"
+CTF: 3 1 2: TT returned the RED flag!
+Item: 2 weapon_rocketlauncher
+Kill: 2 4 6: Aecrim killed Enrique by MOD_ROCKET
+Item: 3 item_health_large
+Item: 3 item_armor_combat
+Item: 6 weapon_railgun
+Kill: 5 2 7: Thz killed Aecrim by MOD_ROCKET_SPLASH
+Item: 5 weapon_rocketlauncher
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 captured the BLUE flag!\n"
+CTF: 3 2 1: TT captured the BLUE flag!
+Award: 3 4: TT gained the CAPTURE award!
+Item: 5 weapon_rocketlauncher
+Item: 2 weapon_railgun
+Item: 5 item_health_small
+Item: 3 weapon_plasmagun
+Item: 5 item_health_small
+Item: 5 item_health_small
+Item: 5 item_health_small
+Item: 2 weapon_rocketlauncher
+Item: 5 item_health_small
+Item: 5 item_health_small
+Item: 5 item_health_small
+Item: 2 item_health_small
+Item: 4 item_armor_combat
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 5 item_health
+Kill: 3 2 7: TT killed Aecrim by MOD_ROCKET_SPLASH
+Item: 5 item_health
+Kill: 6 4 10: dennis killed Enrique by MOD_RAILGUN
+Award: 6 2: dennis gained the IMPRESSIVE award!
+Item: 3 item_health_small
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 got the BLUE flag!\n"
+CTF: 5 2 0: Thz got the BLUE flag!
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 6 item_health_large
+Item: 4 weapon_railgun
+Item: 2 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Kill: 6 2 10: dennis killed Aecrim by MOD_RAILGUN
+Award: 6 2: dennis gained the IMPRESSIVE award!
+Item: 6 item_health
+Item: 6 item_health
+Item: 4 weapon_rocketlauncher
+Item: 2 weapon_nailgun
+Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 6 weapon_rocketlauncher
+Item: 5 ammo_nails
+Item: 5 item_armor_shard
+Kill: 2 6 23: Aecrim killed dennis by MOD_NAIL
+Award: 2 3: Aecrim gained the DEFENCE award!
+Item: 2 weapon_railgun
+Item: 5 item_health
+Item: 5 item_health
+Item: 4 weapon_plasmagun
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 captured the BLUE flag!\n"
+CTF: 5 2 1: Thz captured the BLUE flag!
+Award: 5 4: Thz gained the CAPTURE award!
+Item: 6 weapon_rocketlauncher
+Item: 6 weapon_railgun
+Item: 3 item_health_mega
+Item: 2 item_armor_combat
+Item: 4 weapon_railgun
+Item: 5 weapon_rocketlauncher
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 3 2 0: TT got the BLUE flag!
+Item: 5 item_armor_shard
+Item: 3 weapon_plasmagun
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 3 weapon_railgun
+Item: 6 weapon_rocketlauncher
+Item: 6 item_armor_shard
+Item: 5 item_armor_combat
+Item: 5 item_health_large
+Item: 2 item_health
+Item: 2 item_health
+Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+Item: 5 weapon_railgun
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 returned the RED flag!\n"
+CTF: 5 1 2: Thz returned the RED flag!
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 captured the BLUE flag!\n"
+CTF: 3 2 1: TT captured the BLUE flag!
+Award: 3 4: TT gained the CAPTURE award!
+Award: 5 5: Thz gained the ASSIST award!
+Kill: 3 2 8: TT killed Aecrim by MOD_PLASMA
+Award: 3 3: TT gained the DEFENCE award!
+Kill: 3 6 8: TT killed dennis by MOD_PLASMA
+Item: 3 weapon_railgun
+Kill: 5 3 7: Thz killed TT by MOD_ROCKET_SPLASH
+Item: 4 weapon_nailgun
+Item: 5 weapon_plasmagun
+Item: 4 item_armor_combat
+Item: 6 ammo_shells
+Item: 5 item_health
+Item: 6 ammo_bullets
+Item: 5 item_health
+Item: 4 weapon_railgun
+Item: 3 weapon_nailgun
+Item: 5 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Item: 6 weapon_plasmagun
+Item: 3 item_health_mega
+Kill: 2 5 3: Aecrim killed Thz by MOD_MACHINEGUN
+Kill: 5 2 7: Thz killed Aecrim by MOD_ROCKET_SPLASH
+Kill: 6 4 8: dennis killed Enrique by MOD_PLASMA
+Award: 6 3: dennis gained the DEFENCE award!
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 5 item_armor_shard
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 3 2 0: TT got the BLUE flag!
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 5 ammo_nails
+Kill: 4 3 3: Enrique killed TT by MOD_MACHINEGUN
+broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+CTF: 4 1 3: Enrique fragged RED's flag carrier!
+Item: 4 team_CTF_blueflag
+broadcast: print "Enrique^7 returned the BLUE flag!\n"
+CTF: 4 2 2: Enrique returned the BLUE flag!
+Item: 5 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Item: 4 item_health
+Item: 4 item_health
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 3 weapon_railgun
+Item: 4 item_armor_shard
+Item: 4 ammo_nails
+Kill: 3 4 10: TT killed Enrique by MOD_RAILGUN
+Item: 6 ammo_shells
+Item: 2 item_health_large
+Item: 2 item_armor_combat
+Item: 3 item_armor_combat
+Item: 6 weapon_railgun
+Item: 3 weapon_nailgun
+Kill: 4 6 3: Enrique killed dennis by MOD_MACHINEGUN
+Item: 4 weapon_railgun
+Item: 4 weapon_rocketlauncher
+Item: 5 weapon_rocketlauncher
+Item: 3 weapon_railgun
+Item: 2 weapon_rocketlauncher
+Item: 6 weapon_plasmagun
+Item: 2 weapon_railgun
+Item: 4 item_armor_shard
+Item: 4 item_health
+Item: 2 item_armor_shard
+Item: 4 item_health
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 got the BLUE flag!\n"
+CTF: 5 2 0: Thz got the BLUE flag!
+Item: 6 weapon_shotgun
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 5 item_health_mega
+Item: 6 weapon_plasmagun
+Item: 4 weapon_railgun
+Kill: 3 4 10: TT killed Enrique by MOD_RAILGUN
+broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+CTF: 3 2 3: TT fragged BLUE's flag carrier!
+Award: 3 2: TT gained the IMPRESSIVE award!
+Item: 3 item_armor_shard
+Item: 3 weapon_rocketlauncher
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 4 weapon_rocketlauncher
+Item: 4 weapon_railgun
+Item: 2 ammo_nails
+Kill: 5 2 7: Thz killed Aecrim by MOD_ROCKET_SPLASH
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 6 weapon_railgun
+Client 5 connecting with 0 challenge ping
+ClientUserinfoChanged: 7 n\Archangel\t\3\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientConnect: 7
+broadcast: print "Archangel^7 connected\n"
+Kill: 4 3 6: Enrique killed TT by MOD_ROCKET
+Award: 4 3: Enrique gained the DEFENCE award!
+Item: 6 item_armor_shard
+Item: 2 item_armor_combat
+Item: 6 weapon_plasmagun
+Item: 2 weapon_nailgun
+Item: 4 item_armor_shard
+ClientUserinfoChanged: 7 n\Archangel\t\3\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientBegin: 7
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_health
+Item: 4 item_health
+Kill: 2 3 23: Aecrim killed TT by MOD_NAIL
+Item: 6 item_health_large
+Item: 6 item_armor_combat
+ClientUserinfoChanged: 7 n\Archangel\t\2\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+Playerstore: Nothing to restore. Guid: 38954A04BB21D38BA7C75955EFBE446E
+broadcast: print "Archangel^7 entered the game\n"
+ClientBegin: 7
+Item: 3 weapon_railgun
+Item: 2 item_armor_shard
+Kill: 2 5 23: Aecrim killed Thz by MOD_NAIL
+broadcast: print "Aecrim^7 fragged RED's flag carrier!\n"
+CTF: 2 1 3: Aecrim fragged RED's flag carrier!
+Item: 6 item_health
+Item: 6 item_health
+Item: 2 weapon_rocketlauncher
+Item: 2 team_CTF_blueflag
+broadcast: print "Aecrim^7 returned the BLUE flag!\n"
+CTF: 2 2 2: Aecrim returned the BLUE flag!
+Item: 4 team_CTF_blueflag
+broadcast: print "Enrique^7 captured the RED flag!\n"
+CTF: 4 1 1: Enrique captured the RED flag!
+Award: 4 4: Enrique gained the CAPTURE award!
+Award: 2 5: Aecrim gained the ASSIST award!
+Item: 7 item_health_large
+Item: 2 item_health
+Item: 2 item_health
+Item: 6 item_armor_shard
+Item: 5 item_armor_shard
+Item: 7 weapon_railgun
+Kill: 6 4 8: dennis killed Enrique by MOD_PLASMA
+Kill: 2 5 6: Aecrim killed Thz by MOD_ROCKET
+Kill: 2 2 7: Aecrim killed Aecrim by MOD_ROCKET_SPLASH
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 3 2 0: TT got the BLUE flag!
+Item: 7 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Item: 3 weapon_plasmagun
+Item: 5 weapon_railgun
+Item: 7 item_armor_shard
+Item: 6 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 weapon_plasmagun
+Item: 2 item_armor_combat
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 4 ammo_shells
+Item: 4 ammo_bullets
+Item: 2 weapon_nailgun
+Item: 6 weapon_railgun
+Kill: 7 5 8: Archangel killed Thz by MOD_PLASMA
+Kill: 3 7 10: TT killed Archangel by MOD_RAILGUN
+broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+CTF: 3 2 3: TT fragged BLUE's flag carrier!
+Item: 4 weapon_railgun
+Item: 4 item_health_mega
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Award: 3 2: TT gained the IMPRESSIVE award!
+Kill: 4 3 3: Enrique killed TT by MOD_MACHINEGUN
+broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+CTF: 4 1 3: Enrique fragged RED's flag carrier!
+Kill: 2 4 23: Aecrim killed Enrique by MOD_NAIL
+Item: 6 weapon_plasmagun
+Item: 5 item_armor_combat
+Kill: 6 2 8: dennis killed Aecrim by MOD_PLASMA
+Item: 5 weapon_nailgun
+Item: 6 weapon_nailgun
+Kill: 7 6 3: Archangel killed dennis by MOD_MACHINEGUN
+Item: 7 weapon_nailgun
+Item: 4 weapon_plasmagun
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 got the BLUE flag!\n"
+CTF: 5 2 0: Thz got the BLUE flag!
+Item: 5 weapon_railgun
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Kill: 7 5 23: Archangel killed Thz by MOD_NAIL
+broadcast: print "Archangel^7 fragged RED's flag carrier!\n"
+CTF: 7 1 3: Archangel fragged RED's flag carrier!
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 returned the BLUE flag!\n"
+CTF: 7 2 2: Archangel returned the BLUE flag!
+Item: 7 weapon_railgun
+Item: 6 weapon_railgun
+Kill: 3 7 3: TT killed Archangel by MOD_MACHINEGUN
+broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+CTF: 3 2 3: TT fragged BLUE's flag carrier!
+Item: 2 weapon_nailgun
+Item: 3 weapon_railgun
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 returned the RED flag!\n"
+CTF: 3 1 2: TT returned the RED flag!
+Kill: 4 3 8: Enrique killed TT by MOD_PLASMA
+Item: 6 weapon_rocketlauncher
+Item: 5 weapon_nailgun
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Kill: 5 4 23: Thz killed Enrique by MOD_NAIL
+Item: 6 item_armor_shard
+Kill: 2 3 23: Aecrim killed TT by MOD_NAIL
+Item: 6 team_CTF_blueflag
+broadcast: print "dennis^7 got the BLUE flag!\n"
+CTF: 6 2 0: dennis got the BLUE flag!
+Item: 2 weapon_nailgun
+Item: 4 weapon_rocketlauncher
+Item: 2 item_health_large
+Item: 6 item_health_small
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 4 weapon_railgun
+Kill: 3 2 3: TT killed Aecrim by MOD_MACHINEGUN
+Item: 7 weapon_plasmagun
+Item: 4 weapon_nailgun
+Kill: 4 3 6: Enrique killed TT by MOD_ROCKET
+Item: 2 item_armor_combat
+Item: 2 weapon_nailgun
+Item: 7 weapon_railgun
+Item: 6 item_armor_shard
+Kill: 3 4 3: TT killed Enrique by MOD_MACHINEGUN
+Award: 3 3: TT gained the DEFENCE award!
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_health
+Item: 6 item_health
+Item: 5 weapon_plasmagun
+Item: 3 weapon_plasmagun
+Item: 2 item_armor_combat
+Item: 3 weapon_rocketlauncher
+Item: 7 weapon_plasmagun
+Kill: 3 4 8: TT killed Enrique by MOD_PLASMA
+Item: 5 weapon_nailgun
+Kill: 2 5 23: Aecrim killed Thz by MOD_NAIL
+Item: 6 weapon_shotgun
+Item: 3 weapon_railgun
+Item: 2 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Item: 2 ammo_bullets
+Item: 2 ammo_shells
+Item: 5 weapon_railgun
+Item: 3 item_health_large
+Kill: 5 4 10: Thz killed Enrique by MOD_RAILGUN
+Item: 3 weapon_nailgun
+Item: 2 weapon_nailgun
+Item: 2 weapon_nailgun
+Item: 5 weapon_rocketlauncher
+Item: 5 weapon_rocketlauncher
+Item: 5 item_armor_shard
+Kill: 4 5 3: Enrique killed Thz by MOD_MACHINEGUN
+Award: 4 3: Enrique gained the DEFENCE award!
+Item: 7 item_health
+Item: 4 item_armor_shard
+Item: 7 weapon_plasmagun
+Item: 4 weapon_rocketlauncher
+Kill: 2 6 23: Aecrim killed dennis by MOD_NAIL
+broadcast: print "Aecrim^7 fragged RED's flag carrier!\n"
+CTF: 2 1 3: Aecrim fragged RED's flag carrier!
+Item: 3 item_armor_shard
+Item: 4 ammo_nails
+Item: 2 team_CTF_blueflag
+broadcast: print "Aecrim^7 returned the BLUE flag!\n"
+CTF: 2 2 2: Aecrim returned the BLUE flag!
+Item: 4 item_health_small
+Item: 4 item_health_small
+Item: 4 item_health_small
+Client 6 connecting with 40 challenge ping
+ClientUserinfoChanged: 8 n\Rolph\t\3\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+ClientConnect: 8
+broadcast: print "Rolph^7 connected\n"
+Kill: 7 3 8: Archangel killed TT by MOD_PLASMA
+Award: 7 3: Archangel gained the DEFENCE award!
+Item: 4 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Item: 7 item_health_small
+Item: 7 item_health_small
+Item: 5 weapon_rocketlauncher
+Item: 7 item_health_small
+Kill: 2 5 23: Aecrim killed Thz by MOD_NAIL
+Item: 7 item_health_small
+Item: 6 item_health_small
+Item: 4 weapon_rocketlauncher
+Item: 6 item_health_small
+Item: 6 item_health_small
+ClientUserinfoChanged: 8 n\Rolph\t\3\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+ClientBegin: 8
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 2 weapon_shotgun
+Item: 6 item_health_small
+Item: 7 item_health
+Item: 5 weapon_rocketlauncher
+Item: 7 item_health
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+ClientUserinfoChanged: 8 n\Rolph\t\2\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+Playerstore: Nothing to restore. Guid: 8D9D8FAD284359ED36F095C64975783B
+broadcast: print "Rolph^7 entered the game\n"
+ClientBegin: 8
+Item: 6 item_armor_shard
+Kill: 5 2 6: Thz killed Aecrim by MOD_ROCKET
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 7 item_armor_shard
+Item: 4 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 8 weapon_plasmagun
+Item: 5 weapon_plasmagun
+Item: 7 item_health
+Item: 3 weapon_railgun
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 captured the RED flag!\n"
+CTF: 7 1 1: Archangel captured the RED flag!
+Award: 7 4: Archangel gained the CAPTURE award!
+Item: 8 weapon_plasmagun
+Item: 6 weapon_railgun
+Item: 3 item_armor_combat
+Item: 8 weapon_rocketlauncher
+Kill: 5 2 6: Thz killed Aecrim by MOD_ROCKET
+Kill: 3 4 6: TT killed Enrique by MOD_ROCKET
+Item: 8 weapon_railgun
+Item: 2 weapon_railgun
+Item: 4 item_armor_shard
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 3 2 0: TT got the BLUE flag!
+Item: 4 item_armor_shard
+Item: 2 weapon_rocketlauncher
+Item: 4 item_armor_shard
+Item: 4 weapon_plasmagun
+Item: 7 ammo_nails
+Item: 3 item_health_mega
+Item: 2 team_CTF_redflag
+broadcast: print "Aecrim^7 got the RED flag!\n"
+CTF: 2 1 0: Aecrim got the RED flag!
+Item: 7 item_armor_shard
+Item: 2 weapon_shotgun
+Item: 7 weapon_plasmagun
+Item: 5 item_armor_shard
+Item: 7 item_health
+Item: 2 weapon_shotgun
+Kill: 4 6 8: Enrique killed dennis by MOD_PLASMA
+Item: 5 weapon_plasmagun
+Item: 5 item_health
+Kill: 7 3 8: Archangel killed TT by MOD_PLASMA
+broadcast: print "Archangel^7 fragged RED's flag carrier!\n"
+CTF: 7 1 3: Archangel fragged RED's flag carrier!
+Item: 7 weapon_rocketlauncher
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 returned the BLUE flag!\n"
+CTF: 7 2 2: Archangel returned the BLUE flag!
+Item: 4 weapon_rocketlauncher
+Item: 6 weapon_railgun
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 got the BLUE flag!\n"
+CTF: 5 2 0: Thz got the BLUE flag!
+Item: 7 item_health
+Item: 3 item_armor_combat
+Item: 3 weapon_nailgun
+Item: 6 weapon_rocketlauncher
+Kill: 3 8 23: TT killed Rolph by MOD_NAIL
+Kill: 3 7 23: TT killed Archangel by MOD_NAIL
+Award: 3 1: TT gained the EXCELLENT award!
+Item: 2 weapon_rocketlauncher
+Kill: 3 4 23: TT killed Enrique by MOD_NAIL
+Award: 3 1: TT gained the EXCELLENT award!
+Kill: 2 3 6: Aecrim killed TT by MOD_ROCKET
+Award: 2 3: Aecrim gained the DEFENCE award!
+Item: 5 weapon_rocketlauncher
+Item: 8 weapon_railgun
+Item: 4 weapon_railgun
+Item: 2 weapon_rocketlauncher
+Item: 2 item_health_large
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 2 weapon_nailgun
+Item: 5 item_armor_shard
+Item: 6 item_armor_combat
+Item: 8 weapon_rocketlauncher
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 3 weapon_rocketlauncher
+Item: 8 item_health_small
+Kill: 6 2 10: dennis killed Aecrim by MOD_RAILGUN
+broadcast: print "dennis^7 fragged BLUE's flag carrier!\n"
+CTF: 6 2 3: dennis fragged BLUE's flag carrier!
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 8 item_health_small
+Kill: 3 4 3: TT killed Enrique by MOD_MACHINEGUN
+Award: 3 3: TT gained the DEFENCE award!
+Item: 8 ammo_nails
+Item: 6 team_CTF_redflag
+broadcast: print "dennis^7 returned the RED flag!\n"
+CTF: 6 1 2: dennis returned the RED flag!
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 2 weapon_rocketlauncher
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 captured the BLUE flag!\n"
+CTF: 5 2 1: Thz captured the BLUE flag!
+Award: 5 4: Thz gained the CAPTURE award!
+Award: 6 5: dennis gained the ASSIST award!
+Item: 8 weapon_plasmagun
+Kill: 7 6 3: Archangel killed dennis by MOD_MACHINEGUN
+Item: 3 item_health
+Item: 7 weapon_nailgun
+Item: 7 weapon_railgun
+Item: 5 item_armor_shard
+Item: 2 weapon_railgun
+Item: 5 item_health_small
+Item: 5 item_health_small
+Item: 3 weapon_railgun
+Kill: 2 6 10: Aecrim killed dennis by MOD_RAILGUN
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 5 item_health
+Item: 3 weapon_nailgun
+Item: 6 item_health_small
+Item: 7 weapon_nailgun
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 7 weapon_railgun
+Item: 6 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 3 2 0: TT got the BLUE flag!
+Item: 6 weapon_plasmagun
+Item: 2 weapon_plasmagun
+Item: 5 weapon_rocketlauncher
+Kill: 7 3 6: Archangel killed TT by MOD_ROCKET
+broadcast: print "Archangel^7 fragged RED's flag carrier!\n"
+CTF: 7 1 3: Archangel fragged RED's flag carrier!
+Item: 8 team_CTF_blueflag
+broadcast: print "Rolph^7 returned the BLUE flag!\n"
+CTF: 8 2 2: Rolph returned the BLUE flag!
+Item: 7 weapon_nailgun
+Item: 4 weapon_shotgun
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 captured the RED flag!\n"
+CTF: 7 1 1: Archangel captured the RED flag!
+Award: 7 4: Archangel gained the CAPTURE award!
+Award: 8 5: Rolph gained the ASSIST award!
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 6 item_health_mega
+Item: 3 weapon_railgun
+Item: 7 item_health
+Kill: 2 4 8: Aecrim killed Enrique by MOD_PLASMA
+Item: 7 item_health
+Kill: 5 7 7: Thz killed Archangel by MOD_ROCKET_SPLASH
+Item: 2 weapon_nailgun
+Item: 5 weapon_plasmagun
+Item: 5 weapon_shotgun
+Item: 3 weapon_railgun
+Kill: 8 5 10: Rolph killed Thz by MOD_RAILGUN
+Award: 8 3: Rolph gained the DEFENCE award!
+Kill: 3 2 10: TT killed Aecrim by MOD_RAILGUN
+Kill: 6 4 8: dennis killed Enrique by MOD_PLASMA
+Item: 3 weapon_rocketlauncher
+Item: 8 weapon_shotgun
+Item: 2 item_armor_combat
+Item: 5 weapon_plasmagun
+Kill: 8 3 10: Rolph killed TT by MOD_RAILGUN
+Award: 8 3: Rolph gained the DEFENCE award!
+Award: 8 2: Rolph gained the IMPRESSIVE award!
+Item: 5 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Item: 8 ammo_nails
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 5 item_armor_shard
+Item: 8 item_health_small
+Item: 5 item_armor_shard
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 5 item_armor_shard
+Kill: 2 6 3: Aecrim killed dennis by MOD_MACHINEGUN
+Item: 8 item_health_small
+Item: 5 item_armor_shard
+Item: 8 item_health_small
+Item: 3 weapon_plasmagun
+Item: 7 item_health_large
+Item: 8 weapon_rocketlauncher
+Item: 2 weapon_nailgun
+Item: 4 weapon_nailgun
+Item: 8 item_health
+Item: 6 item_health_small
+Item: 8 item_health
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 7 weapon_railgun
+Item: 6 item_health_small
+Item: 6 item_health_small
+Item: 8 weapon_railgun
+Item: 3 item_armor_combat
+Item: 5 weapon_rocketlauncher
+Kill: 5 7 7: Thz killed Archangel by MOD_ROCKET_SPLASH
+Item: 3 weapon_nailgun
+Item: 8 weapon_rocketlauncher
+Item: 5 ammo_nails
+Kill: 3 4 23: TT killed Enrique by MOD_NAIL
+Award: 3 3: TT gained the DEFENCE award!
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Kill: 3 2 23: TT killed Aecrim by MOD_NAIL
+Award: 3 1: TT gained the EXCELLENT award!
+Award: 3 3: TT gained the DEFENCE award!
+Item: 6 weapon_railgun
+Item: 8 item_armor_shard
+Item: 6 weapon_rocketlauncher
+Item: 8 weapon_plasmagun
+Item: 8 item_health
+Item: 7 item_health_mega
+Item: 3 item_health
+Item: 6 weapon_railgun
+Item: 3 item_health
+Item: 5 ammo_bullets
+Item: 3 weapon_plasmagun
+Kill: 7 5 3: Archangel killed Thz by MOD_MACHINEGUN
+Item: 7 weapon_rocketlauncher
+Item: 8 weapon_plasmagun
+Item: 2 ammo_bullets
+Kill: 6 2 6: dennis killed Aecrim by MOD_ROCKET
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Kill: 3 7 23: TT killed Archangel by MOD_NAIL
+broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+CTF: 3 2 3: TT fragged BLUE's flag carrier!
+Kill: 3 4 23: TT killed Enrique by MOD_NAIL
+Award: 3 1: TT gained the EXCELLENT award!
+Award: 3 3: TT gained the DEFENCE award!
+Item: 2 weapon_rocketlauncher
+Item: 5 weapon_rocketlauncher
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 returned the RED flag!\n"
+CTF: 3 1 2: TT returned the RED flag!
+Kill: 8 6 10: Rolph killed dennis by MOD_RAILGUN
+Award: 8 3: Rolph gained the DEFENCE award!
+Award: 8 2: Rolph gained the IMPRESSIVE award!
+Item: 4 weapon_railgun
+Item: 8 weapon_rocketlauncher
+Kill: 4 5 10: Enrique killed Thz by MOD_RAILGUN
+Item: 3 weapon_plasmagun
+Item: 8 weapon_plasmagun
+Item: 6 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Item: 6 weapon_nailgun
+Item: 7 item_armor_combat
+Item: 5 weapon_rocketlauncher
+Item: 4 item_health
+Item: 2 weapon_nailgun
+Item: 7 weapon_railgun
+Item: 8 weapon_plasmagun
+Item: 3 item_armor_combat
+Item: 3 item_health_large
+Item: 8 item_armor_shard
+Item: 3 weapon_nailgun
+Item: 8 item_armor_shard
+Award: 4 2: Enrique gained the IMPRESSIVE award!
+Kill: 2 4 23: Aecrim killed Enrique by MOD_NAIL
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 6 weapon_plasmagun
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 5 weapon_rocketlauncher
+Item: 7 item_armor_shard
+Kill: 2 5 23: Aecrim killed Thz by MOD_NAIL
+Item: 8 weapon_plasmagun
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Kill: 3 4 23: TT killed Enrique by MOD_NAIL
+Item: 2 weapon_rocketlauncher
+Item: 3 item_health_large
+Kill: 5 2 3: Thz killed Aecrim by MOD_MACHINEGUN
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 5 weapon_nailgun
+Item: 5 ammo_nails
+Item: 2 weapon_rocketlauncher
+Kill: 3 8 23: TT killed Rolph by MOD_NAIL
+Kill: 5 7 23: Thz killed Archangel by MOD_NAIL
+broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+Item: 4 weapon_shotgun
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 returned the RED flag!\n"
+CTF: 5 1 2: Thz returned the RED flag!
+Kill: 3 4 23: TT killed Enrique by MOD_NAIL
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 3 2 0: TT got the BLUE flag!
+Item: 7 weapon_shotgun
+Item: 6 item_health
+Item: 5 weapon_plasmagun
+Item: 6 item_health
+Item: 4 weapon_railgun
+Item: 7 weapon_railgun
+Item: 8 weapon_railgun
+Item: 6 weapon_plasmagun
+Item: 3 item_health
+Item: 5 weapon_rocketlauncher
+Item: 2 weapon_plasmagun
+Kill: 8 3 10: Rolph killed TT by MOD_RAILGUN
+broadcast: print "Rolph^7 fragged RED's flag carrier!\n"
+CTF: 8 1 3: Rolph fragged RED's flag carrier!
+Item: 7 item_health_mega
+Item: 2 team_CTF_blueflag
+broadcast: print "Aecrim^7 returned the BLUE flag!\n"
+CTF: 2 2 2: Aecrim returned the BLUE flag!
+Item: 2 weapon_plasmagun
+Item: 4 weapon_railgun
+Item: 8 item_health
+Item: 2 weapon_rocketlauncher
+Item: 6 weapon_plasmagun
+Item: 6 item_armor_shard
+Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+Item: 2 item_armor_shard
+Item: 3 weapon_rocketlauncher
+Item: 2 item_armor_shard
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 2 item_armor_shard
+Item: 5 weapon_railgun
+Item: 2 item_armor_shard
+Item: 6 item_armor_shard
+Item: 8 weapon_railgun
+Item: 5 item_armor_shard
+Item: 8 weapon_rocketlauncher
+Item: 5 item_armor_shard
+Item: 4 weapon_rocketlauncher
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 8 item_health_small
+Kill: 7 6 10: Archangel killed dennis by MOD_RAILGUN
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 3 weapon_rocketlauncher
+Item: 8 item_health_small
+Kill: 4 5 7: Enrique killed Thz by MOD_ROCKET_SPLASH
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 captured the RED flag!\n"
+CTF: 7 1 1: Archangel captured the RED flag!
+Award: 7 4: Archangel gained the CAPTURE award!
+broadcast: print "Blue hit the capturelimit.\n"
+Exit: Capturelimit hit.
+red:4  blue:5
+score: 56  ping: 1  client: 3 TT
+score: 37  ping: 2  client: 2 Aecrim
+score: 37  ping: 0  client: 5 Thz
+score: 34  ping: 2  client: 7 Archangel
+score: 30  ping: 0  client: 4 Enrique
+score: 13  ping: 1  client: 6 dennis
+score: 11  ping: 0  client: 8 Rolph
+Item: 8 item_health
+Item: 6 item_health_small
+g_gametype will be changed upon restarting.
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+AAS shutdown.
+------ Server Initialization ------
+Server: oa_dm1
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/jeroen/.openarena/baseoa
+/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+/usr/lib/games/openarena/baseoa
+
+----------------------
+4722 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "/usr/lib/games/openarena/baseoa/pak6-patch085.pk3"
+...which has vmMagic VM_MAGIC_USE_NATIVE.
+... trying pak6-patch085/qagame
+Sys_LoadDll(pak6-patch085/qagamex86_64.so) could not find it
+... trying qagame
+Loading DLL file: /usr/lib/games/openarena/baseoa/qagamex86_64.so
+Sys_LoadDll(qagame) found vmMain function at 0x7ff62f74d480
+Loaded DLL file instead.
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Aug  9 2011
+------------------------------------------------------------
+InitGame: \protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\version\ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011\mapname\oa_dm1\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0
+Info: ServerInfo length: 713 of 1024
+Gametype changed, clearing session data.
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+19 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/oa_dm1.aas
+loaded maps/oa_dm1.aas
+found 30 level items
+-------------------------------------
+24 bots parsed
+51 arenas parsed
+AAS initialized.
+ClientUserinfoChanged: 2 n\Aecrim\t\0\model\penguin/red\hmodel\penguin/red\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\32A851D406DF2479F05FF32BD765C8E5
+ClientConnect: 2
+ClientUserinfoChanged: 3 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientConnect: 3
+ClientUserinfoChanged: 4 n\Enrique\t\0\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientConnect: 4
+ClientUserinfoChanged: 5 n\Thz\t\0\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientConnect: 5
+ClientUserinfoChanged: 6 n\dennis\t\0\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientConnect: 6
+ClientUserinfoChanged: 7 n\Archangel\t\0\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientConnect: 7
+ClientUserinfoChanged: 8 n\Rolph\t\0\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+ClientConnect: 8
+-----------------------------------
+ClientUserinfoChanged: 4 n\Enrique\t\0\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+broadcast: print "Enrique^7 entered the game\n"
+ClientBegin: 4
+Item: 4 ammo_rockets
+ClientUserinfoChanged: 3 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+broadcast: print "TT^7 entered the game\n"
+ClientBegin: 3
+ClientUserinfoChanged: 6 n\dennis\t\0\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+Playerstore: Nothing to restore. Guid: 09B7CCF049BACED173FDB92196EBE8B3
+broadcast: print "dennis^7 entered the game\n"
+ClientBegin: 6
+ClientUserinfoChanged: 5 n\Thz\t\0\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+broadcast: print "Thz^7 entered the game\n"
+ClientBegin: 5
+ClientUserinfoChanged: 7 n\Archangel\t\0\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+Playerstore: Nothing to restore. Guid: 38954A04BB21D38BA7C75955EFBE446E
+broadcast: print "Archangel^7 entered the game\n"
+ClientBegin: 7
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 3 ammo_bullets
+Playerstore: Nothing to restore. Guid: 8D9D8FAD284359ED36F095C64975783B
+broadcast: print "Rolph^7 entered the game\n"
+ClientBegin: 8
+Playerstore: Nothing to restore. Guid: 32A851D406DF2479F05FF32BD765C8E5
+broadcast: print "Aecrim^7 entered the game\n"
+ClientBegin: 2
+Item: 6 weapon_plasmagun
+Item: 2 weapon_shotgun
+Item: 4 weapon_lightning
+Item: 8 ammo_shells
+Item: 6 weapon_grenadelauncher
+Kill: 4 3 3: Enrique killed TT by MOD_MACHINEGUN
+Item: 8 item_health
+Item: 4 item_health_large
+Item: 6 item_armor_combat
+Kill: 2 8 1: Aecrim killed Rolph by MOD_SHOTGUN
+Kill: 2 7 1: Aecrim killed Archangel by MOD_SHOTGUN
+Award: 2 1: Aecrim gained the EXCELLENT award!
+Kill: 5 2 3: Thz killed Aecrim by MOD_MACHINEGUN
+Item: 4 weapon_shotgun
+Item: 3 weapon_plasmagun
+Item: 2 weapon_rocketlauncher
+Item: 7 ammo_grenades
+Item: 5 item_health
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Kill: 4 5 1: Enrique killed Thz by MOD_SHOTGUN
+Item: 6 weapon_shotgun
+Item: 8 weapon_rocketlauncher
+Kill: 6 4 1: dennis killed Enrique by MOD_SHOTGUN
+Kill: 6 2 1: dennis killed Aecrim by MOD_SHOTGUN
+Award: 6 1: dennis gained the EXCELLENT award!
+Item: 6 weapon_rocketlauncher
+Item: 6 weapon_shotgun
+Item: 7 ammo_rockets
+Item: 7 ammo_cells
+Kill: 8 8 7: Rolph killed Rolph by MOD_ROCKET_SPLASH
+Item: 5 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Item: 7 weapon_rocketlauncher
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Kill: 6 2 1: dennis killed Aecrim by MOD_SHOTGUN
+Item: 4 item_armor_shard
+Kill: 7 3 6: Archangel killed TT by MOD_ROCKET
+Item: 6 weapon_shotgun
+Item: 4 weapon_lightning
+Item: 5 weapon_rocketlauncher
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 5 item_health
+Item: 4 weapon_shotgun
+Kill: 8 6 3: Rolph killed dennis by MOD_MACHINEGUN
+Item: 7 weapon_plasmagun
+Item: 3 weapon_grenadelauncher
+Item: 4 weapon_shotgun
+Kill: 3 5 4: TT killed Thz by MOD_GRENADE
+Kill: 4 8 11: Enrique killed Rolph by MOD_LIGHTNING
+Item: 7 item_health
+Item: 3 weapon_rocketlauncher
+Item: 3 item_health
+Kill: 7 2 8: Archangel killed Aecrim by MOD_PLASMA
+Item: 4 weapon_shotgun
+Item: 3 weapon_grenadelauncher
+Kill: 7 6 8: Archangel killed dennis by MOD_PLASMA
+Award: 7 1: Archangel gained the EXCELLENT award!
+Kill: 8 3 3: Rolph killed TT by MOD_MACHINEGUN
+Item: 8 weapon_plasmagun
+Kill: 3 7 5: TT killed Archangel by MOD_GRENADE_SPLASH
+Item: 4 weapon_grenadelauncher
+Item: 2 weapon_lightning
+Item: 8 weapon_rocketlauncher
+Item: 7 ammo_rockets
+Kill: 6 4 3: dennis killed Enrique by MOD_MACHINEGUN
+Item: 5 weapon_shotgun
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 8 weapon_grenadelauncher
+Item: 2 weapon_shotgun
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 4 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 5 weapon_grenadelauncher
+Kill: 2 6 1: Aecrim killed dennis by MOD_SHOTGUN
+Kill: 8 5 7: Rolph killed Thz by MOD_ROCKET_SPLASH
+Item: 3 weapon_lightning
+Item: 2 item_armor_combat
+Item: 7 item_health_large
+Item: 5 item_armor_shard
+Item: 7 item_health_large
+Item: 5 item_armor_shard
+Item: 6 weapon_shotgun
+Item: 5 item_armor_shard
+Item: 4 ammo_shells
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Kill: 8 2 6: Rolph killed Aecrim by MOD_ROCKET
+Kill: 3 7 3: TT killed Archangel by MOD_MACHINEGUN
+Kill: 5 3 3: Thz killed TT by MOD_MACHINEGUN
+Item: 8 weapon_grenadelauncher
+Item: 5 weapon_lightning
+Kill: 5 6 11: Thz killed dennis by MOD_LIGHTNING
+Award: 5 1: Thz gained the EXCELLENT award!
+Item: 8 item_health
+Item: 5 weapon_shotgun
+Kill: 7 8 3: Archangel killed Rolph by MOD_MACHINEGUN
+Item: 4 item_quad
+Item: 3 weapon_plasmagun
+Item: 5 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Kill: 1022 7 16: <world> killed Archangel by MOD_LAVA
+Kill: 5 6 7: Thz killed dennis by MOD_ROCKET_SPLASH
+Item: 5 item_health
+Kill: 4 2 3: Enrique killed Aecrim by MOD_MACHINEGUN
+Item: 4 weapon_lightning
+Kill: 8 5 3: Rolph killed Thz by MOD_MACHINEGUN
+Item: 3 ammo_cells
+Item: 8 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 3 ammo_rockets
+Item: 8 weapon_grenadelauncher
+Kill: 2 8 1: Aecrim killed Rolph by MOD_SHOTGUN
+Item: 6 weapon_plasmagun
+Kill: 5 3 3: Thz killed TT by MOD_MACHINEGUN
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 7 weapon_rocketlauncher
+Kill: 4 6 11: Enrique killed dennis by MOD_LIGHTNING
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Item: 2 item_quad
+Item: 5 weapon_rocketlauncher
+Item: 2 weapon_lightning
+Item: 3 weapon_lightning
+Item: 5 item_health
+Item: 7 weapon_plasmagun
+Kill: 7 2 7: Archangel killed Aecrim by MOD_ROCKET_SPLASH
+Kill: 7 4 8: Archangel killed Enrique by MOD_PLASMA
+Award: 7 1: Archangel gained the EXCELLENT award!
+Kill: 3 8 11: TT killed Rolph by MOD_LIGHTNING
+Item: 2 item_armor_shard
+Kill: 5 7 7: Thz killed Archangel by MOD_ROCKET_SPLASH
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Kill: 5 5 7: Thz killed Thz by MOD_ROCKET_SPLASH
+Item: 8 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Kill: 2 6 1: Aecrim killed dennis by MOD_SHOTGUN
+Item: 5 ammo_rockets
+Item: 8 weapon_rocketlauncher
+Kill: 4 2 3: Enrique killed Aecrim by MOD_MACHINEGUN
+Item: 7 item_armor_combat
+Item: 6 ammo_bullets
+Item: 4 weapon_shotgun
+Item: 8 weapon_plasmagun
+Item: 8 weapon_plasmagun
+Kill: 5 3 3: Thz killed TT by MOD_MACHINEGUN
+Item: 8 weapon_plasmagun
+Item: 5 weapon_lightning
+Item: 8 item_quad
+Item: 8 weapon_lightning
+Item: 6 ammo_grenades
+Item: 8 weapon_grenadelauncher
+Kill: 5 4 11: Thz killed Enrique by MOD_LIGHTNING
+Award: 5 1: Thz gained the EXCELLENT award!
+Item: 2 weapon_shotgun
+Item: 5 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 8 item_health
+Item: 3 item_health
+Kill: 3 8 6: TT killed Rolph by MOD_ROCKET
+Kill: 7 2 3: Archangel killed Aecrim by MOD_MACHINEGUN
+Item: 3 item_quad
+Item: 6 weapon_shotgun
+Item: 7 item_health_large
+Item: 5 weapon_lightning
+Item: 3 weapon_grenadelauncher
+Kill: 6 5 1: dennis killed Thz by MOD_SHOTGUN
+Item: 6 weapon_lightning
+Kill: 8 2 3: Rolph killed Aecrim by MOD_MACHINEGUN
+Kill: 6 7 11: dennis killed Archangel by MOD_LIGHTNING
+Award: 6 1: dennis gained the EXCELLENT award!
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 5 ammo_shells
+Item: 8 weapon_plasmagun
+Item: 2 item_armor_shard
+Kill: 3 8 6: TT killed Rolph by MOD_ROCKET
+Kill: 4 6 2: Enrique killed dennis by MOD_GAUNTLET
+Award: 4 0: Enrique gained the GAUNTLET award!
+Item: 5 weapon_shotgun
+Item: 4 weapon_lightning
+Kill: 7 3 3: Archangel killed TT by MOD_MACHINEGUN
+Item: 5 weapon_rocketlauncher
+Item: 4 weapon_lightning
+Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+Item: 2 weapon_lightning
+Item: 8 item_invis
+Item: 6 weapon_grenadelauncher
+Kill: 5 8 6: Thz killed Rolph by MOD_ROCKET
+Item: 3 ammo_cells
+Kill: 4 7 3: Enrique killed Archangel by MOD_MACHINEGUN
+Kill: 5 2 6: Thz killed Aecrim by MOD_ROCKET
+Award: 5 1: Thz gained the EXCELLENT award!
+Item: 7 weapon_lightning
+Item: 7 weapon_shotgun
+Kill: 6 4 4: dennis killed Enrique by MOD_GRENADE
+Kill: 6 3 5: dennis killed TT by MOD_GRENADE_SPLASH
+Award: 6 1: dennis gained the EXCELLENT award!
+Kill: 7 5 1: Archangel killed Thz by MOD_SHOTGUN
+Kill: 5 7 7: Thz killed Archangel by MOD_ROCKET_SPLASH
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 2 ammo_rockets
+Item: 4 weapon_rocketlauncher
+Kill: 6 6 5: dennis killed dennis by MOD_GRENADE_SPLASH
+Item: 7 weapon_grenadelauncher
+Item: 4 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 5 ammo_rockets
+Item: 5 item_armor_shard
+Item: 3 weapon_grenadelauncher
+Item: 4 weapon_rocketlauncher
+Kill: 8 2 3: Rolph killed Aecrim by MOD_MACHINEGUN
+Item: 5 weapon_lightning
+Kill: 3 6 4: TT killed dennis by MOD_GRENADE
+Kill: 7 8 4: Archangel killed Rolph by MOD_GRENADE
+Item: 4 item_invis
+Item: 3 weapon_rocketlauncher
+Item: 7 item_armor_shard
+Kill: 4 5 7: Enrique killed Thz by MOD_ROCKET_SPLASH
+Item: 7 item_armor_shard
+Item: 3 weapon_grenadelauncher
+Item: 6 weapon_shotgun
+Item: 4 weapon_lightning
+Item: 2 weapon_plasmagun
+Item: 5 weapon_rocketlauncher
+Item: 6 weapon_lightning
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Kill: 4 6 6: Enrique killed dennis by MOD_ROCKET
+Item: 8 item_armor_shard
+Kill: 5 2 6: Thz killed Aecrim by MOD_ROCKET
+Item: 7 weapon_lightning
+Item: 7 item_health_large
+Kill: 3 5 5: TT killed Thz by MOD_GRENADE_SPLASH
+Item: 6 weapon_rocketlauncher
+Kill: 4 7 7: Enrique killed Archangel by MOD_ROCKET_SPLASH
+Kill: 3 4 4: TT killed Enrique by MOD_GRENADE
+Item: 6 weapon_grenadelauncher
+Item: 6 weapon_rocketlauncher
+Item: 8 weapon_lightning
+Item: 5 weapon_rocketlauncher
+Item: 6 weapon_plasmagun
+Kill: 5 8 7: Thz killed Rolph by MOD_ROCKET_SPLASH
+Kill: 5 5 7: Thz killed Thz by MOD_ROCKET_SPLASH
+Item: 4 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Item: 6 weapon_plasmagun
+Item: 4 item_health
+Item: 3 weapon_lightning
+Item: 7 item_invis
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Item: 3 item_health_large
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 2 ammo_shells
+Item: 5 weapon_rocketlauncher
+Item: 8 weapon_lightning
+Kill: 4 6 3: Enrique killed dennis by MOD_MACHINEGUN
+Item: 3 item_health
+Item: 4 weapon_rocketlauncher
+Kill: 3 8 6: TT killed Rolph by MOD_ROCKET
+Item: 4 weapon_plasmagun
+Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+Item: 2 weapon_lightning
+Kill: 3 3 7: TT killed TT by MOD_ROCKET_SPLASH
+Item: 6 ammo_bullets
+Item: 5 weapon_grenadelauncher
+Item: 2 weapon_rocketlauncher
+Kill: 7 2 3: Archangel killed Aecrim by MOD_MACHINEGUN
+Item: 5 item_health
+Item: 8 weapon_rocketlauncher
+Item: 7 weapon_lightning
+Item: 5 item_health
+Item: 3 weapon_shotgun
+Kill: 8 5 6: Rolph killed Thz by MOD_ROCKET
+Item: 4 ammo_grenades
+Item: 6 item_armor_shard
+Item: 8 weapon_rocketlauncher
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Kill: 3 6 1: TT killed dennis by MOD_SHOTGUN
+Kill: 7 3 11: Archangel killed TT by MOD_LIGHTNING
+Item: 2 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 7 weapon_lightning
+Item: 5 weapon_shotgun
+Kill: 7 2 11: Archangel killed Aecrim by MOD_LIGHTNING
+Award: 7 1: Archangel gained the EXCELLENT award!
+Item: 7 weapon_shotgun
+Kill: 8 3 7: Rolph killed TT by MOD_ROCKET_SPLASH
+Kill: 7 5 1: Archangel killed Thz by MOD_SHOTGUN
+Award: 7 1: Archangel gained the EXCELLENT award!
+Item: 7 weapon_shotgun
+Kill: 8 4 6: Rolph killed Enrique by MOD_ROCKET
+Award: 8 1: Rolph gained the EXCELLENT award!
+Item: 6 ammo_rockets
+Item: 5 weapon_rocketlauncher
+Kill: 8 7 6: Rolph killed Archangel by MOD_ROCKET
+Award: 8 1: Rolph gained the EXCELLENT award!
+Item: 8 weapon_shotgun
+Item: 3 weapon_plasmagun
+Item: 6 ammo_rockets
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Kill: 3 2 8: TT killed Aecrim by MOD_PLASMA
+Item: 3 item_health
+Item: 6 ammo_cells
+Item: 4 weapon_lightning
+Item: 8 weapon_shotgun
+Item: 3 weapon_grenadelauncher
+Kill: 4 8 11: Enrique killed Rolph by MOD_LIGHTNING
+Item: 4 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Kill: 1022 5 16: <world> killed Thz by MOD_LAVA
+Item: 8 weapon_rocketlauncher
+Item: 6 weapon_plasmagun
+Kill: 4 7 11: Enrique killed Archangel by MOD_LIGHTNING
+Item: 3 weapon_grenadelauncher
+Item: 2 weapon_shotgun
+Kill: 8 6 3: Rolph killed dennis by MOD_MACHINEGUN
+Item: 8 weapon_plasmagun
+Kill: 3 8 4: TT killed Rolph by MOD_GRENADE
+Item: 7 weapon_lightning
+Item: 4 weapon_shotgun
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Kill: 7 2 11: Archangel killed Aecrim by MOD_LIGHTNING
+Kill: 8 6 3: Rolph killed dennis by MOD_MACHINEGUN
+Kill: 2 8 3: Aecrim killed Rolph by MOD_MACHINEGUN
+Kill: 5 7 3: Thz killed Archangel by MOD_MACHINEGUN
+Item: 4 weapon_plasmagun
+Item: 8 weapon_rocketlauncher
+Item: 4 weapon_grenadelauncher
+Item: 5 weapon_shotgun
+Item: 2 weapon_shotgun
+Kill: 8 6 7: Rolph killed dennis by MOD_ROCKET_SPLASH
+Kill: 2 5 1: Aecrim killed Thz by MOD_SHOTGUN
+Item: 2 item_health_large
+Item: 2 item_health_large
+Item: 6 item_armor_shard
+Kill: 4 3 8: Enrique killed TT by MOD_PLASMA
+Exit: Fraglimit hit.
+score: 15  ping: 1  client: 4 Enrique
+score: 14  ping: 3  client: 7 Archangel
+score: 14  ping: 0  client: 8 Rolph
+score: 13  ping: 0  client: 5 Thz
+score: 12  ping: 2  client: 2 Aecrim
+score: 12  ping: 0  client: 3 TT
+score: 7  ping: 0  client: 6 dennis
+broadcast: print "Enrique^7 hit the fraglimit.\n"
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 5 ammo_bullets
+Item: 8 weapon_shotgun
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 4 weapon_rocketlauncher
+g_gametype will be changed upon restarting.
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+AAS shutdown.
+------ Server Initialization ------
+Server: pul1ctf
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/jeroen/.openarena/baseoa
+/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+/usr/lib/games/openarena/baseoa
+
+----------------------
+4722 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "/usr/lib/games/openarena/baseoa/pak6-patch085.pk3"
+...which has vmMagic VM_MAGIC_USE_NATIVE.
+... trying pak6-patch085/qagame
+Sys_LoadDll(pak6-patch085/qagamex86_64.so) could not find it
+... trying qagame
+Loading DLL file: /usr/lib/games/openarena/baseoa/qagamex86_64.so
+Sys_LoadDll(qagame) found vmMain function at 0x7ff62f74d480
+Loaded DLL file instead.
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Aug  9 2011
+------------------------------------------------------------
+InitGame: \protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\4\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\version\ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011\mapname\pul1ctf\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0
+Info: ServerInfo length: 714 of 1024
+Gametype changed, clearing session data.
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+19 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/pul1ctf.aas
+loaded maps/pul1ctf.aas
+found 61 level items
+-------------------------------------
+24 bots parsed
+51 arenas parsed
+AAS initialized.
+ClientUserinfoChanged: 2 n\Aecrim\t\3\model\penguin/red\hmodel\penguin/red\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\32A851D406DF2479F05FF32BD765C8E5
+ClientConnect: 2
+ClientUserinfoChanged: 3 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientConnect: 3
+ClientUserinfoChanged: 4 n\Enrique\t\3\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientConnect: 4
+ClientUserinfoChanged: 5 n\Thz\t\3\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientConnect: 5
+ClientUserinfoChanged: 6 n\dennis\t\3\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientConnect: 6
+ClientUserinfoChanged: 7 n\Archangel\t\3\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientConnect: 7
+ClientUserinfoChanged: 8 n\Rolph\t\3\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+ClientConnect: 8
+-----------------------------------
+ClientUserinfoChanged: 3 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientBegin: 3
+ClientUserinfoChanged: 4 n\Enrique\t\3\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientBegin: 4
+ClientUserinfoChanged: 6 n\dennis\t\3\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientBegin: 6
+ClientUserinfoChanged: 5 n\Thz\t\3\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientBegin: 5
+ClientUserinfoChanged: 7 n\Archangel\t\3\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientBegin: 7
+ClientBegin: 8
+ClientUserinfoChanged: 5 n\Thz\t\2\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientUserinfoChanged: 5 n\Thz\t\2\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Item: 5 weapon_shotgun
+broadcast: print "Thz^7 entered the game\n"
+ClientBegin: 5
+ClientBegin: 2
+ClientUserinfoChanged: 4 n\Enrique\t\1\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientUserinfoChanged: 4 n\Enrique\t\1\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+Item: 4 weapon_shotgun
+broadcast: print "Enrique^7 entered the game\n"
+ClientBegin: 4
+ClientUserinfoChanged: 7 n\Archangel\t\2\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+Playerstore: Nothing to restore. Guid: 38954A04BB21D38BA7C75955EFBE446E
+Item: 7 weapon_shotgun
+broadcast: print "Archangel^7 entered the game\n"
+ClientBegin: 7
+ClientUserinfoChanged: 2 n\Aecrim\t\2\model\penguin/red\hmodel\penguin/red\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\32A851D406DF2479F05FF32BD765C8E5
+Playerstore: Nothing to restore. Guid: 32A851D406DF2479F05FF32BD765C8E5
+Item: 2 weapon_shotgun
+broadcast: print "Aecrim^7 entered the game\n"
+ClientBegin: 2
+ClientUserinfoChanged: 3 n\TT\t\2\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+Item: 3 weapon_shotgun
+broadcast: print "TT^7 entered the game\n"
+ClientBegin: 3
+ClientUserinfoChanged: 6 n\dennis\t\1\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+Playerstore: Nothing to restore. Guid: 09B7CCF049BACED173FDB92196EBE8B3
+Item: 6 weapon_shotgun
+broadcast: print "dennis^7 entered the game\n"
+ClientBegin: 6
+Item: 2 item_armor_combat
+Item: 2 item_health_small
+ClientUserinfoChanged: 8 n\Rolph\t\1\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+Playerstore: Nothing to restore. Guid: 8D9D8FAD284359ED36F095C64975783B
+Item: 8 weapon_shotgun
+broadcast: print "Rolph^7 entered the game\n"
+ClientBegin: 8
+Item: 7 ammo_lightning
+Item: 4 item_armor_combat
+Item: 3 item_armor_shard
+Item: 3 weapon_lightning
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 3 item_armor_combat
+Item: 8 weapon_lightning
+Item: 2 weapon_railgun
+Item: 4 item_health_mega
+Kill: 4 7 3: Enrique killed Archangel by MOD_MACHINEGUN
+Kill: 6 5 1: dennis killed Thz by MOD_SHOTGUN
+Award: 6 3: dennis gained the DEFENCE award!
+Item: 6 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 7 weapon_shotgun
+Item: 5 weapon_shotgun
+Kill: 2 8 10: Aecrim killed Rolph by MOD_RAILGUN
+Item: 4 weapon_railgun
+Item: 6 weapon_lightning
+Item: 2 weapon_lightning
+Item: 8 weapon_shotgun
+Item: 2 team_CTF_redflag
+broadcast: print "Aecrim^7 got the RED flag!\n"
+CTF: 2 1 0: Aecrim got the RED flag!
+Kill: 8 2 1: Rolph killed Aecrim by MOD_SHOTGUN
+broadcast: print "Rolph^7 fragged BLUE's flag carrier!\n"
+CTF: 8 2 3: Rolph fragged BLUE's flag carrier!
+Item: 2 weapon_shotgun
+Item: 8 weapon_lightning
+Item: 8 team_CTF_redflag
+broadcast: print "Rolph^7 returned the RED flag!\n"
+CTF: 8 1 2: Rolph returned the RED flag!
+Item: 4 team_CTF_blueflag
+broadcast: print "Enrique^7 got the BLUE flag!\n"
+CTF: 4 2 0: Enrique got the BLUE flag!
+Kill: 3 4 11: TT killed Enrique by MOD_LIGHTNING
+broadcast: print "TT^7 fragged RED's flag carrier!\n"
+CTF: 3 1 3: TT fragged RED's flag carrier!
+Item: 5 weapon_railgun
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 returned the BLUE flag!\n"
+CTF: 5 2 2: Thz returned the BLUE flag!
+Item: 6 ammo_shells
+Item: 4 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 8 item_armor_combat
+Item: 7 ammo_lightning
+Kill: 6 3 1: dennis killed TT by MOD_SHOTGUN
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Item: 3 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 7 weapon_railgun
+Item: 3 weapon_rocketlauncher
+Kill: 5 6 10: Thz killed dennis by MOD_RAILGUN
+Item: 7 item_health_large
+Item: 7 ammo_lightning
+Item: 5 weapon_shotgun
+Item: 6 weapon_shotgun
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 weapon_lightning
+Item: 5 weapon_railgun
+Item: 3 ammo_lightning
+Kill: 4 2 1: Enrique killed Aecrim by MOD_SHOTGUN
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 4 weapon_shotgun
+Item: 2 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 5 weapon_railgun
+Kill: 8 7 6: Rolph killed Archangel by MOD_ROCKET
+broadcast: print "Rolph^7 fragged BLUE's flag carrier!\n"
+CTF: 8 2 3: Rolph fragged BLUE's flag carrier!
+Item: 4 item_health_mega
+Item: 8 team_CTF_redflag
+broadcast: print "Rolph^7 returned the RED flag!\n"
+CTF: 8 1 2: Rolph returned the RED flag!
+Item: 8 weapon_railgun
+Item: 7 weapon_shotgun
+Item: 6 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 ammo_bullets
+Kill: 3 6 6: TT killed dennis by MOD_ROCKET
+Item: 7 weapon_rocketlauncher
+Item: 8 weapon_railgun
+Kill: 4 2 1: Enrique killed Aecrim by MOD_SHOTGUN
+Item: 6 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 8 item_armor_combat
+Item: 2 weapon_shotgun
+Item: 6 weapon_lightning
+Item: 4 item_health
+Item: 3 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Award: 2 3: Aecrim gained the DEFENCE award!
+Item: 5 weapon_rocketlauncher
+Kill: 6 5 11: dennis killed Thz by MOD_LIGHTNING
+Item: 2 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 6 weapon_rocketlauncher
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 got the RED flag!\n"
+CTF: 3 1 0: TT got the RED flag!
+Item: 2 item_armor_combat
+Kill: 6 7 11: dennis killed Archangel by MOD_LIGHTNING
+Award: 6 1: dennis gained the EXCELLENT award!
+Item: 7 weapon_shotgun
+Item: 5 weapon_shotgun
+Item: 4 weapon_railgun
+Item: 2 item_health
+Item: 5 weapon_grenadelauncher
+Item: 3 item_health
+Item: 5 item_armor_combat
+Kill: 2 6 1: Aecrim killed dennis by MOD_SHOTGUN
+Item: 5 item_health_small
+Item: 2 weapon_lightning
+Item: 6 weapon_shotgun
+Item: 6 weapon_railgun
+Kill: 6 2 10: dennis killed Aecrim by MOD_RAILGUN
+Item: 5 weapon_railgun
+Item: 3 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Item: 6 weapon_lightning
+Item: 6 weapon_rocketlauncher
+Kill: 3 4 6: TT killed Enrique by MOD_ROCKET
+Award: 3 3: TT gained the DEFENCE award!
+Item: 7 ammo_lightning
+Item: 5 weapon_railgun
+Item: 4 weapon_shotgun
+Item: 4 weapon_rocketlauncher
+Item: 7 weapon_railgun
+Item: 2 item_armor_shard
+Item: 2 weapon_lightning
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 captured the RED flag!\n"
+CTF: 3 1 1: TT captured the RED flag!
+Award: 3 4: TT gained the CAPTURE award!
+Item: 3 item_armor_combat
+Kill: 2 6 11: Aecrim killed dennis by MOD_LIGHTNING
+Award: 2 3: Aecrim gained the DEFENCE award!
+Item: 2 weapon_lightning
+Item: 4 weapon_railgun
+Item: 6 weapon_shotgun
+Kill: 3 4 6: TT killed Enrique by MOD_ROCKET
+Award: 3 3: TT gained the DEFENCE award!
+Item: 4 weapon_shotgun
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 6 ammo_lightning
+Item: 4 weapon_lightning
+Item: 3 weapon_rocketlauncher
+Item: 6 item_armor_combat
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 2 item_armor_shard
+Item: 3 item_armor_shard
+Item: 2 item_armor_shard
+Item: 3 item_armor_shard
+Item: 5 item_health
+Item: 2 item_armor_shard
+Kill: 8 5 10: Rolph killed Thz by MOD_RAILGUN
+Award: 8 3: Rolph gained the DEFENCE award!
+Item: 6 item_health
+Item: 4 item_health_mega
+Item: 5 weapon_shotgun
+Kill: 4 2 11: Enrique killed Aecrim by MOD_LIGHTNING
+Item: 4 weapon_lightning
+Item: 2 weapon_shotgun
+Kill: 4 3 11: Enrique killed TT by MOD_LIGHTNING
+Item: 3 weapon_shotgun
+Item: 4 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Kill: 2 6 1: Aecrim killed dennis by MOD_SHOTGUN
+Award: 2 3: Aecrim gained the DEFENCE award!
+Item: 4 weapon_railgun
+Item: 2 weapon_shotgun
+Item: 6 weapon_shotgun
+Kill: 5 4 1: Thz killed Enrique by MOD_SHOTGUN
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 6 weapon_grenadelauncher
+Item: 2 item_armor_combat
+Item: 6 item_armor_combat
+Item: 4 weapon_shotgun
+Item: 6 item_health_small
+Item: 2 item_health
+Item: 4 weapon_shotgun
+Kill: 6 5 4: dennis killed Thz by MOD_GRENADE
+Item: 6 weapon_shotgun
+Item: 5 weapon_shotgun
+Kill: 4 2 1: Enrique killed Aecrim by MOD_SHOTGUN
+Item: 4 weapon_shotgun
+Kill: 8 7 10: Rolph killed Archangel by MOD_RAILGUN
+Award: 8 3: Rolph gained the DEFENCE award!
+Item: 5 weapon_grenadelauncher
+Item: 2 weapon_shotgun
+Item: 7 weapon_shotgun
+Item: 7 weapon_rocketlauncher
+Item: 3 item_armor_combat
+Item: 2 weapon_railgun
+Item: 6 team_CTF_blueflag
+broadcast: print "dennis^7 got the BLUE flag!\n"
+CTF: 6 2 0: dennis got the BLUE flag!
+Item: 3 item_health
+Item: 4 ammo_bullets
+Kill: 3 4 6: TT killed Enrique by MOD_ROCKET
+Item: 3 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 7 item_health_mega
+Item: 6 item_armor_combat
+Kill: 5 6 4: Thz killed dennis by MOD_GRENADE
+broadcast: print "Thz^7 fragged RED's flag carrier!\n"
+CTF: 5 1 3: Thz fragged RED's flag carrier!
+Kill: 5 5 5: Thz killed Thz by MOD_GRENADE_SPLASH
+Kill: 3 8 7: TT killed Rolph by MOD_ROCKET_SPLASH
+Item: 6 weapon_shotgun
+Item: 6 ammo_shells
+Item: 5 weapon_shotgun
+Item: 2 team_CTF_redflag
+broadcast: print "Aecrim^7 got the RED flag!\n"
+CTF: 2 1 0: Aecrim got the RED flag!
+Item: 6 weapon_rocketlauncher
+Item: 7 weapon_railgun
+Item: 5 item_armor_combat
+Item: 5 item_health_small
+Item: 8 weapon_shotgun
+Item: 5 item_health_small
+Item: 7 weapon_railgun
+Kill: 6 2 6: dennis killed Aecrim by MOD_ROCKET
+broadcast: print "dennis^7 fragged BLUE's flag carrier!\n"
+CTF: 6 2 3: dennis fragged BLUE's flag carrier!
+Item: 6 weapon_railgun
+Item: 6 team_CTF_redflag
+broadcast: print "dennis^7 returned the RED flag!\n"
+CTF: 6 1 2: dennis returned the RED flag!
+Kill: 3 4 6: TT killed Enrique by MOD_ROCKET
+Item: 8 item_health
+Item: 3 weapon_shotgun
+Item: 2 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 2 weapon_rocketlauncher
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 got the RED flag!\n"
+CTF: 3 1 0: TT got the RED flag!
+Item: 2 weapon_railgun
+Kill: 6 5 10: dennis killed Thz by MOD_RAILGUN
+Item: 8 item_armor_combat
+Item: 5 weapon_shotgun
+Item: 6 weapon_shotgun
+Item: 4 team_CTF_blueflag
+broadcast: print "Enrique^7 got the BLUE flag!\n"
+CTF: 4 2 0: Enrique got the BLUE flag!
+Item: 4 weapon_grenadelauncher
+Kill: 8 3 1: Rolph killed TT by MOD_SHOTGUN
+broadcast: print "Rolph^7 fragged BLUE's flag carrier!\n"
+CTF: 8 2 3: Rolph fragged BLUE's flag carrier!
+Item: 4 weapon_grenadelauncher
+Item: 8 team_CTF_redflag
+broadcast: print "Rolph^7 returned the RED flag!\n"
+CTF: 8 1 2: Rolph returned the RED flag!
+Item: 3 weapon_shotgun
+Item: 6 item_health
+Item: 4 weapon_railgun
+Kill: 8 2 3: Rolph killed Aecrim by MOD_MACHINEGUN
+Item: 8 weapon_railgun
+Item: 2 weapon_shotgun
+Kill: 3 4 3: TT killed Enrique by MOD_MACHINEGUN
+broadcast: print "TT^7 fragged RED's flag carrier!\n"
+CTF: 3 1 3: TT fragged RED's flag carrier!
+Item: 6 item_health
+Item: 3 weapon_shotgun
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 returned the BLUE flag!\n"
+CTF: 3 2 2: TT returned the BLUE flag!
+Kill: 8 3 10: Rolph killed TT by MOD_RAILGUN
+Award: 8 2: Rolph gained the IMPRESSIVE award!
+Item: 4 weapon_shotgun
+Item: 2 item_armor_combat
+Item: 3 weapon_shotgun
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 weapon_lightning
+Item: 3 weapon_rocketlauncher
+Kill: 8 5 10: Rolph killed Thz by MOD_RAILGUN
+Kill: 7 6 10: Archangel killed dennis by MOD_RAILGUN
+Award: 7 3: Archangel gained the DEFENCE award!
+Item: 8 weapon_shotgun
+Item: 5 weapon_shotgun
+Item: 6 weapon_shotgun
+Award: 8 2: Rolph gained the IMPRESSIVE award!
+Item: 6 weapon_rocketlauncher
+Item: 8 item_health_mega
+Item: 5 weapon_grenadelauncher
+Kill: 8 2 10: Rolph killed Aecrim by MOD_RAILGUN
+Item: 4 weapon_shotgun
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 2 weapon_shotgun
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 weapon_lightning
+Item: 5 weapon_railgun
+Item: 4 weapon_railgun
+Kill: 2 6 1: Aecrim killed dennis by MOD_SHOTGUN
+Item: 4 weapon_rocketlauncher
+Item: 6 weapon_shotgun
+Award: 7 2: Archangel gained the IMPRESSIVE award!
+Kill: 3 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+Award: 3 3: TT gained the DEFENCE award!
+Item: 8 weapon_rocketlauncher
+Item: 3 ammo_bullets
+Item: 4 weapon_shotgun
+Item: 8 item_health
+Kill: 3 8 7: TT killed Rolph by MOD_ROCKET_SPLASH
+Award: 3 1: TT gained the EXCELLENT award!
+Award: 3 3: TT gained the DEFENCE award!
+Item: 3 weapon_railgun
+Kill: 5 6 10: Thz killed dennis by MOD_RAILGUN
+Award: 5 2: Thz gained the IMPRESSIVE award!
+Item: 8 weapon_shotgun
+Item: 4 item_armor_combat
+Item: 4 item_health_small
+Item: 6 weapon_shotgun
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 got the RED flag!\n"
+CTF: 5 1 0: Thz got the RED flag!
+Item: 8 weapon_grenadelauncher
+Item: 6 ammo_shells
+Item: 8 item_health_small
+Item: 6 ammo_bullets
+Item: 5 item_armor_combat
+Item: 6 weapon_rocketlauncher
+Item: 2 item_armor_combat
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Kill: 6 3 6: dennis killed TT by MOD_ROCKET
+Item: 5 weapon_rocketlauncher
+Kill: 8 5 4: Rolph killed Thz by MOD_GRENADE
+broadcast: print "Rolph^7 fragged BLUE's flag carrier!\n"
+CTF: 8 2 3: Rolph fragged BLUE's flag carrier!
+Item: 3 weapon_shotgun
+Item: 8 weapon_rocketlauncher
+Item: 8 team_CTF_redflag
+broadcast: print "Rolph^7 returned the RED flag!\n"
+CTF: 8 1 2: Rolph returned the RED flag!
+Item: 5 weapon_shotgun
+Item: 3 weapon_grenadelauncher
+Item: 3 item_armor_combat
+Kill: 4 2 1: Enrique killed Aecrim by MOD_SHOTGUN
+Item: 3 item_health_small
+Item: 8 weapon_railgun
+Item: 4 weapon_shotgun
+Item: 4 item_health_mega
+Item: 2 weapon_shotgun
+Item: 4 weapon_railgun
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+Award: 2 3: Aecrim gained the DEFENCE award!
+Item: 8 weapon_shotgun
+Item: 2 weapon_railgun
+Item: 4 weapon_shotgun
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 6 ammo_shells
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 5 weapon_railgun
+Item: 6 team_CTF_blueflag
+broadcast: print "dennis^7 got the BLUE flag!\n"
+CTF: 6 2 0: dennis got the BLUE flag!
+Kill: 8 5 10: Rolph killed Thz by MOD_RAILGUN
+Award: 8 3: Rolph gained the DEFENCE award!
+Item: 5 weapon_shotgun
+Item: 2 weapon_rocketlauncher
+Kill: 4 6 1: Enrique killed dennis by MOD_SHOTGUN
+Item: 4 weapon_rocketlauncher
+Item: 4 team_CTF_blueflag
+broadcast: print "Enrique^7 got the BLUE flag!\n"
+CTF: 4 2 0: Enrique got the BLUE flag!
+Award: 8 2: Rolph gained the IMPRESSIVE award!
+Item: 6 weapon_shotgun
+Kill: 2 4 1: Aecrim killed Enrique by MOD_SHOTGUN
+broadcast: print "Aecrim^7 fragged RED's flag carrier!\n"
+CTF: 2 1 3: Aecrim fragged RED's flag carrier!
+Item: 4 weapon_shotgun
+Item: 6 weapon_lightning
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 returned the BLUE flag!\n"
+CTF: 7 2 2: Archangel returned the BLUE flag!
+Item: 2 weapon_shotgun
+Item: 6 item_armor_combat
+Item: 5 ammo_rockets
+Item: 7 weapon_railgun
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 3 item_armor_combat
+Kill: 8 7 10: Rolph killed Archangel by MOD_RAILGUN
+Award: 8 3: Rolph gained the DEFENCE award!
+Item: 5 item_health_mega
+Item: 4 weapon_railgun
+Item: 7 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 3 weapon_rocketlauncher
+Item: 5 weapon_railgun
+Item: 6 item_armor_shard
+Item: 3 ammo_bullets
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 got the RED flag!\n"
+CTF: 5 1 0: Thz got the RED flag!
+Kill: 2 8 1: Aecrim killed Rolph by MOD_SHOTGUN
+Award: 2 3: Aecrim gained the DEFENCE award!
+Item: 4 weapon_railgun
+Item: 2 weapon_railgun
+Item: 8 weapon_shotgun
+Item: 6 team_CTF_blueflag
+broadcast: print "dennis^7 got the BLUE flag!\n"
+CTF: 6 2 0: dennis got the BLUE flag!
+Item: 8 item_armor_shard
+Kill: 3 4 6: TT killed Enrique by MOD_ROCKET
+Award: 3 3: TT gained the DEFENCE award!
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 4 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 6 item_armor_shard
+Kill: 2 8 10: Aecrim killed Rolph by MOD_RAILGUN
+Item: 6 item_armor_shard
+Kill: 3 6 7: TT killed dennis by MOD_ROCKET_SPLASH
+broadcast: print "TT^7 fragged RED's flag carrier!\n"
+CTF: 3 1 3: TT fragged RED's flag carrier!
+Item: 2 weapon_shotgun
+Item: 8 weapon_shotgun
+Item: 3 weapon_lightning
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 returned the BLUE flag!\n"
+CTF: 3 2 2: TT returned the BLUE flag!
+Item: 7 weapon_lightning
+Item: 6 weapon_shotgun
+Kill: 4 2 1: Enrique killed Aecrim by MOD_SHOTGUN
+Award: 4 3: Enrique gained the DEFENCE award!
+Item: 3 ammo_bullets
+Item: 3 ammo_shells
+Item: 4 weapon_shotgun
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 captured the RED flag!\n"
+CTF: 5 1 1: Thz captured the RED flag!
+Award: 5 4: Thz gained the CAPTURE award!
+Award: 3 5: TT gained the ASSIST award!
+Item: 2 weapon_shotgun
+Item: 8 item_armor_combat
+Item: 4 item_health
+Item: 6 item_armor_combat
+Item: 6 item_health_small
+Item: 8 weapon_railgun
+Item: 2 weapon_railgun
+Item: 6 item_health_small
+Item: 6 weapon_grenadelauncher
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 2 item_armor_combat
+Item: 4 item_health_mega
+Item: 5 weapon_rocketlauncher
+Kill: 2 4 10: Aecrim killed Enrique by MOD_RAILGUN
+Item: 8 weapon_rocketlauncher
+Item: 4 weapon_shotgun
+Item: 4 ammo_shells
+Item: 2 weapon_shotgun
+Item: 7 ammo_lightning
+Item: 7 item_health_large
+Kill: 6 3 5: dennis killed TT by MOD_GRENADE_SPLASH
+Item: 5 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+Item: 3 weapon_grenadelauncher
+Item: 6 team_CTF_blueflag
+broadcast: print "dennis^7 got the BLUE flag!\n"
+CTF: 6 2 0: dennis got the BLUE flag!
+Kill: 8 7 10: Rolph killed Archangel by MOD_RAILGUN
+broadcast: print "Rolph^7 fragged BLUE's flag carrier!\n"
+CTF: 8 2 3: Rolph fragged BLUE's flag carrier!
+Item: 4 weapon_railgun
+Item: 8 team_CTF_redflag
+broadcast: print "Rolph^7 returned the RED flag!\n"
+CTF: 8 1 2: Rolph returned the RED flag!
+Item: 7 weapon_shotgun
+Item: 7 weapon_rocketlauncher
+Item: 8 item_health
+Kill: 4 5 10: Enrique killed Thz by MOD_RAILGUN
+Item: 4 weapon_rocketlauncher
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 got the RED flag!\n"
+CTF: 3 1 0: TT got the RED flag!
+Item: 5 weapon_shotgun
+Item: 2 item_armor_combat
+Item: 5 weapon_rocketlauncher
+Item: 8 weapon_rocketlauncher
+Item: 5 weapon_rocketlauncher
+Award: 8 2: Rolph gained the IMPRESSIVE award!
+Item: 4 weapon_railgun
+Item: 8 item_health_mega
+Kill: 8 2 10: Rolph killed Aecrim by MOD_RAILGUN
+Item: 3 weapon_lightning
+Item: 2 weapon_shotgun
+Kill: 7 6 1: Archangel killed dennis by MOD_SHOTGUN
+broadcast: print "Archangel^7 fragged RED's flag carrier!\n"
+CTF: 7 1 3: Archangel fragged RED's flag carrier!
+Item: 4 ammo_bullets
+Item: 8 weapon_railgun
+Item: 3 weapon_rocketlauncher
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 returned the BLUE flag!\n"
+CTF: 7 2 2: Archangel returned the BLUE flag!
+Item: 6 weapon_shotgun
+Kill: 4 3 7: Enrique killed TT by MOD_ROCKET_SPLASH
+broadcast: print "Enrique^7 fragged BLUE's flag carrier!\n"
+CTF: 4 2 3: Enrique fragged BLUE's flag carrier!
+Item: 6 weapon_rocketlauncher
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 returned the RED flag!\n"
+CTF: 4 1 2: Enrique returned the RED flag!
+Item: 6 ammo_bullets
+Item: 5 weapon_lightning
+Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 3 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 2 item_armor_combat
+Item: 4 weapon_shotgun
+Item: 8 team_CTF_blueflag
+broadcast: print "Rolph^7 got the BLUE flag!\n"
+CTF: 8 2 0: Rolph got the BLUE flag!
+Item: 7 item_health
+Item: 7 ammo_bullets
+Item: 6 weapon_rocketlauncher
+Item: 4 weapon_lightning
+Item: 4 item_armor_combat
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Kill: 4 5 11: Enrique killed Thz by MOD_LIGHTNING
+Item: 7 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Item: 5 weapon_shotgun
+Item: 7 item_armor_shard
+Kill: 2 6 1: Aecrim killed dennis by MOD_SHOTGUN
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Kill: 3 8 1: TT killed Rolph by MOD_SHOTGUN
+broadcast: print "TT^7 fragged RED's flag carrier!\n"
+CTF: 3 1 3: TT fragged RED's flag carrier!
+Item: 6 weapon_shotgun
+Item: 3 weapon_railgun
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 returned the BLUE flag!\n"
+CTF: 3 2 2: TT returned the BLUE flag!
+Item: 6 weapon_rocketlauncher
+Item: 8 weapon_shotgun
+Kill: 5 4 1: Thz killed Enrique by MOD_SHOTGUN
+Item: 8 weapon_railgun
+Item: 4 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 5 weapon_railgun
+Kill: 6 2 6: dennis killed Aecrim by MOD_ROCKET
+Item: 2 weapon_shotgun
+Item: 8 weapon_rocketlauncher
+Item: 4 ammo_rockets
+Item: 8 weapon_rocketlauncher
+Item: 2 item_armor_combat
+Item: 5 weapon_rocketlauncher
+Item: 4 item_health_mega
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 captured the RED flag!\n"
+CTF: 7 1 1: Archangel captured the RED flag!
+Award: 7 4: Archangel gained the CAPTURE award!
+Item: 8 weapon_railgun
+Item: 8 team_CTF_blueflag
+broadcast: print "Rolph^7 got the BLUE flag!\n"
+CTF: 8 2 0: Rolph got the BLUE flag!
+Kill: 7 8 7: Archangel killed Rolph by MOD_ROCKET_SPLASH
+broadcast: print "Archangel^7 fragged RED's flag carrier!\n"
+CTF: 7 1 3: Archangel fragged RED's flag carrier!
+Item: 4 weapon_railgun
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 got the RED flag!\n"
+CTF: 3 1 0: TT got the RED flag!
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 returned the BLUE flag!\n"
+CTF: 7 2 2: Archangel returned the BLUE flag!
+Item: 7 weapon_railgun
+Kill: 5 6 7: Thz killed dennis by MOD_ROCKET_SPLASH
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 8 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 6 weapon_shotgun
+Kill: 4 3 10: Enrique killed TT by MOD_RAILGUN
+broadcast: print "Enrique^7 fragged BLUE's flag carrier!\n"
+CTF: 4 2 3: Enrique fragged BLUE's flag carrier!
+Item: 4 item_armor_combat
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 returned the RED flag!\n"
+CTF: 4 1 2: Enrique returned the RED flag!
+Item: 4 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+Item: 3 weapon_grenadelauncher
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 8 item_armor_shard
+Item: 3 item_armor_combat
+Item: 8 item_armor_shard
+Item: 3 item_health_small
+Item: 8 weapon_lightning
+Item: 6 item_armor_combat
+Item: 6 item_health_small
+Item: 8 weapon_railgun
+Kill: 4 2 7: Enrique killed Aecrim by MOD_ROCKET_SPLASH
+Item: 2 weapon_shotgun
+Item: 4 weapon_railgun
+Item: 3 item_armor_combat
+Item: 5 ammo_bullets
+Item: 4 ammo_bullets
+Item: 6 team_CTF_blueflag
+broadcast: print "dennis^7 got the BLUE flag!\n"
+CTF: 6 2 0: dennis got the BLUE flag!
+Kill: 4 7 6: Enrique killed Archangel by MOD_ROCKET
+Award: 4 3: Enrique gained the DEFENCE award!
+Item: 7 weapon_shotgun
+Item: 7 weapon_rocketlauncher
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 got the RED flag!\n"
+CTF: 5 1 0: Thz got the RED flag!
+Kill: 4 2 7: Enrique killed Aecrim by MOD_ROCKET_SPLASH
+Award: 4 3: Enrique gained the DEFENCE award!
+Item: 5 item_armor_combat
+Item: 4 weapon_shotgun
+Item: 2 weapon_shotgun
+Item: 3 item_health_mega
+Kill: 4 7 7: Enrique killed Archangel by MOD_ROCKET_SPLASH
+Award: 4 3: Enrique gained the DEFENCE award!
+Item: 2 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+Kill: 3 6 1: TT killed dennis by MOD_SHOTGUN
+broadcast: print "TT^7 fragged RED's flag carrier!\n"
+CTF: 3 1 3: TT fragged RED's flag carrier!
+Item: 7 weapon_rocketlauncher
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 returned the BLUE flag!\n"
+CTF: 3 2 2: TT returned the BLUE flag!
+Item: 3 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 6 weapon_shotgun
+Item: 7 ammo_shells
+Kill: 4 2 10: Enrique killed Aecrim by MOD_RAILGUN
+Item: 6 item_armor_shard
+Item: 4 weapon_shotgun
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 2 weapon_shotgun
+Item: 6 weapon_lightning
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 captured the RED flag!\n"
+CTF: 5 1 1: Thz captured the RED flag!
+Award: 5 4: Thz gained the CAPTURE award!
+Award: 3 5: TT gained the ASSIST award!
+Item: 4 weapon_railgun
+Item: 2 item_armor_combat
+Item: 2 item_health_small
+Item: 4 item_armor_combat
+Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 7 ammo_lightning
+Item: 4 weapon_shotgun
+Item: 3 team_CTF_redflag
+broadcast: print "TT^7 got the RED flag!\n"
+CTF: 3 1 0: TT got the RED flag!
+Item: 2 weapon_railgun
+Item: 4 weapon_lightning
+Kill: 2 8 10: Aecrim killed Rolph by MOD_RAILGUN
+Award: 2 3: Aecrim gained the DEFENCE award!
+Award: 2 2: Aecrim gained the IMPRESSIVE award!
+Item: 8 weapon_shotgun
+Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 8 weapon_grenadelauncher
+Kill: 6 2 11: dennis killed Aecrim by MOD_LIGHTNING
+Item: 4 weapon_shotgun
+Item: 8 item_health_small
+Item: 3 weapon_railgun
+Item: 2 weapon_shotgun
+Item: 3 item_health_large
+Kill: 7 6 6: Archangel killed dennis by MOD_ROCKET
+Item: 4 weapon_lightning
+Item: 6 weapon_shotgun
+Item: 4 weapon_railgun
+Item: 6 weapon_grenadelauncher
+Kill: 8 7 4: Rolph killed Archangel by MOD_GRENADE
+Item: 8 item_health_mega
+Item: 7 weapon_shotgun
+Item: 4 weapon_lightning
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 2 item_armor_shard
+Item: 8 weapon_railgun
+Item: 8 weapon_lightning
+Item: 5 item_health
+Item: 5 ammo_bullets
+Item: 3 weapon_rocketlauncher
+Item: 8 weapon_railgun
+Item: 6 weapon_rocketlauncher
+Item: 4 weapon_railgun
+Kill: 7 4 1: Archangel killed Enrique by MOD_SHOTGUN
+Item: 4 weapon_shotgun
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 7 weapon_railgun
+Item: 4 weapon_rocketlauncher
+Item: 7 item_armor_combat
+Item: 3 team_CTF_blueflag
+broadcast: print "TT^7 captured the RED flag!\n"
+CTF: 3 1 1: TT captured the RED flag!
+Award: 3 4: TT gained the CAPTURE award!
+broadcast: print "Blue hit the capturelimit.\n"
+Exit: Capturelimit hit.
+red:0  blue:5
+score: 45  ping: 1  client: 3 TT
+score: 34  ping: 1  client: 8 Rolph
+score: 29  ping: 0  client: 4 Enrique
+score: 28  ping: 0  client: 5 Thz
+score: 22  ping: 1  client: 2 Aecrim
+score: 18  ping: 2  client: 7 Archangel
+score: 16  ping: 0  client: 6 dennis
+g_gametype will be changed upon restarting.
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+AAS shutdown.
+------ Server Initialization ------
+Server: oa_dm2
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/jeroen/.openarena/baseoa
+/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+/usr/lib/games/openarena/baseoa
+
+----------------------
+4722 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "/usr/lib/games/openarena/baseoa/pak6-patch085.pk3"
+...which has vmMagic VM_MAGIC_USE_NATIVE.
+... trying pak6-patch085/qagame
+Sys_LoadDll(pak6-patch085/qagamex86_64.so) could not find it
+... trying qagame
+Loading DLL file: /usr/lib/games/openarena/baseoa/qagamex86_64.so
+Sys_LoadDll(qagame) found vmMain function at 0x7ff62f74d480
+Loaded DLL file instead.
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Aug  9 2011
+------------------------------------------------------------
+InitGame: \protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\version\ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011\mapname\oa_dm2\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0
+Info: ServerInfo length: 713 of 1024
+Gametype changed, clearing session data.
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+2 teams with 4 entities
+19 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/oa_dm2.aas
+loaded maps/oa_dm2.aas
+found 32 level items
+-------------------------------------
+24 bots parsed
+51 arenas parsed
+AAS initialized.
+ClientUserinfoChanged: 2 n\Aecrim\t\0\model\penguin/red\hmodel\penguin/red\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\32A851D406DF2479F05FF32BD765C8E5
+ClientConnect: 2
+ClientUserinfoChanged: 3 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientConnect: 3
+ClientUserinfoChanged: 4 n\Enrique\t\0\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientConnect: 4
+ClientUserinfoChanged: 5 n\Thz\t\0\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientConnect: 5
+ClientUserinfoChanged: 6 n\dennis\t\0\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientConnect: 6
+ClientUserinfoChanged: 7 n\Archangel\t\0\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientConnect: 7
+ClientUserinfoChanged: 8 n\Rolph\t\0\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+ClientConnect: 8
+-----------------------------------
+ClientUserinfoChanged: 3 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+broadcast: print "TT^7 entered the game\n"
+ClientBegin: 3
+ClientUserinfoChanged: 4 n\Enrique\t\0\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+broadcast: print "Enrique^7 entered the game\n"
+ClientBegin: 4
+ClientUserinfoChanged: 6 n\dennis\t\0\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+Playerstore: Nothing to restore. Guid: 09B7CCF049BACED173FDB92196EBE8B3
+broadcast: print "dennis^7 entered the game\n"
+ClientBegin: 6
+ClientUserinfoChanged: 7 n\Archangel\t\0\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+Playerstore: Nothing to restore. Guid: 38954A04BB21D38BA7C75955EFBE446E
+broadcast: print "Archangel^7 entered the game\n"
+ClientBegin: 7
+ClientUserinfoChanged: 5 n\Thz\t\0\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+broadcast: print "Thz^7 entered the game\n"
+ClientBegin: 5
+Item: 4 weapon_railgun
+Playerstore: Nothing to restore. Guid: 8D9D8FAD284359ED36F095C64975783B
+broadcast: print "Rolph^7 entered the game\n"
+ClientBegin: 8
+Item: 3 ammo_bullets
+Kill: 6 7 3: dennis killed Archangel by MOD_MACHINEGUN
+Playerstore: Nothing to restore. Guid: 32A851D406DF2479F05FF32BD765C8E5
+broadcast: print "Aecrim^7 entered the game\n"
+ClientBegin: 2
+Item: 3 weapon_rocketlauncher
+Item: 6 ammo_rockets
+Item: 5 ammo_bullets
+Kill: 7 6 3: Archangel killed dennis by MOD_MACHINEGUN
+Item: 5 item_health
+Item: 4 item_health
+Item: 6 weapon_railgun
+Item: 4 item_health
+Item: 7 item_health_mega
+Kill: 6 5 10: dennis killed Thz by MOD_RAILGUN
+Kill: 8 2 3: Rolph killed Aecrim by MOD_MACHINEGUN
+Item: 4 item_health
+Item: 2 weapon_railgun
+Item: 7 item_health_mega
+Item: 7 ammo_grenades
+Kill: 4 6 10: Enrique killed dennis by MOD_RAILGUN
+Item: 4 weapon_railgun
+Item: 6 weapon_railgun
+Kill: 5 8 3: Thz killed Rolph by MOD_MACHINEGUN
+Award: 4 2: Enrique gained the IMPRESSIVE award!
+Kill: 3 6 7: TT killed dennis by MOD_ROCKET_SPLASH
+Item: 3 weapon_railgun
+Kill: 2 5 10: Aecrim killed Thz by MOD_RAILGUN
+Award: 2 2: Aecrim gained the IMPRESSIVE award!
+Kill: 7 2 3: Archangel killed Aecrim by MOD_MACHINEGUN
+Item: 5 weapon_shotgun
+Item: 7 weapon_railgun
+Item: 5 ammo_slugs
+Item: 2 weapon_railgun
+Kill: 7 4 10: Archangel killed Enrique by MOD_RAILGUN
+Kill: 8 6 3: Rolph killed dennis by MOD_MACHINEGUN
+Item: 3 holdable_medkit
+Item: 7 weapon_railgun
+Item: 5 weapon_rocketlauncher
+Item: 4 item_health
+Award: 7 2: Archangel gained the IMPRESSIVE award!
+Kill: 8 7 3: Rolph killed Archangel by MOD_MACHINEGUN
+Item: 8 weapon_railgun
+Kill: 3 2 7: TT killed Aecrim by MOD_ROCKET_SPLASH
+Item: 4 weapon_railgun
+Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+Item: 8 weapon_railgun
+Kill: 2 8 3: Aecrim killed Rolph by MOD_MACHINEGUN
+Kill: 5 7 6: Thz killed Archangel by MOD_ROCKET
+Award: 5 1: Thz gained the EXCELLENT award!
+Item: 4 ammo_rockets
+Item: 2 weapon_railgun
+Item: 8 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 4 item_health_mega
+Item: 8 item_armor_body
+Item: 2 weapon_rocketlauncher
+Kill: 5 6 7: Thz killed dennis by MOD_ROCKET_SPLASH
+Kill: 2 7 7: Aecrim killed Archangel by MOD_ROCKET_SPLASH
+Kill: 1022 8 16: <world> killed Rolph by MOD_LAVA
+Kill: 1022 4 16: <world> killed Enrique by MOD_LAVA
+Item: 6 ammo_bullets
+Kill: 8 5 3: Rolph killed Thz by MOD_MACHINEGUN
+Item: 2 weapon_rocketlauncher
+Item: 2 item_health
+Item: 2 item_health
+Item: 6 item_health
+Item: 6 item_health
+Kill: 5 4 3: Thz killed Enrique by MOD_MACHINEGUN
+Item: 4 weapon_railgun
+Kill: 6 7 3: dennis killed Archangel by MOD_MACHINEGUN
+Kill: 5 8 3: Thz killed Rolph by MOD_MACHINEGUN
+Award: 5 1: Thz gained the EXCELLENT award!
+Kill: 4 6 10: Enrique killed dennis by MOD_RAILGUN
+Item: 4 item_health
+Kill: 4 2 10: Enrique killed Aecrim by MOD_RAILGUN
+Award: 4 2: Enrique gained the IMPRESSIVE award!
+Kill: 7 4 3: Archangel killed Enrique by MOD_MACHINEGUN
+Item: 6 weapon_rocketlauncher
+Item: 7 weapon_railgun
+Kill: 6 5 6: dennis killed Thz by MOD_ROCKET
+Item: 7 weapon_rocketlauncher
+Kill: 1022 2 16: <world> killed Aecrim by MOD_LAVA
+Item: 2 weapon_railgun
+Kill: 7 6 6: Archangel killed dennis by MOD_ROCKET
+Item: 7 weapon_rocketlauncher
+Item: 3 item_health_mega
+Item: 3 ammo_grenades
+Kill: 4 5 3: Enrique killed Thz by MOD_MACHINEGUN
+Item: 3 weapon_grenadelauncher
+Item: 5 weapon_rocketlauncher
+Item: 6 item_health_mega
+Kill: 8 2 3: Rolph killed Aecrim by MOD_MACHINEGUN
+Item: 4 weapon_railgun
+Item: 2 weapon_railgun
+Item: 7 ammo_slugs
+Kill: 4 8 10: Enrique killed Rolph by MOD_RAILGUN
+Item: 6 weapon_rocketlauncher
+Item: 7 ammo_bullets
+Kill: 5 2 6: Thz killed Aecrim by MOD_ROCKET
+Item: 5 weapon_railgun
+Kill: 7 6 6: Archangel killed dennis by MOD_ROCKET
+Item: 8 weapon_railgun
+Item: 7 weapon_rocketlauncher
+Item: 7 item_health
+Kill: 5 6 6: Thz killed dennis by MOD_ROCKET
+Item: 7 item_health
+Kill: 8 5 10: Rolph killed Thz by MOD_RAILGUN
+Item: 4 item_health
+Item: 4 item_health
+Item: 8 weapon_rocketlauncher
+Item: 5 weapon_railgun
+Kill: 2 4 3: Aecrim killed Enrique by MOD_MACHINEGUN
+Item: 2 weapon_railgun
+Kill: 7 2 7: Archangel killed Aecrim by MOD_ROCKET_SPLASH
+Item: 8 weapon_rocketlauncher
+Item: 7 weapon_railgun
+Kill: 3 7 10: TT killed Archangel by MOD_RAILGUN
+Kill: 5 4 10: Thz killed Enrique by MOD_RAILGUN
+Award: 5 2: Thz gained the IMPRESSIVE award!
+Item: 7 weapon_shotgun
+Kill: 3 8 10: TT killed Rolph by MOD_RAILGUN
+Award: 3 2: TT gained the IMPRESSIVE award!
+Item: 2 weapon_railgun
+Kill: 2 5 10: Aecrim killed Thz by MOD_RAILGUN
+Item: 4 weapon_rocketlauncher
+Item: 2 weapon_railgun
+Item: 8 weapon_railgun
+Kill: 4 7 6: Enrique killed Archangel by MOD_ROCKET
+Kill: 4 4 7: Enrique killed Enrique by MOD_ROCKET_SPLASH
+Item: 7 ammo_rockets
+Item: 5 weapon_rocketlauncher
+Item: 7 item_health_mega
+Kill: 4 6 3: Enrique killed dennis by MOD_MACHINEGUN
+Item: 2 weapon_shotgun
+Kill: 3 4 5: TT killed Enrique by MOD_GRENADE_SPLASH
+Item: 3 weapon_grenadelauncher
+Item: 3 ammo_grenades
+Item: 6 weapon_railgun
+Item: 3 item_health_mega
+Item: 4 weapon_shotgun
+Kill: 6 8 10: dennis killed Rolph by MOD_RAILGUN
+Item: 5 weapon_rocketlauncher
+Kill: 6 2 10: dennis killed Aecrim by MOD_RAILGUN
+Award: 6 1: dennis gained the EXCELLENT award!
+Award: 6 2: dennis gained the IMPRESSIVE award!
+Item: 4 weapon_railgun
+Item: 3 weapon_grenadelauncher
+Item: 2 ammo_bullets
+Kill: 3 7 3: TT killed Archangel by MOD_MACHINEGUN
+Item: 6 item_health
+Kill: 8 6 3: Rolph killed dennis by MOD_MACHINEGUN
+Item: 8 weapon_railgun
+Item: 2 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 4 item_health
+Item: 3 weapon_grenadelauncher
+Kill: 4 8 1: Enrique killed Rolph by MOD_SHOTGUN
+Kill: 7 5 3: Archangel killed Thz by MOD_MACHINEGUN
+Item: 7 weapon_rocketlauncher
+Kill: 2 7 1: Aecrim killed Archangel by MOD_SHOTGUN
+Item: 5 weapon_railgun
+Item: 2 weapon_rocketlauncher
+Item: 3 weapon_grenadelauncher
+Item: 4 item_health
+Item: 2 weapon_rocketlauncher
+Item: 2 item_health
+Item: 2 item_health
+Item: 6 weapon_shotgun
+Item: 4 item_health
+Kill: 5 7 10: Thz killed Archangel by MOD_RAILGUN
+Award: 5 2: Thz gained the IMPRESSIVE award!
+Kill: 1022 6 16: <world> killed dennis by MOD_LAVA
+Item: 3 weapon_grenadelauncher
+Item: 7 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 7 ammo_slugs
+Item: 4 item_health_mega
+Kill: 1022 5 16: <world> killed Thz by MOD_LAVA
+Kill: 4 3 1: Enrique killed TT by MOD_SHOTGUN
+Item: 7 weapon_rocketlauncher
+Kill: 7 6 6: Archangel killed dennis by MOD_ROCKET
+Kill: 2 7 6: Aecrim killed Archangel by MOD_ROCKET
+Item: 2 weapon_rocketlauncher
+Item: 6 weapon_railgun
+Item: 2 weapon_rocketlauncher
+Kill: 8 4 2: Rolph killed Enrique by MOD_GAUNTLET
+Award: 8 0: Rolph gained the GAUNTLET award!
+Kill: 2 5 6: Aecrim killed Thz by MOD_ROCKET
+Item: 8 weapon_shotgun
+Kill: 3 8 3: TT killed Rolph by MOD_MACHINEGUN
+Kill: 5 3 3: Thz killed TT by MOD_MACHINEGUN
+Kill: 2 2 7: Aecrim killed Aecrim by MOD_ROCKET_SPLASH
+Item: 4 weapon_rocketlauncher
+Item: 6 ammo_rockets
+Item: 7 weapon_rocketlauncher
+Item: 3 weapon_railgun
+Item: 4 ammo_bullets
+Kill: 7 4 6: Archangel killed Enrique by MOD_ROCKET
+Item: 7 weapon_rocketlauncher
+Item: 4 weapon_railgun
+Kill: 3 5 10: TT killed Thz by MOD_RAILGUN
+Award: 3 2: TT gained the IMPRESSIVE award!
+Item: 7 weapon_rocketlauncher
+Item: 4 ammo_bullets
+Kill: 2 6 3: Aecrim killed dennis by MOD_MACHINEGUN
+Item: 2 weapon_railgun
+Kill: 4 2 10: Enrique killed Aecrim by MOD_RAILGUN
+Item: 5 weapon_railgun
+Kill: 6 3 3: dennis killed TT by MOD_MACHINEGUN
+Item: 6 weapon_railgun
+Item: 7 item_health
+Item: 7 item_health
+Kill: 1022 5 16: <world> killed Thz by MOD_LAVA
+Item: 2 weapon_shotgun
+Kill: 4 7 10: Enrique killed Archangel by MOD_RAILGUN
+Award: 4 2: Enrique gained the IMPRESSIVE award!
+Item: 5 weapon_railgun
+Item: 3 weapon_rocketlauncher
+Kill: 8 6 2: Rolph killed dennis by MOD_GAUNTLET
+Award: 8 0: Rolph gained the GAUNTLET award!
+Item: 8 weapon_railgun
+Item: 8 item_health
+Item: 8 item_health
+Kill: 4 7 10: Enrique killed Archangel by MOD_RAILGUN
+Award: 4 2: Enrique gained the IMPRESSIVE award!
+Kill: 3 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+Item: 6 weapon_railgun
+Kill: 2 3 1: Aecrim killed TT by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Item: 5 weapon_rocketlauncher
+Item: 2 weapon_railgun
+Kill: 8 6 2: Rolph killed dennis by MOD_GAUNTLET
+Award: 8 0: Rolph gained the GAUNTLET award!
+Item: 8 weapon_railgun
+Kill: 5 7 16: Thz killed Archangel by MOD_LAVA
+Item: 6 weapon_railgun
+Kill: 4 8 3: Enrique killed Rolph by MOD_MACHINEGUN
+Kill: 3 2 3: TT killed Aecrim by MOD_MACHINEGUN
+Item: 3 weapon_shotgun
+Item: 8 weapon_shotgun
+Kill: 4 6 3: Enrique killed dennis by MOD_MACHINEGUN
+Kill: 2 5 3: Aecrim killed Thz by MOD_MACHINEGUN
+Kill: 2 3 3: Aecrim killed TT by MOD_MACHINEGUN
+Award: 2 1: Aecrim gained the EXCELLENT award!
+Item: 4 weapon_railgun
+Item: 4 weapon_railgun
+Kill: 1022 8 16: <world> killed Rolph by MOD_LAVA
+Kill: 1022 2 16: <world> killed Aecrim by MOD_LAVA
+Item: 3 ammo_slugs
+Item: 3 weapon_rocketlauncher
+Item: 2 ammo_bullets
+Kill: 1022 5 16: <world> killed Thz by MOD_LAVA
+Kill: 3 6 7: TT killed dennis by MOD_ROCKET_SPLASH
+Item: 7 weapon_railgun
+Kill: 7 4 10: Archangel killed Enrique by MOD_RAILGUN
+Item: 8 weapon_railgun
+Kill: 3 2 6: TT killed Aecrim by MOD_ROCKET
+Item: 3 weapon_rocketlauncher
+Kill: 8 7 2: Rolph killed Archangel by MOD_GAUNTLET
+Award: 8 0: Rolph gained the GAUNTLET award!
+Item: 8 weapon_railgun
+Kill: 4 6 3: Enrique killed dennis by MOD_MACHINEGUN
+Item: 4 weapon_rocketlauncher
+Item: 5 weapon_railgun
+Kill: 8 5 2: Rolph killed Thz by MOD_GAUNTLET
+Award: 8 0: Rolph gained the GAUNTLET award!
+Award: 8 1: Rolph gained the EXCELLENT award!
+Item: 8 weapon_railgun
+Kill: 8 7 2: Rolph killed Archangel by MOD_GAUNTLET
+Award: 8 0: Rolph gained the GAUNTLET award!
+Award: 8 1: Rolph gained the EXCELLENT award!
+Kill: 2 8 3: Aecrim killed Rolph by MOD_MACHINEGUN
+Item: 3 item_health
+Item: 3 item_health
+Item: 2 ammo_bullets
+Kill: 6 7 3: dennis killed Archangel by MOD_MACHINEGUN
+Kill: 4 3 7: Enrique killed TT by MOD_ROCKET_SPLASH
+Kill: 2 8 3: Aecrim killed Rolph by MOD_MACHINEGUN
+Item: 2 item_health
+Item: 3 weapon_railgun
+Kill: 5 6 3: Thz killed dennis by MOD_MACHINEGUN
+Item: 2 item_health
+Kill: 3 2 10: TT killed Aecrim by MOD_RAILGUN
+Item: 6 weapon_shotgun
+Kill: 1022 5 16: <world> killed Thz by MOD_LAVA
+Award: 3 2: TT gained the IMPRESSIVE award!
+Item: 5 ammo_rockets
+Kill: 3 5 10: TT killed Thz by MOD_RAILGUN
+Kill: 2 7 3: Aecrim killed Archangel by MOD_MACHINEGUN
+Kill: 8 3 2: Rolph killed TT by MOD_GAUNTLET
+Award: 8 0: Rolph gained the GAUNTLET award!
+Kill: 5 2 3: Thz killed Aecrim by MOD_MACHINEGUN
+Kill: 6 5 1: dennis killed Thz by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Item: 2 ammo_bullets
+Kill: 8 4 2: Rolph killed Enrique by MOD_GAUNTLET
+Award: 8 0: Rolph gained the GAUNTLET award!
+Kill: 3 6 3: TT killed dennis by MOD_MACHINEGUN
+Exit: Fraglimit hit.
+score: 15  ping: 3  client: 3 TT
+score: 14  ping: 0  client: 4 Enrique
+score: 13  ping: 3  client: 8 Rolph
+score: 12  ping: 1  client: 2 Aecrim
+score: 11  ping: 3  client: 7 Archangel
+score: 10  ping: 0  client: 5 Thz
+score: 8  ping: 0  client: 6 dennis
+broadcast: print "TT^7 hit the fraglimit.\n"
+Item: 3 weapon_shotgun
+broadcast: print "Aecrim^7 disconnected\n"
+Playerstore: Stored player with guid: 32A851D406DF2479F05FF32BD765C8E5 in 0
+ClientDisconnect: 2
+broadcast: print "TT^7 disconnected\n"
+Playerstore: Stored player with guid: 0FF9D843C712925CF1023CDDE010CD83 in 1
+ClientDisconnect: 3
+g_gametype will be changed upon restarting.
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+AAS shutdown.
+------ Server Initialization ------
+Server: ctf_gate1
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/jeroen/.openarena/baseoa
+/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+/usr/lib/games/openarena/baseoa
+
+----------------------
+4722 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "/usr/lib/games/openarena/baseoa/pak6-patch085.pk3"
+...which has vmMagic VM_MAGIC_USE_NATIVE.
+... trying pak6-patch085/qagame
+Sys_LoadDll(pak6-patch085/qagamex86_64.so) could not find it
+... trying qagame
+Loading DLL file: /usr/lib/games/openarena/baseoa/qagamex86_64.so
+Sys_LoadDll(qagame) found vmMain function at 0x7ff62f74d480
+Loaded DLL file instead.
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Aug  9 2011
+------------------------------------------------------------
+InitGame: \protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\4\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\version\ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011\mapname\ctf_gate1\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0
+Info: ServerInfo length: 716 of 1024
+Gametype changed, clearing session data.
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+23 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/ctf_gate1.aas
+loaded maps/ctf_gate1.aas
+found 71 level items
+-------------------------------------
+24 bots parsed
+51 arenas parsed
+AAS initialized.
+ClientUserinfoChanged: 4 n\Enrique\t\3\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientConnect: 4
+ClientUserinfoChanged: 5 n\Thz\t\3\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientConnect: 5
+ClientUserinfoChanged: 6 n\dennis\t\3\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientConnect: 6
+ClientUserinfoChanged: 7 n\Archangel\t\3\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientConnect: 7
+ClientUserinfoChanged: 8 n\Rolph\t\3\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+ClientConnect: 8
+-----------------------------------
+ClientUserinfoChanged: 6 n\dennis\t\3\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientBegin: 6
+ClientUserinfoChanged: 4 n\Enrique\t\3\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientBegin: 4
+ClientUserinfoChanged: 5 n\Thz\t\3\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientBegin: 5
+ClientUserinfoChanged: 7 n\Archangel\t\3\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientBegin: 7
+ClientBegin: 8
+ClientUserinfoChanged: 4 n\Enrique\t\2\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientUserinfoChanged: 4 n\Enrique\t\2\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+broadcast: print "Enrique^7 entered the game\n"
+ClientBegin: 4
+broadcast: print "dennis^7 disconnected\n"
+ClientDisconnect: 6
+ClientUserinfoChanged: 5 n\Thz\t\1\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientUserinfoChanged: 5 n\Thz\t\1\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+broadcast: print "Thz^7 entered the game\n"
+ClientBegin: 5
+ClientUserinfoChanged: 7 n\Archangel\t\2\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+Playerstore: Nothing to restore. Guid: 38954A04BB21D38BA7C75955EFBE446E
+broadcast: print "Archangel^7 entered the game\n"
+ClientBegin: 7
+ClientUserinfoChanged: 8 n\Rolph\t\1\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+Playerstore: Nothing to restore. Guid: 8D9D8FAD284359ED36F095C64975783B
+broadcast: print "Rolph^7 entered the game\n"
+ClientBegin: 8
+Item: 4 weapon_rocketlauncher
+Item: 5 weapon_rocketlauncher
+Item: 8 weapon_shotgun
+Item: 4 weapon_plasmagun
+Item: 7 ammo_bullets
+Item: 8 ammo_rockets
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 8 weapon_grenadelauncher
+Item: 7 weapon_shotgun
+Item: 7 ammo_rockets
+Item: 8 ammo_lightning
+Item: 5 weapon_rocketlauncher
+Item: 7 item_health_small
+Item: 7 item_health_small
+Item: 8 item_armor_body
+Item: 7 item_health_small
+Item: 7 item_health_small
+Item: 7 ammo_lightning
+Item: 7 item_armor_body
+Kill: 4 5 6: Enrique killed Thz by MOD_ROCKET
+Item: 4 weapon_rocketlauncher
+Item: 8 weapon_shotgun
+Item: 8 ammo_shells
+Item: 4 weapon_rocketlauncher
+Item: 8 ammo_bullets
+Item: 8 ammo_cells
+Item: 7 ammo_slugs
+Item: 8 weapon_railgun
+Item: 5 weapon_rocketlauncher
+Item: 4 ammo_shells
+Item: 7 weapon_shotgun
+Item: 4 item_health
+Item: 5 item_health
+Item: 4 weapon_plasmagun
+Kill: 5 7 6: Thz killed Archangel by MOD_ROCKET
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 8 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+Item: 8 ammo_bullets
+Kill: 8 4 10: Rolph killed Enrique by MOD_RAILGUN
+broadcast: print "Rolph^7 fragged BLUE's flag carrier!\n"
+CTF: 8 2 3: Rolph fragged BLUE's flag carrier!
+Item: 7 weapon_rocketlauncher
+Item: 8 team_CTF_redflag
+broadcast: print "Rolph^7 returned the RED flag!\n"
+CTF: 8 1 2: Rolph returned the RED flag!
+Item: 5 weapon_rocketlauncher
+Item: 8 item_health
+Item: 5 weapon_rocketlauncher
+Item: 4 weapon_shotgun
+Item: 8 weapon_railgun
+Kill: 7 5 6: Archangel killed Thz by MOD_ROCKET
+Item: 7 weapon_rocketlauncher
+Item: 8 item_health
+Item: 7 weapon_shotgun
+Client 0 connecting with 0 challenge ping
+ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientConnect: 2
+broadcast: print "TT^7 connected\n"
+Item: 4 ammo_bullets
+ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientBegin: 2
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 5 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+ClientUserinfoChanged: 2 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+broadcast: print "TT^7 entered the game\n"
+ClientBegin: 2
+Item: 8 weapon_shotgun
+Kill: 8 7 10: Rolph killed Archangel by MOD_RAILGUN
+broadcast: print "Rolph^7 fragged BLUE's flag carrier!\n"
+CTF: 8 2 3: Rolph fragged BLUE's flag carrier!
+Item: 8 item_health
+Item: 8 team_CTF_redflag
+broadcast: print "Rolph^7 returned the RED flag!\n"
+CTF: 8 1 2: Rolph returned the RED flag!
+Item: 8 weapon_shotgun
+Item: 4 weapon_rocketlauncher
+Item: 5 item_enviro
+Item: 7 item_armor_body
+Item: 7 weapon_shotgun
+Item: 8 item_health
+Item: 2 ammo_rockets
+Item: 2 weapon_grenadelauncher
+Kill: 8 4 10: Rolph killed Enrique by MOD_RAILGUN
+Item: 8 weapon_plasmagun
+Item: 8 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+Item: 2 weapon_shotgun
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 2 weapon_grenadelauncher
+Item: 4 ammo_rockets
+Item: 8 ammo_lightning
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 8 item_armor_body
+Item: 4 weapon_rocketlauncher
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 got the BLUE flag!\n"
+CTF: 5 2 0: Thz got the BLUE flag!
+Item: 2 weapon_plasmagun
+Kill: 2 7 1: TT killed Archangel by MOD_SHOTGUN
+broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+CTF: 2 2 3: TT fragged BLUE's flag carrier!
+Item: 8 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 4 ammo_shells
+Item: 4 item_armor_combat
+Item: 8 ammo_cells
+Item: 8 weapon_railgun
+Item: 2 item_health
+Item: 5 item_health
+Item: 8 item_health
+Kill: 5 7 6: Thz killed Archangel by MOD_ROCKET
+Award: 5 3: Thz gained the DEFENCE award!
+Kill: 4 2 6: Enrique killed TT by MOD_ROCKET
+Award: 4 3: Enrique gained the DEFENCE award!
+Item: 8 weapon_shotgun
+Item: 5 item_health
+Item: 7 ammo_rockets
+Item: 4 item_health
+Item: 8 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 5 ammo_shells
+Item: 5 ammo_cells
+Item: 2 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+Item: 4 item_health
+Item: 5 ammo_rockets
+Item: 2 weapon_shotgun
+Client 1 connecting with 40 challenge ping
+ClientUserinfoChanged: 3 n\dennis\t\3\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientConnect: 3
+broadcast: print "dennis^7 connected\n"
+Item: 2 weapon_plasmagun
+ClientUserinfoChanged: 3 n\dennis\t\3\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientBegin: 3
+ClientUserinfoChanged: 3 n\dennis\t\2\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+Playerstore: Nothing to restore. Guid: 09B7CCF049BACED173FDB92196EBE8B3
+broadcast: print "dennis^7 entered the game\n"
+ClientBegin: 3
+Item: 8 weapon_rocketlauncher
+Kill: 2 7 6: TT killed Archangel by MOD_ROCKET
+Item: 5 weapon_plasmagun
+Item: 3 item_enviro
+Kill: 2 4 6: TT killed Enrique by MOD_ROCKET
+broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+CTF: 2 2 3: TT fragged BLUE's flag carrier!
+Item: 5 ammo_rockets
+Item: 2 team_CTF_redflag
+broadcast: print "TT^7 returned the RED flag!\n"
+CTF: 2 1 2: TT returned the RED flag!
+Item: 2 weapon_shotgun
+Item: 8 weapon_rocketlauncher
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 captured the BLUE flag!\n"
+CTF: 5 2 1: Thz captured the BLUE flag!
+Award: 5 4: Thz gained the CAPTURE award!
+Award: 2 5: TT gained the ASSIST award!
+Item: 8 team_CTF_blueflag
+broadcast: print "Rolph^7 got the BLUE flag!\n"
+CTF: 8 2 0: Rolph got the BLUE flag!
+Item: 2 ammo_bullets
+Item: 2 ammo_cells
+Item: 3 weapon_shotgun
+Item: 4 weapon_plasmagun
+Item: 8 weapon_shotgun
+Item: 2 weapon_railgun
+Item: 2 item_health
+Kill: 4 8 8: Enrique killed Rolph by MOD_PLASMA
+broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+CTF: 4 1 3: Enrique fragged RED's flag carrier!
+Item: 4 weapon_railgun
+Item: 4 team_CTF_blueflag
+broadcast: print "Enrique^7 returned the BLUE flag!\n"
+CTF: 4 2 2: Enrique returned the BLUE flag!
+Kill: 2 4 6: TT killed Enrique by MOD_ROCKET
+Item: 3 ammo_bullets
+Item: 3 weapon_plasmagun
+Item: 5 weapon_rocketlauncher
+Kill: 3 2 8: dennis killed TT by MOD_PLASMA
+Item: 8 weapon_shotgun
+Item: 7 weapon_plasmagun
+Item: 3 item_health
+Item: 7 weapon_plasmagun
+Item: 2 weapon_railgun
+Item: 7 item_armor_combat
+Item: 7 ammo_shells
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 3 item_health_small
+Item: 7 item_health
+Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+Item: 2 ammo_cells
+Item: 3 item_health_small
+Item: 8 weapon_railgun
+Item: 3 ammo_lightning
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 5 team_CTF_blueflag
+broadcast: print "Thz^7 got the BLUE flag!\n"
+CTF: 5 2 0: Thz got the BLUE flag!
+Item: 3 item_armor_body
+Item: 4 weapon_rocketlauncher
+Item: 5 item_health
+Item: 7 weapon_shotgun
+Item: 4 ammo_rockets
+Item: 2 weapon_lightning
+Item: 5 item_health
+Item: 8 ammo_rockets
+Item: 5 item_health_large
+Item: 3 ammo_slugs
+Item: 7 weapon_shotgun
+Item: 2 weapon_rocketlauncher
+Kill: 5 4 8: Thz killed Enrique by MOD_PLASMA
+Item: 8 weapon_rocketlauncher
+Kill: 8 3 10: Rolph killed dennis by MOD_RAILGUN
+Award: 8 3: Rolph gained the DEFENCE award!
+Item: 7 weapon_shotgun
+Item: 5 item_health
+Kill: 2 7 6: TT killed Archangel by MOD_ROCKET
+broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+CTF: 2 2 3: TT fragged BLUE's flag carrier!
+Item: 2 team_CTF_redflag
+broadcast: print "TT^7 returned the RED flag!\n"
+CTF: 2 1 2: TT returned the RED flag!
+Item: 8 weapon_shotgun
+Item: 8 weapon_shotgun
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 captured the BLUE flag!\n"
+CTF: 5 2 1: Thz captured the BLUE flag!
+Award: 5 4: Thz gained the CAPTURE award!
+Award: 2 5: TT gained the ASSIST award!
+Item: 2 ammo_rockets
+Item: 4 weapon_rocketlauncher
+Item: 5 ammo_rockets
+Item: 3 ammo_cells
+Item: 5 item_health_small
+Item: 8 ammo_bullets
+Item: 5 item_health_small
+Item: 5 item_health_small
+Item: 2 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 2 2 0: TT got the BLUE flag!
+Item: 3 ammo_slugs
+Item: 5 ammo_lightning
+Item: 3 weapon_lightning
+Item: 4 weapon_shotgun
+Item: 5 item_armor_body
+Item: 8 item_health_small
+Item: 3 ammo_slugs
+Kill: 4 7 6: Enrique killed Archangel by MOD_ROCKET
+Award: 8 2: Rolph gained the IMPRESSIVE award!
+Item: 5 weapon_rocketlauncher
+Kill: 5 3 6: Thz killed dennis by MOD_ROCKET
+Item: 7 weapon_shotgun
+Item: 5 weapon_lightning
+Item: 4 weapon_rocketlauncher
+Item: 8 weapon_shotgun
+Kill: 2 4 6: TT killed Enrique by MOD_ROCKET
+Award: 2 3: TT gained the DEFENCE award!
+Item: 2 weapon_rocketlauncher
+Kill: 7 2 1: Archangel killed TT by MOD_SHOTGUN
+broadcast: print "Archangel^7 fragged RED's flag carrier!\n"
+CTF: 7 1 3: Archangel fragged RED's flag carrier!
+Item: 5 ammo_cells
+Item: 8 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 returned the BLUE flag!\n"
+CTF: 7 2 2: Archangel returned the BLUE flag!
+Item: 2 weapon_plasmagun
+Item: 4 item_armor_body
+Item: 3 item_armor_combat
+Item: 3 ammo_shells
+Item: 2 weapon_rocketlauncher
+Item: 8 weapon_rocketlauncher
+Item: 3 weapon_lightning
+Award: 8 2: Rolph gained the IMPRESSIVE award!
+Kill: 4 8 3: Enrique killed Rolph by MOD_MACHINEGUN
+Item: 4 weapon_railgun
+Item: 7 item_health
+Item: 4 weapon_shotgun
+Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+Kill: 5 7 7: Thz killed Archangel by MOD_ROCKET_SPLASH
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 8 weapon_grenadelauncher
+Item: 5 weapon_rocketlauncher
+Item: 2 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 2 2 0: TT got the BLUE flag!
+Item: 4 weapon_rocketlauncher
+Item: 2 ammo_rockets
+Item: 8 weapon_grenadelauncher
+Kill: 5 3 6: Thz killed dennis by MOD_ROCKET
+Award: 5 3: Thz gained the DEFENCE award!
+Kill: 8 5 5: Rolph killed Thz by MOD_GRENADE_SPLASH
+Item: 4 weapon_grenadelauncher
+Item: 8 item_health_small
+Item: 8 item_health_small
+Item: 2 ammo_rockets
+Item: 8 item_health_small
+Item: 7 weapon_plasmagun
+Item: 3 weapon_plasmagun
+Item: 4 ammo_lightning
+Item: 8 item_armor_body
+Kill: 7 5 8: Archangel killed Thz by MOD_PLASMA
+Item: 8 ammo_lightning
+Item: 2 team_CTF_redflag
+broadcast: print "TT^7 captured the BLUE flag!\n"
+CTF: 2 2 1: TT captured the BLUE flag!
+Award: 2 4: TT gained the CAPTURE award!
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 8 item_health_small
+Kill: 7 2 8: Archangel killed TT by MOD_PLASMA
+Item: 7 weapon_shotgun
+Item: 3 weapon_plasmagun
+Item: 7 item_health
+Item: 8 weapon_rocketlauncher
+Item: 2 weapon_railgun
+Item: 7 weapon_shotgun
+Kill: 5 3 3: Thz killed dennis by MOD_MACHINEGUN
+Item: 4 weapon_rocketlauncher
+Item: 5 ammo_bullets
+Item: 5 weapon_plasmagun
+Item: 3 weapon_railgun
+Item: 4 item_enviro
+Item: 5 weapon_shotgun
+Kill: 8 2 5: Rolph killed TT by MOD_GRENADE_SPLASH
+Item: 3 ammo_cells
+Item: 3 ammo_bullets
+Kill: 7 8 1: Archangel killed Rolph by MOD_SHOTGUN
+Award: 7 3: Archangel gained the DEFENCE award!
+Kill: 8 7 7: Rolph killed Archangel by MOD_ROCKET_SPLASH
+broadcast: print "Rolph^7 fragged BLUE's flag carrier!\n"
+CTF: 8 2 3: Rolph fragged BLUE's flag carrier!
+Item: 3 ammo_shells
+Item: 5 ammo_cells
+Item: 8 weapon_plasmagun
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 5 weapon_railgun
+Item: 5 item_health
+Item: 2 weapon_rocketlauncher
+Item: 3 weapon_plasmagun
+Item: 7 team_CTF_blueflag
+broadcast: print "Archangel^7 captured the RED flag!\n"
+CTF: 7 1 1: Archangel captured the RED flag!
+Award: 7 4: Archangel gained the CAPTURE award!
+Item: 3 item_armor_combat
+Item: 7 weapon_shotgun
+Kill: 8 3 8: Rolph killed dennis by MOD_PLASMA
+Item: 5 weapon_railgun
+Item: 7 ammo_rockets
+Item: 8 ammo_shells
+Item: 5 ammo_cells
+Item: 8 weapon_plasmagun
+Item: 4 weapon_rocketlauncher
+Item: 8 item_health
+Item: 3 ammo_bullets
+Item: 7 weapon_rocketlauncher
+Item: 3 item_health
+Item: 4 weapon_railgun
+Item: 5 ammo_slugs
+Item: 3 item_health_small
+Item: 2 weapon_shotgun
+Item: 8 team_CTF_blueflag
+broadcast: print "Rolph^7 got the BLUE flag!\n"
+CTF: 8 2 0: Rolph got the BLUE flag!
+Kill: 2 7 7: TT killed Archangel by MOD_ROCKET_SPLASH
+Item: 5 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+Item: 3 weapon_grenadelauncher
+Item: 3 item_health_small
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 8 weapon_shotgun
+Item: 3 ammo_lightning
+Item: 8 weapon_shotgun
+Item: 5 item_health
+Item: 8 item_health
+Item: 3 item_armor_body
+Kill: 4 2 7: Enrique killed TT by MOD_ROCKET_SPLASH
+Item: 8 ammo_rockets
+Item: 4 weapon_plasmagun
+Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+Item: 3 ammo_slugs
+Item: 7 item_health_large
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 returned the RED flag!\n"
+CTF: 5 1 2: Thz returned the RED flag!
+Item: 5 item_health
+Item: 5 weapon_rocketlauncher
+Item: 3 item_health
+Item: 7 weapon_shotgun
+Item: 4 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 8 item_health
+Item: 8 weapon_rocketlauncher
+Kill: 5 3 6: Thz killed dennis by MOD_ROCKET
+Award: 5 3: Thz gained the DEFENCE award!
+Kill: 5 5 7: Thz killed Thz by MOD_ROCKET_SPLASH
+Item: 8 team_CTF_redflag
+broadcast: print "Rolph^7 captured the BLUE flag!\n"
+CTF: 8 2 1: Rolph captured the BLUE flag!
+Award: 8 4: Rolph gained the CAPTURE award!
+Award: 5 5: Thz gained the ASSIST award!
+Item: 7 team_CTF_redflag
+broadcast: print "Archangel^7 got the RED flag!\n"
+CTF: 7 1 0: Archangel got the RED flag!
+Item: 2 ammo_grenades
+Item: 4 item_enviro
+Item: 5 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Item: 2 weapon_plasmagun
+Kill: 5 7 6: Thz killed Archangel by MOD_ROCKET
+broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+Kill: 2 3 3: TT killed dennis by MOD_MACHINEGUN
+Item: 5 weapon_shotgun
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 returned the RED flag!\n"
+CTF: 5 1 2: Thz returned the RED flag!
+Item: 2 item_health
+Item: 2 team_CTF_blueflag
+broadcast: print "TT^7 got the BLUE flag!\n"
+CTF: 2 2 0: TT got the BLUE flag!
+Item: 3 ammo_cells
+Item: 4 weapon_rocketlauncher
+Item: 8 item_armor_combat
+Item: 2 item_health_small
+Item: 2 item_health_small
+Item: 8 weapon_rocketlauncher
+Kill: 4 5 7: Enrique killed Thz by MOD_ROCKET_SPLASH
+Item: 4 ammo_bullets
+Item: 4 weapon_rocketlauncher
+Item: 2 item_armor_body
+Item: 4 team_CTF_redflag
+broadcast: print "Enrique^7 got the RED flag!\n"
+CTF: 4 1 0: Enrique got the RED flag!
+Item: 7 item_health
+Item: 5 weapon_plasmagun
+Item: 7 weapon_shotgun
+Item: 4 weapon_rocketlauncher
+Kill: 8 7 6: Rolph killed Archangel by MOD_ROCKET
+Item: 8 weapon_shotgun
+Kill: 5 4 8: Thz killed Enrique by MOD_PLASMA
+broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+Item: 5 weapon_rocketlauncher
+Item: 5 item_enviro
+Item: 5 team_CTF_redflag
+broadcast: print "Thz^7 returned the RED flag!\n"
+CTF: 5 1 2: Thz returned the RED flag!
+Item: 8 item_health_small
+Kill: 5 3 7: Thz killed dennis by MOD_ROCKET_SPLASH
+Award: 5 1: Thz gained the EXCELLENT award!
+Award: 5 3: Thz gained the DEFENCE award!
+Item: 7 weapon_railgun
+Item: 4 weapon_shotgun
+Item: 8 item_health_small
+Item: 2 item_health
+Item: 7 ammo_cells
+Item: 7 ammo_bullets
+Item: 5 weapon_rocketlauncher
+Item: 2 team_CTF_redflag
+broadcast: print "TT^7 captured the BLUE flag!\n"
+CTF: 2 2 1: TT captured the BLUE flag!
+Award: 2 4: TT gained the CAPTURE award!
+broadcast: print "Red hit the capturelimit.\n"
+Exit: Capturelimit hit.
+red:5  blue:1
+score: 39  ping: 0  client: 5 Thz
+score: 31  ping: 3  client: 2 TT
+score: 22  ping: 0  client: 8 Rolph
+score: 15  ping: 3  client: 7 Archangel
+score: 11  ping: 2  client: 4 Enrique
+score: 1  ping: 0  client: 3 dennis
+Award: 5 5: Thz gained the ASSIST award!
+g_gametype will be changed upon restarting.
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+AAS shutdown.
+------ Server Initialization ------
+Server: oa_dm3
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/jeroen/.openarena/baseoa
+/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+/usr/lib/games/openarena/baseoa
+
+----------------------
+4722 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "/usr/lib/games/openarena/baseoa/pak6-patch085.pk3"
+...which has vmMagic VM_MAGIC_USE_NATIVE.
+... trying pak6-patch085/qagame
+Sys_LoadDll(pak6-patch085/qagamex86_64.so) could not find it
+... trying qagame
+Loading DLL file: /usr/lib/games/openarena/baseoa/qagamex86_64.so
+Sys_LoadDll(qagame) found vmMain function at 0x7ff62f74d480
+Loaded DLL file instead.
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Aug  9 2011
+------------------------------------------------------------
+InitGame: \protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\version\ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011\mapname\oa_dm3\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0
+Info: ServerInfo length: 713 of 1024
+Gametype changed, clearing session data.
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+info_intermission doesn't have a spawn function
+0 teams with 0 entities
+22 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/oa_dm3.aas
+loaded maps/oa_dm3.aas
+item_botroam in solid at (1160.0 504.0 40.0)
+item_botroam in solid at (-768.0 840.0 104.0)
+found 53 level items
+-------------------------------------
+24 bots parsed
+51 arenas parsed
+G_PickTarget called with NULL targetname
+G_PickTarget called with NULL targetname
+AAS initialized.
+ClientUserinfoChanged: 2 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+ClientConnect: 2
+ClientUserinfoChanged: 3 n\dennis\t\0\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+ClientConnect: 3
+ClientUserinfoChanged: 4 n\Enrique\t\0\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+ClientConnect: 4
+ClientUserinfoChanged: 5 n\Thz\t\0\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+ClientConnect: 5
+ClientUserinfoChanged: 7 n\Archangel\t\0\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+ClientConnect: 7
+ClientUserinfoChanged: 8 n\Rolph\t\0\model\sarge/indigo\hmodel\sarge/indigo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\8D9D8FAD284359ED36F095C64975783B
+ClientConnect: 8
+-----------------------------------
+ClientUserinfoChanged: 2 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+broadcast: print "TT^7 entered the game\n"
+ClientBegin: 2
+broadcast: print "TT^7 disconnected\n"
+Kill: 1022 2 20: <world> killed TT by MOD_SUICIDE
+Playerstore: Stored player with guid: 0FF9D843C712925CF1023CDDE010CD83 in 0
+ClientDisconnect: 2
+ClientUserinfoChanged: 4 n\Enrique\t\0\model\gargoyle/stone\hmodel\gargoyle/stone\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+broadcast: print "Enrique^7 entered the game\n"
+ClientBegin: 4
+ClientUserinfoChanged: 3 n\dennis\t\0\model\assassin/default\hmodel\assassin/default\g_redteam\\g_blueteam\\c1\4\c2\7\hc\100\w\0\l\0\tt\0\tl\0\id\09B7CCF049BACED173FDB92196EBE8B3
+Playerstore: Nothing to restore. Guid: 09B7CCF049BACED173FDB92196EBE8B3
+broadcast: print "dennis^7 entered the game\n"
+ClientBegin: 3
+ClientUserinfoChanged: 7 n\Archangel\t\0\model\assassin/ghost\hmodel\assassin/ghost\g_redteam\\g_blueteam\\c1\4\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\38954A04BB21D38BA7C75955EFBE446E
+Playerstore: Nothing to restore. Guid: 38954A04BB21D38BA7C75955EFBE446E
+broadcast: print "Archangel^7 entered the game\n"
+ClientBegin: 7
+ClientUserinfoChanged: 5 n\Thz\t\0\model\tony/blue\hmodel\tony/blue\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+broadcast: print "Thz^7 entered the game\n"
+ClientBegin: 5
+Item: 4 ammo_shells
+Playerstore: Nothing to restore. Guid: 8D9D8FAD284359ED36F095C64975783B
+broadcast: print "Rolph^7 entered the game\n"
+ClientBegin: 8
+broadcast: print "Thz^7 disconnected\n"
+Kill: 1022 5 20: <world> killed Thz by MOD_SUICIDE
+Playerstore: Stored player with guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44 in 1
+ClientDisconnect: 5
+Item: 4 weapon_shotgun
+broadcast: print "Rolph^7 disconnected\n"
+Kill: 1022 8 20: <world> killed Rolph by MOD_SUICIDE
+Playerstore: Stored player with guid: 8D9D8FAD284359ED36F095C64975783B in 2
+ClientDisconnect: 8
+broadcast: print "dennis^7 disconnected\n"
+Kill: 1022 3 20: <world> killed dennis by MOD_SUICIDE
+Playerstore: Stored player with guid: 09B7CCF049BACED173FDB92196EBE8B3 in 3
+ClientDisconnect: 3
+broadcast: print "Enrique^7 disconnected\n"
+Kill: 1022 4 20: <world> killed Enrique by MOD_SUICIDE
+Playerstore: Stored player with guid: 2EF47499FF1CAD2316F9FD0918CDDAAA in 4
+ClientDisconnect: 4
+Item: 7 ammo_shells
+broadcast: print "Archangel^7 disconnected\n"
+Kill: 1022 7 20: <world> killed Archangel by MOD_SUICIDE
+Playerstore: Stored player with guid: 38954A04BB21D38BA7C75955EFBE446E in 5
+ClientDisconnect: 7
+----- Server Shutdown (Received signal 2) -----
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+AAS shutdown.
+---------------------------
+2012-04-27-13-17-53|ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011
+2012-04-27-13-17-53|----- FS_Startup -----
+2012-04-27-13-17-53|Current search path:
+2012-04-27-13-17-53|/home/jeroen/.openarena/baseoa
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa
+2012-04-27-13-17-53|
+2012-04-27-13-17-53|----------------------
+2012-04-27-13-17-53|4722 files in pk3 files
+2012-04-27-13-17-53|execing default.cfg
+2012-04-27-13-17-53|execing q3config_server.cfg
+2012-04-27-13-17-53|execing autoexec.cfg
+2012-04-27-13-17-53|Hunk_Clear: reset the hunk ok
+2012-04-27-13-17-53|--- Common Initialization Complete ---
+2012-04-27-13-17-53|IP: 127.0.0.1
+2012-04-27-13-17-53|IP: 192.168.96.9
+2012-04-27-13-17-53|IP6: ::1
+2012-04-27-13-17-53|IP6: fe80::224:e8ff:fe23:4f72%eth0
+2012-04-27-13-17-53|Opening IP6 socket: [::]:27960
+2012-04-27-13-17-53|Opening IP socket: 192.168.96.9:27960
+2012-04-27-13-17-53|tty console mode disabled
+2012-04-27-13-17-53|execing default.cfg
+2012-04-27-13-17-53|------ Server Initialization ------
+2012-04-27-13-17-53|Server: aggressor
+2012-04-27-13-17-53|Hunk_Clear: reset the hunk ok
+2012-04-27-13-17-53|----- FS_Startup -----
+2012-04-27-13-17-53|Current search path:
+2012-04-27-13-17-53|/home/jeroen/.openarena/baseoa
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak6-patch085.pk3 (559 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak6-misc.pk3 (229 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak5-TA.pk3 (139 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak4-textures.pk3 (1753 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak2-players.pk3 (669 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak2-players-mature.pk3 (231 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak1-maps.pk3 (100 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa/pak0.pk3 (1042 files)
+2012-04-27-13-17-53|/usr/lib/games/openarena/baseoa
+2012-04-27-13-17-53|
+2012-04-27-13-17-53|----------------------
+2012-04-27-13-17-53|4722 files in pk3 files
+2012-04-27-13-17-53|Loading vm file vm/qagame.qvm...
+2012-04-27-13-17-53|File "vm/qagame.qvm" found in "/usr/lib/games/openarena/baseoa/pak6-patch085.pk3"
+2012-04-27-13-17-53|...which has vmMagic VM_MAGIC_USE_NATIVE.
+2012-04-27-13-17-53|... trying pak6-patch085/qagame
+2012-04-27-13-17-53|Sys_LoadDll(pak6-patch085/qagamex86_64.so) could not find it
+2012-04-27-13-17-53|... trying qagame
+2012-04-27-13-17-53|Loading DLL file: /usr/lib/games/openarena/baseoa/qagamex86_64.so
+2012-04-27-13-17-53|Sys_LoadDll(qagame) found vmMain function at 0x7f5e4e0e7480
+2012-04-27-13-17-53|Loaded DLL file instead.
+2012-04-27-13-17-53|------- Game Initialization -------
+2012-04-27-13-17-53|gamename: baseoa
+2012-04-27-13-17-53|gamedate: Aug  9 2011
+2012-04-27-13-17-53|------------------------------------------------------------
+2012-04-27-13-17-53|InitGame: \protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\version\ioq3 1.36+svn1946-5/Ubuntu linux-x86_64 Aug  9 2011\mapname\aggressor\game
