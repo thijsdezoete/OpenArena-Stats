@@ -23,11 +23,11 @@
                                                                  }
                                                              ?>
                                                              ]);
-            
+
             var options = {
-                legend.position: 'none',
+                legend: {position:'none'},
             };
-            
+
             var chart = new google.visualization.PieChart(document.getElementById('kill_chart_div'));
             chart.draw(data, options);
         }
@@ -41,11 +41,11 @@
                                                                  }
                                                              ?>
                                                              ]);
-            
+
             var options = {
-                legend.position: 'none',
+                legend: {position:'none'},
             };
-            
+
             var chart = new google.visualization.PieChart(document.getElementById('victim_chart_div'));
             chart.draw(data, options);
         }
@@ -59,11 +59,11 @@
                                                                  }
                                                              ?>
                                                              ]);
-            
+
             var options = {
-                legend.position: 'none',
+                legend: {position:'none'},
             };
-            
+
             var chart = new google.visualization.PieChart(document.getElementById('enemy_chart_div'));
             chart.draw(data, options);
         }
@@ -77,11 +77,11 @@
                                                                  }
                                                              ?>
                                                              ]);
-            
+
             var options = {
-                legend.position: 'none',
+                legend: {position:'none'},
             };
-            
+
             var chart = new google.visualization.PieChart(document.getElementById('weapon_chart_div'));
             chart.draw(data, options);
         }
