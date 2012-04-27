@@ -1,0 +1,53 @@
+html, body {
+    background-color: #EEE;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+header {
+    margin: 35px 0 25px;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0 25px;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+nav > a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav > a:hover,
+nav > a.active {
+    text-decoration: underline;
+    background-color: #FFF;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#select {
+    text-align: center;
+}

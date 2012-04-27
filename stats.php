@@ -151,6 +151,9 @@ function getPlayerName($info, $minLength, $known_players) {
     return trim($player);
 }
 
+// Sort by name
+uksort($stats, 'strnatcmp');
+
 foreach($stats as $player => $info) {
     // Sort awards
     arsort($stats[$player]['AWARDS']);
@@ -167,5 +170,3 @@ foreach($stats as $player => $info) {
     // Calculate K/D ratio
     $stats[$player]['KILLS']['ratio'] = number_format($stats[$player]['KILLS']['frags'] / $stats[$player]['KILLS']['deaths'], 2);
 }
-
-exit(print_r($stats, true));
