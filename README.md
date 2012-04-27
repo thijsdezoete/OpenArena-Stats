@@ -5,6 +5,8 @@ The scripts in this repository can be used to serve a web interface for browsing
 ## Setup
 In order for these scripts to be able to parse the OpenArena logfiles some setup is required.  
   
+You should specify the playernames in the `players.php` file.  
+  
 Make sure the following directory exists and is writeable for the user under which you run the OpenArena server:  
 `/var/log/openarena`  
   

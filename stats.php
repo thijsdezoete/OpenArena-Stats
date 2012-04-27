@@ -1,21 +1,8 @@
 <?php
 
-$starttime = microtime(true);
+include('./players.php');
 
-$known_players = array(
-    'Aecrim'        => 'Mircea',
-    'Revell'        => 'Jeroen',
-    'Enrique'       => 'Enrique',
-    'dennis'        => 'Dennis',
-    'Schoende'      => 'Sven',
-    'Archangel'     => 'Sven',
-    'TT'            => 'Thijs T',
-    'Thz'           => 'Thijs Z',
-    'Sitting Duck'  => 'Martin',
-    'Tamas'         => 'Tamas',
-    'Rolph'         => 'Rolph',
-    'Gerb'          => 'Gerben',
-);
+$starttime = microtime(true);
 
 $dir    = '/var/log/openarena';
 
