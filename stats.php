@@ -35,7 +35,12 @@ foreach($logs as $log) {
     while(($line = fgets($h, 4096)) !== false) {
 
         $line = substr($line, 0, -1);
-        $parts = explode(': ', $line);
+        $parts = explode('|', $line);
+        if (isset($parts[1])) {
+            $parts = explode(': ', $parts[1]);
+        } else {
+            $parts = explode(': ', $line);
+        }
 
         switch($parts[0]) {
             // Player info
