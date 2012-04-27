@@ -6,6 +6,87 @@
     <title>OpenArena :: Statistics</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
+<?php if (isset($_GET['player']) && array_key_exists($_GET['player'], $stats)) : ?>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load("visualization", "1", {packages:["corechart"]});
+        google.setOnLoadCallback(drawKillChart);
+        google.setOnLoadCallback(drawVictimChart);
+        google.setOnLoadCallback(drawEnemyChart);
+        google.setOnLoadCallback(drawWeaponChart);
+        function drawKillChart() {
+            var data = google.visualization.arrayToDataTable([
+                                                             ['Type', 'Amount'],
+                                                             <?php
+                                                                 foreach($stats[$_GET['player']]['KILLS'] as $stat => $amount) {
+                                                                     echo "['". ucfirst($stat) ."'," . $amount . "],";
+                                                                 }
+                                                             ?>
+                                                             ]);
+            
+            var options = {
+                legend.position: 'none',
+            };
+            
+            var chart = new google.visualization.PieChart(document.getElementById('kill_chart_div'));
+            chart.draw(data, options);
+        }
+
+        function drawVictimChart() {
+            var data = google.visualization.arrayToDataTable([
+                                                             ['Type', 'Amount'],
+                                                             <?php
+                                                                 foreach($stats[$_GET['player']]['VICTIMS'] as $stat => $amount) {
+                                                                     echo "['". ucfirst($stat) ."'," . $amount . "],";
+                                                                 }
+                                                             ?>
+                                                             ]);
+            
+            var options = {
+                legend.position: 'none',
+            };
+            
+            var chart = new google.visualization.PieChart(document.getElementById('victim_chart_div'));
+            chart.draw(data, options);
+        }
+
+        function drawEnemyChart() {
+            var data = google.visualization.arrayToDataTable([
+                                                             ['Type', 'Amount'],
+                                                             <?php
+                                                                 foreach($stats[$_GET['player']]['ENEMIES'] as $stat => $amount) {
+                                                                     echo "['". ucfirst($stat) ."'," . $amount . "],";
+                                                                 }
+                                                             ?>
+                                                             ]);
+            
+            var options = {
+                legend.position: 'none',
+            };
+            
+            var chart = new google.visualization.PieChart(document.getElementById('enemy_chart_div'));
+            chart.draw(data, options);
+        }
+
+        function drawWeaponChart() {
+            var data = google.visualization.arrayToDataTable([
+                                                             ['Type', 'Amount'],
+                                                             <?php
+                                                                 foreach($stats[$_GET['player']]['WEAPONS'] as $stat => $amount) {
+                                                                     echo "['". ucfirst($stat) ."'," . $amount . "],";
+                                                                 }
+                                                             ?>
+                                                             ]);
+            
+            var options = {
+                legend.position: 'none',
+            };
+            
+            var chart = new google.visualization.PieChart(document.getElementById('weapon_chart_div'));
+            chart.draw(data, options);
+        }
+    </script>
+<?php endif; ?>
 </head>
 <body>
 
@@ -35,6 +116,7 @@
             <section id="kill">
                 <div id="kills">
                     <h3>Kill stats</h3>
+                    <div id="kill_chart_div" style="width: 200px; height: 200px;"></div>
                     <table>
                     <?php
                     foreach($stats[$_GET['player']]['KILLS'] as $stat => $amount) {
@@ -45,6 +127,7 @@
                 </div>
                 <div id="victims">
                     <h3>Victims</h3>
+                    <div id="victim_chart_div" style="width: 200px; height: 200px;"></div>
                     <table>
                     <?php
                     foreach($stats[$_GET['player']]['VICTIMS'] as $victim => $amount) {
@@ -55,6 +138,7 @@
                 </div>
                 <div id="enemies">
                     <h3>Enemies</h3>
+                    <div id="enemy_chart_div" style="width: 200px; height: 200px;"></div>
                     <table>
                     <?php
                     foreach($stats[$_GET['player']]['ENEMIES'] as $enemy => $amount) {
@@ -65,6 +149,7 @@
                 </div>
                 <div id="weapons">
                     <h3>Weapons</h3>
+                    <div id="weapon_chart_div" style="width: 200px; height: 200px;"></div>
                     <table>
                     <?php
                     foreach($stats[$_GET['player']]['WEAPONS'] as $weapon => $amount) {
