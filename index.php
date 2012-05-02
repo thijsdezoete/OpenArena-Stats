@@ -84,7 +84,7 @@
                     </table>
                 </div>
                 <div id="enemies">
-                    <h3>Enemies</h3>
+                    <h3>Killed</h3>
                     <table>
                     <?php
                     foreach($stats[$curr_player]['ENEMIES'] as $enemy => $amount) {
